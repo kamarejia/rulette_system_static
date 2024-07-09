@@ -1,0 +1,382 @@
+.moul-regular {
+    font-family: "Moul", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    margin:0;
+    padding:0;
+    
+}
+.app{
+    background-color: #fffefa;
+    max-width: 390px;
+    margin:0 auto;
+}
+.Home{
+    margin:0 ;
+    padding:0;
+}
+.home-title-pop{
+    color: #4B5563;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.pickup-title-more{
+    color: #4B5563;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffefa;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    height: 100vh;
+}
+
+header {
+    color: #edc32c;
+    
+    padding: 10px 0;
+    text-align: center;
+    opacity:80%;
+}
+.rulette-title{
+    display:inline-flex;
+    align-items: center;
+    margin-top: 35px;
+    
+}
+.rulette-logo{
+    height:38px;
+    width: 38px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+.title-container{
+    position: relative;
+    /* text-align: right; */
+    width:110px;
+    height: 40px; /* 必要に応じて調整 */
+    /* border: 1px solid #ccc; */
+    cursor: pointer;
+}
+
+.title-container h1{
+    margin:0;
+    padding:0;
+}
+.title-container p{
+    font-size: 9px;
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    position: absolute;
+    top:30px;
+    right:0;
+    margin: 0;
+}
+
+.introduction{
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.introduction h1{
+    color: #edc32c;
+    font-size: 20px;
+}
+.introduction p{
+    color: #9d9988;
+    font-weight: 550;
+    font-size: 11px;
+}
+
+main {
+    padding: 20px;
+    width:100%;
+}
+
+
+.grid-item {
+    width: 156px;
+    height: 156px;
+    border-radius: 20px; /* 角の丸み具合を調整 */
+    background-color: #1c1c1c; /* アイテムの背景色 */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); /* 影の設定 */
+    overflow: hidden;
+}
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 追加: 画像をアイテムに合わせてリサイズし、切り取る */
+}
+.grid-box{
+    width: 156px;
+}
+.grid-title {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4B5563;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.grid-description {
+    font-weight: 600;
+    text-align: center;
+    font-size: 9px;
+    color: #949495;
+    margin-top: 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
+    gap: 20px; /* グリッドアイテム間の間隔 */
+}
+/* grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
+
+グリッドコンテナの列の数とサイズを定義します。
+repeat() 関数を使用して、列のパターンを繰り返し指定します。
+auto-fit キーワードを使用すると、利用可能なスペースに基づいて列の数が自動的に調整されます。
+minmax(156px, 1fr) は、各列の最小幅を156ピクセルに設定し、残りのスペースを等分して割り当てます。
+
+156pxは、グリッドアイテムの幅に合わせて設定されています。
+1fr は、残りのスペースを等分して割り当てるための単位です。
+
+この設定により、グリッドコンテナの幅に応じて、自動的に列の数が調整され、
+各列は少なくとも156ピクセルの幅を持ちます。
+gap: 20px;
+グリッドアイテム間の間隔（ギャップ）を設定します。
+行と列の両方に20ピクセルの間隔が適用されます。 
+*/
+
+.grid-pickup{
+    width: 345px;
+    height: 483px;
+    border-radius: 20px; /* 角の丸み具合を調整 */
+    background-color: #1c1c1c; /* アイテムの背景色 */
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); /* 影の設定 */
+    overflow: hidden;
+}
+.Home{
+    display:grid;
+}
+#home-grid{
+    display:grid;
+}
+
+.PickUp{
+    display:none;
+}
+#game-grid{
+    display: grid;
+}
+
+
+
+
+
+
+.carousel {
+    position: relative;
+    width: 345px;
+    height: 540px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4.2px 3px rgba(0, 0, 0, 0.07);
+    
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-images img {
+    width: 316px;
+    height: 316px;
+    object-fit: cover;
+    margin-top: 14.5px;
+    margin-bottom: 14.5px;
+    border-radius: 22px;
+}
+
+.carousel-images img:first-child {
+    margin-left: 14.5px;
+}
+
+.carousel .click-area {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    cursor: pointer;
+}
+
+.carousel .click-area.left {
+    left: 0;
+    height: 330.5px;
+}
+
+.carousel .click-area.right {
+    right: 0;
+    height: 330.5px;
+}
+.game-info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.gametitle{
+    color:#1c1c1c;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.explanation{
+    display: block;
+    max-width: 80%;
+    color:#8A8A8A;
+    text-align: center;
+    font-size:12px;
+    margin-top: 10px;
+}
+.carousel-dots {
+    position: absolute;
+    top:345.5px;
+    /* bottom: 10px; */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.carousel-dots span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+
+.carousel-dots .active {
+    background-color: #f7cd36;
+    
+}
+.pickup-button-icon {
+    width: 16.5px; /* アイコンの幅を調整 */
+    height: 14px; /* アイコンの高さを調整 */
+    margin-right: 8px; /* アイコンとテキストの間のスペースを調整 */
+    vertical-align: middle; /* アイコンとテキストの垂直位置を揃える */
+}
+.game-controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.game-controls button {
+    display:flex;
+    align-items: center;
+    padding: 8px 18px 8px 18px;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    color: white;
+}
+.purchaseButton{
+    background-color:#ff4539;
+    
+}
+.shareButton{
+    background-color:#edc32c ;
+}
+.game-controls button:hover {
+    filter: brightness(120%); 
+}
+#accordion-container{
+    margin-top:20px;
+}
+
+.accordion {
+    width: 345px;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 4.2px 3px rgba(0, 0, 0, 0.07);
+    /* transition: height 0.3s ease; */
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.accordion.closed {
+    height: 53px;
+    margin-top: 20px;
+    /* margin-bottom:10px; */
+}
+.accordion.open {
+    height: 426px; 
+    margin-top: 10px;
+    /* margin-bottom:10px;  */
+}
+.accordion.open .carousel {
+    box-shadow: none;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    color: #eec32c;
+    position:relative;
+}
+.accordion-header button {
+    background: none;
+    border: none;
+    color: #eec32c;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute; /* 追加 */
+    right: 20px; /* 追加 */
+    background: url('pictuires/system_design/アコーディオン_open.png');
+    width: 18px;
+    height: 18px; 
+    background-size: cover;
+}
+.accordion-content {
+
+    color: #fff;
+    display: none;
+}
+
+.notification {
+    position: fixed;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f2d866;
+    color: #fffefa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: top 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 1000;
+}
+.notification.show {
+    top: 20px;
+    opacity: 1;
+}

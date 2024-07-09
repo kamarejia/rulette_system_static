@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rulette ゲームルールまとめ</title>
+    <link rel="icon" href="pictures/system_design/rulette_logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moul&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="rulette-title" onclick="screenRender()">
+                <img src="pictures/system_design/rulette_logo.png" alt="" class="rulette-logo">
+                <div class="title-container">
+                    <h1>Rulette</h1>
+                    <p>ルーレット Ver.β</p>
+                </div>
+                
+            </div>
+        
+        </header>
+        <main>
+            
+            <div class="Home">
+                <!-- <div class="introduction">
+                    <h1>すぐにあそびたいをかなえる</h1>
+                    <p>Ruletteはボードゲームのルール理解を<br>助けるサービス。</p>
+                    <p>シンプルなスライドでどんなゲームも<br>すぐに遊ぶことができます。</p>
+                </div> -->
+                <h2 class="home-title-pop">人気のボードゲーム</h2>
+                <div class="grid-container" id="home-grid">
+                    
+                    
+                </div>
+            </div>
+            <div class="PickUp">
+                <div id="notification" class="notification">✔︎クリップボードにコピーされました</div>
+                <div id="pickup-carousels"></div>
+                <div id="accordion-container"></div>
+                <h2 class="pickup-title-more">もっとゲームをみる</h2>
+                <div class="grid-container" id="game-grid"></div>
+            </div>
+            
+            
+        </main>
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
