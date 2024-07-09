@@ -57,7 +57,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
             overview: 'https://via.placeholder.com/300x200?text=Overview+2',
             components: [
-                '/pictures/ガイスター/grid/ガイスター_grid.png',
+                '/pictures/ガイスター/grid/グリッド.png',
                 '/pictures/ガイスター/grid/box.png',
                 '/pictures/ガイスター/grid/配置図.png'
             ]
