@@ -83,7 +83,7 @@ const games = [
     },
     {
         id:1002,
-        grid: 'pictures/ごきぶり/grid/gokiburi_grid.webp',
+        grid: '/pictures/ごきぶり/grid/gokiburi_grid.webp',
         name: 'ごきぶりポーカー',
         explanation:'うそをついて相手に害虫を押し付けよう！同じ害虫を押し付けられすぎると負け！',
         likes: {
@@ -123,7 +123,7 @@ const games = [
     },
     {
         id:1003,
-        grid: '/pictures/コヨーテ/grid/koyote_grid.webp',
+        grid: '/pictures/コヨーテ/grid/coyote_grid.webp',
         name: 'コヨーテ',
         explanation:"新感覚インディアンポーカー！他の人の予想が多すぎるとおもったら「コヨーテ」！",
         likes: {
@@ -256,7 +256,7 @@ const games = [
     },
     {
         id:1006,
-        grid: '/pictures/ボブジテン/grid/bobuzitenn_grid.webp',
+        grid: '/pictures/ボブジテン/grid/bobujitenn_grid.webp',
         name: 'ボブジテン',
         // 46文字まで
         explanation:"カタカナ語を日本語だけで説明しよう！伝われば得点！当てても得点！",

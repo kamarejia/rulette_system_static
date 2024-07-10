@@ -120,7 +120,7 @@ main {
     object-fit: cover; /* 追加: 画像をアイテムに合わせてリサイズし、切り取る */
 }
 .grid-box{
-    width: 156px;
+    width: 180px;
 }
 .grid-title {
     text-align: center;
