@@ -136,7 +136,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+4',
             overview: 'https://via.placeholder.com/300x200?text=Overview+4',
             components: [
-                '/pictures/コヨーテ/grid/koyote_grid.webp',
+                '/pictures/コヨーテ/grid/coyote_grid.webp',
                 '/pictures/コヨーテ/pickup/components/box.png',
                 '/pictures/コヨーテ/pickup/components/準備2.png'
             ]
@@ -270,7 +270,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                '/pictures/ボブジテン/grid/bobuzitenn_grid.webp',
+                '/pictures/ボブジテン/grid/bobujitenn_grid.webp',
                 '/pictures/ボブジテン/pickup/components/box2.png',
                 '/pictures/ボブジテン/pickup/components/準備2.png'
             ]
