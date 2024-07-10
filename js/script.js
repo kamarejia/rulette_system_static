@@ -44,7 +44,7 @@
 const games = [
     {
         id:1001,
-        grid: 'pictures/ガイスター/grid/グリッド.png',
+        grid: '/pictures/ガイスター/grid/グリッド.png',
         name: 'ガイスター',
         explanation:"大人と子供が互角に戦える！相手の心理を読んで戦略を立てよう！",
         likes: {
@@ -83,7 +83,7 @@ const games = [
     },
     {
         id:1002,
-        grid: 'pictures/ごきぶり/grid/グリッド.png',
+        grid: '/pictures/ごきぶり/grid/グリッド.png',
         name: 'ごきぶりポーカー',
         explanation:'うそをついて相手に害虫を押し付けよう！同じ害虫を押し付けられすぎると負け！',
         likes: {
@@ -123,7 +123,7 @@ const games = [
     },
     {
         id:1003,
-        grid: 'pictures/コヨーテ/grid/コヨーテグリッド.png',
+        grid: '/pictures/コヨーテ/grid/コヨーテグリッド.png',
         name: 'コヨーテ',
         explanation:"新感覚インディアンポーカー！他の人の予想が多すぎるとおもったら「コヨーテ」！",
         likes: {
@@ -166,7 +166,7 @@ const games = [
     },
     {
         id:1004,
-        grid: 'pictures/ニムト/grid/ニムト_grid.png',
+        grid: '/pictures/ニムト/grid/ニムト_grid.png',
         name: 'ニムト',
         explanation:"牛を引き取らないようにカードを出そう！ドイツNo.1カードゲーム！",
         likes: {
@@ -214,7 +214,7 @@ const games = [
     },
     {
         id:1005,
-        grid: 'pictures/はぁ/grid/grid2.png',
+        grid: '/pictures/はぁ/grid/grid2.png',
         name: 'はぁって言うゲーム',
         // 46文字まで
         explanation:"その「はぁ」なんの「はぁ」？演技を当てて得点！当ててもらっても得点！",
@@ -256,7 +256,7 @@ const games = [
     },
     {
         id:1006,
-        grid: 'pictures/ボブジテン/grid/grid1.png',
+        grid: '/pictures/ボブジテン/grid/grid1.png',
         name: 'ボブジテン',
         // 46文字まで
         explanation:"カタカナ語を日本語だけで説明しよう！伝われば得点！当てても得点！",
@@ -341,7 +341,7 @@ const games = [
     },
     {
         id:1008,
-        grid: 'pictures/バトルライン/grid/grid.webp',
+        grid: '/pictures/バトルライン/grid/grid.webp',
         name: 'バトルライン',
         // 46文字まで
         explanation:"戦略と駆け引きでフラッグを奪い合うカードゲーム！麻雀の要素も持ったなんども遊びたくなる大作！",
@@ -387,7 +387,7 @@ const games = [
     },
     {
         id:1009,
-        grid: 'pictures/Skull/grid/grid3.webp',
+        grid: '/pictures/Skull/grid/grid3.webp',
         name: 'SKULL',
         // 46文字まで
         explanation:"花で勝負か。ドクロの罠か。シンプルながら奥深い心理戦ゲームの傑作！",
