@@ -44,7 +44,7 @@
 const games = [
     {
         id:1001,
-        grid: '/pictures/ガイスター/grid/box.png',
+        grid: '/pictures/ガイスター/grid/gaisutagrid.webp',
         name: 'ガイスター',
         explanation:"大人と子供が互角に戦える！相手の心理を読んで戦略を立てよう！",
         likes: {
