@@ -441,7 +441,7 @@ const games = [
 
 const routes = [
     { path: "/", view: () => renderPage(0) },
-    { path: "/game/:id", view: (params) => renderPage(params.id) }
+    { path: "/games/:id", view: (params) => renderPage(params.id) }
 ];
 const matchRoute = (path) => {
     for (const route of routes) {
@@ -543,7 +543,7 @@ function createGridItems(focusItem) {
 
             // クリックイベントの追加
             gridItem.addEventListener('click', () => {
-                const path = `/game/${game.id}`;
+                const path = `/games/${game.id}`;
                 history.pushState({}, path, path);
                 handleRouting(path);
             });
