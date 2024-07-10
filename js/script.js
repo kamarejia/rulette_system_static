@@ -297,7 +297,7 @@ const games = [
     },
     {
         id:1007,
-        grid: 'pictures/Ito/grid/grid.png',
+        grid: '/pictures/Ito/grid/grid.png',
         name: 'ito',
         // 46文字まで
         explanation:"80ならゾウ？3ならアリかな？テーマにあわせて数字を言葉で表現する協力ゲーム！",
