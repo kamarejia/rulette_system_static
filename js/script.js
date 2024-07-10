@@ -44,7 +44,7 @@
 const games = [
     {
         id:1001,
-        grid: '/pictures/ガイスター/grid/gaisutagrid.webp',
+        grid: '/pictures/ガイスター/grid/gaisuta_grid.webp',
         name: 'ガイスター',
         explanation:"大人と子供が互角に戦える！相手の心理を読んで戦略を立てよう！",
         likes: {
@@ -83,7 +83,7 @@ const games = [
     },
     {
         id:1002,
-        grid: '/pictures/ごきぶり/grid/gokiburi_grid.webp',
+        grid: 'pictures/ごきぶり/grid/gokiburi_grid.webp',
         name: 'ごきぶりポーカー',
         explanation:'うそをついて相手に害虫を押し付けよう！同じ害虫を押し付けられすぎると負け！',
         likes: {
