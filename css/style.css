@@ -19,7 +19,8 @@ main{
 }
 .home-title-pop{
     color: #4B5563;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 22px;
     margin-bottom: 40px;
 }
 
@@ -106,8 +107,8 @@ main {
 
 
 .grid-item {
-    width: 156px;
-    height: 156px;
+    width: 180px;
+    height: 180px;
     border-radius: 20px; /* 角の丸み具合を調整 */
     background-color: #1c1c1c; /* アイテムの背景色 */
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); /* 影の設定 */
@@ -123,7 +124,7 @@ main {
 }
 .grid-title {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #4B5563;
     margin-top: 10px;
@@ -133,7 +134,7 @@ main {
 .grid-description {
     font-weight: 600;
     text-align: center;
-    font-size: 9px;
+    font-size: 11px;
     color: #949495;
     margin-top: 5px;
 }

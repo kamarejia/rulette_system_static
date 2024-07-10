@@ -44,7 +44,7 @@
 const games = [
     {
         id:1001,
-        grid: '/pictures/ガイスター/grid/グリッド.png',
+        grid: '/pictures/ガイスター/grid/gaisuta_grid.webp',
         name: 'ガイスター',
         explanation:"大人と子供が互角に戦える！相手の心理を読んで戦略を立てよう！",
         likes: {
@@ -57,7 +57,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
             overview: 'https://via.placeholder.com/300x200?text=Overview+2',
             components: [
-                '/pictures/ガイスター/grid/グリッド.png',
+                '/pictures/ガイスター/grid/gaisuta_grid.webp',
                 '/pictures/ガイスター/grid/box.png',
                 '/pictures/ガイスター/grid/配置図.png'
             ]
@@ -83,7 +83,7 @@ const games = [
     },
     {
         id:1002,
-        grid: '/pictures/ごきぶり/grid/グリッド.png',
+        grid: '/pictures/ごきぶり/grid/gokiburi_grid.webp',
         name: 'ごきぶりポーカー',
         explanation:'うそをついて相手に害虫を押し付けよう！同じ害虫を押し付けられすぎると負け！',
         likes: {
@@ -96,7 +96,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+3',
             overview: 'https://via.placeholder.com/300x200?text=Overview+3',
             components: [
-                '/pictures/ごきぶり/grid/グリッド.png',
+                '/pictures/ごきぶり/grid/gokiburi_grid.webp',
                 '/pictures/ごきぶり/pickup/components/box1.png',
                 '/pictures/ごきぶり/pickup/components/準備1.png'
             ]
@@ -123,7 +123,7 @@ const games = [
     },
     {
         id:1003,
-        grid: '/pictures/コヨーテ/grid/コヨーテグリッド.png',
+        grid: '/pictures/コヨーテ/grid/koyote_grid.webp',
         name: 'コヨーテ',
         explanation:"新感覚インディアンポーカー！他の人の予想が多すぎるとおもったら「コヨーテ」！",
         likes: {
@@ -136,7 +136,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+4',
             overview: 'https://via.placeholder.com/300x200?text=Overview+4',
             components: [
-                '/pictures/コヨーテ/grid/コヨーテグリッド.png',
+                '/pictures/コヨーテ/grid/koyote_grid.webp',
                 '/pictures/コヨーテ/pickup/components/box.png',
                 '/pictures/コヨーテ/pickup/components/準備2.png'
             ]
@@ -166,7 +166,7 @@ const games = [
     },
     {
         id:1004,
-        grid: '/pictures/ニムト/grid/ニムト_grid.png',
+        grid: '/pictures/ニムト/grid/nimmt_grid.webp',
         name: 'ニムト',
         explanation:"牛を引き取らないようにカードを出そう！ドイツNo.1カードゲーム！",
         likes: {
@@ -179,7 +179,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+5',
             overview: 'https://via.placeholder.com/300x200?text=Overview+5',
             components: [
-                '/pictures/ニムト/grid/ニムト_grid.png',
+                '/pictures/ニムト/grid/nimmt_grid.webp',
                 '/pictures/ニムト/pickup/components/共有box.png',
                 '/pictures/ニムト/pickup/components/全体はいち.png'
             ]
@@ -214,7 +214,7 @@ const games = [
     },
     {
         id:1005,
-        grid: '/pictures/はぁ/grid/grid2.png',
+        grid: '/pictures/はぁ/grid/hatteiugame_grid.webp',
         name: 'はぁって言うゲーム',
         // 46文字まで
         explanation:"その「はぁ」なんの「はぁ」？演技を当てて得点！当ててもらっても得点！",
@@ -228,7 +228,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                '/pictures/はぁ/grid/grid2.png',
+                '/pictures/はぁ/grid/hatteiugame_grid.webp',
                 '/pictures/はぁ/pickup/components/box2.png',
                 '/pictures/はぁ/pickup/components/準備.1.png',
                 
@@ -256,7 +256,7 @@ const games = [
     },
     {
         id:1006,
-        grid: '/pictures/ボブジテン/grid/grid1.png',
+        grid: '/pictures/ボブジテン/grid/bobuzitenn_grid.webp',
         name: 'ボブジテン',
         // 46文字まで
         explanation:"カタカナ語を日本語だけで説明しよう！伝われば得点！当てても得点！",
@@ -270,7 +270,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                '/pictures/ボブジテン/grid/grid1.png',
+                '/pictures/ボブジテン/grid/bobuzitenn_grid.webp',
                 '/pictures/ボブジテン/pickup/components/box2.png',
                 '/pictures/ボブジテン/pickup/components/準備2.png'
             ]
@@ -297,7 +297,7 @@ const games = [
     },
     {
         id:1007,
-        grid: '/pictures/Ito/grid/grid.png',
+        grid: '/pictures/Ito/grid/ito_grid.webp',
         name: 'ito',
         // 46文字まで
         explanation:"80ならゾウ？3ならアリかな？テーマにあわせて数字を言葉で表現する協力ゲーム！",
@@ -311,7 +311,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                '/pictures/Ito/grid/grid.png',
+                '/pictures/Ito/grid/ito_grid.webp',
                 '/pictures/Ito/pickup/components/grid1.png',
                 '/pictures/Ito/pickup/components/準備5.png',
             ]
@@ -341,7 +341,7 @@ const games = [
     },
     {
         id:1008,
-        grid: '/pictures/バトルライン/grid/grid.webp',
+        grid: '/pictures/バトルライン/grid/battleline_grid.webp',
         name: 'バトルライン',
         // 46文字まで
         explanation:"戦略と駆け引きでフラッグを奪い合うカードゲーム！麻雀の要素も持ったなんども遊びたくなる大作！",
@@ -355,7 +355,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                '/pictures/バトルライン/grid/grid.webp',
+                '/pictures/バトルライン/grid/battleline_grid.webp',
                 '/pictures/バトルライン/pickup/components/box.webp',
                 'https://via.placeholder.com/300x200?text=Component+1-3'
             ]
@@ -387,7 +387,7 @@ const games = [
     },
     {
         id:1009,
-        grid: '/pictures/Skull/grid/grid3.webp',
+        grid: '/pictures/Skull/grid/skull_grid.webp',
         name: 'SKULL',
         // 46文字まで
         explanation:"花で勝負か。ドクロの罠か。シンプルながら奥深い心理戦ゲームの傑作！",
@@ -401,7 +401,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                '/pictures/Skull/grid/grid3.webp',
+                '/pictures/Skull/grid/skull_grid.webp',
                 'https://via.placeholder.com/300x200?text=Component+1-2',
                 'https://via.placeholder.com/300x200?text=Component+1-3'
             ]
