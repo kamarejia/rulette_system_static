@@ -888,6 +888,7 @@ function screenRender(){
 
 //home画面
 createGridItems("home");
+handleRouting(window.location.pathname)
 window.scrollTo(0, 0);
 //pickUp画面
 // createCarousel("ニムト");
