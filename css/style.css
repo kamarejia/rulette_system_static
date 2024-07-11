@@ -30,7 +30,7 @@ main{
 .app {
     background-color: #fffefa;
     width: 100%;
-    max-width: 390px; /* デスクトップなどの大きな画面での最大幅 */
+    max-width: 500px; /* デスクトップなどの大きな画面での最大幅 */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ main{
 .home-title-pop{
     color: #4B5563;
     font-weight: bold;
-    font-size: calc(2rem + 0.6vw);
+    font-size: calc(1.4rem + 0.6vw);
     margin-bottom: 40px;
 }
 
@@ -161,7 +161,7 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 常に2列 */
-    gap: 8px; /* グリッドアイテム間の間隔 */
+    gap: 2vw; /* グリッドアイテム間の間隔 */
     width: 100%;
     padding: 7px;
     box-sizing: border-box; /* グリッドアイテム間の間隔 */
