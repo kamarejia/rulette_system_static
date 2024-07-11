@@ -3,6 +3,11 @@
     font-weight: 400;
     font-style: normal;
 }
+@media (min-width: 601px) {
+    .app {
+        padding: 20px;
+    }
+}
 html{
     font-size:16px;
 }
@@ -53,10 +58,11 @@ main{
 
 header {
     color: #edc32c;
-    
-    padding: 10px 0;
     text-align: center;
-    opacity:80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .rulette-title{
     display:inline-flex;
@@ -110,30 +116,35 @@ header {
 }
 
 main {
-    padding: 20px;
+    
     width:100%;
 }
 
 
 .grid-item {
-    width: 180px;
-    height: 180px;
-    border-radius: 20px; /* 角の丸み具合を調整 */
-    background-color: #1c1c1c; /* アイテムの背景色 */
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3); /* 影の設定 */
+    width: 100%; /* 親要素であるgrid-boxの幅に合わせる */
+    padding-top: 100%; /* 正方形を保つため */
+    position: relative;
+    border-radius: 20px;
+    background-color: #1c1c1c;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 .grid-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* 追加: 画像をアイテムに合わせてリサイズし、切り取る */
+    object-fit: cover;
 }
 .grid-box{
-    width: 180px;
+    width: 100%; /* .app要素の45% */
+    margin: 0 auto; /* 中央寄せ */
 }
 .grid-title {
     text-align: center;
-    font-size: 16px;
+    font-size: calc(1rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
     font-weight: bold;
     color: #4B5563;
     margin-top: 10px;
@@ -143,15 +154,17 @@ main {
 .grid-description {
     font-weight: 600;
     text-align: center;
-    font-size: 11px;
+    font-size: calc(0.875rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
     color: #949495;
     margin-top: 5px;
 }
 .grid-container {
-    justify-items: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
-    gap: 20px; /* グリッドアイテム間の間隔 */
+    grid-template-columns: repeat(2, 1fr); /* 常に2列 */
+    gap: 7px; /* グリッドアイテム間の間隔 */
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box; /* グリッドアイテム間の間隔 */
 }
 /* grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
 
