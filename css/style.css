@@ -3,15 +3,34 @@
     font-weight: 400;
     font-style: normal;
 }
+html{
+    font-size:16px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffefa;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
+    height: 100vh;
+}
 main{
     margin:0;
     padding:0;
     
 }
-.app{
+.app {
     background-color: #fffefa;
-    max-width: 390px;
-    margin:0 auto;
+    width: 100%;
+    max-width: 390px; /* デスクトップなどの大きな画面での最大幅 */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .Home{
     margin:0 ;
@@ -30,17 +49,7 @@ main{
     margin-top: 20px;
     margin-bottom: 30px;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fffefa;
-    justify-content: center;
-    align-items: center;
-    /* flex-wrap: wrap; */
-    gap: 20px;
-    height: 100vh;
-}
+
 
 header {
     color: #edc32c;
