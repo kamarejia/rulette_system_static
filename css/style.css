@@ -44,7 +44,7 @@ main{
 .home-title-pop{
     color: #4B5563;
     font-weight: bold;
-    font-size: 22px;
+    font-size: calc(2rem + 0.6vw);
     margin-bottom: 40px;
 }
 
@@ -154,14 +154,14 @@ main {
 .grid-description {
     font-weight: 600;
     text-align: center;
-    font-size: calc(0.875rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
+    font-size: calc(0.575rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
     color: #949495;
     margin-top: 5px;
 }
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 常に2列 */
-    gap: 7px; /* グリッドアイテム間の間隔 */
+    gap: 8px; /* グリッドアイテム間の間隔 */
     width: 100%;
     padding: 7px;
     box-sizing: border-box; /* グリッドアイテム間の間隔 */
