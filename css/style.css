@@ -44,8 +44,9 @@ main{
 .home-title-pop{
     color: #4B5563;
     font-weight: bold;
-    font-size: calc(1.4rem + 0.6vw);
-    margin-bottom: 40px;
+    font-size: calc(1.2rem + 0.6vw);
+    margin-bottom: 2vh;
+    margin-left:5vw;
 }
 
 .pickup-title-more{
@@ -71,8 +72,8 @@ header {
     
 }
 .rulette-logo{
-    height:38px;
-    width: 38px;
+    height: calc(2rem + 2vw); /* 画面サイズに応じて調整 */
+    width: calc(2rem + 2vw);
     margin-bottom: 7px;
     margin-right: 10px;
 }
@@ -88,9 +89,10 @@ header {
 .title-container h1{
     margin:0;
     padding:0;
+    font-size: calc(1.4rem + 1vw);
 }
 .title-container p{
-    font-size: 9px;
+    font-size: calc(0.7rem + 0.8vw);
     margin:0;
     padding:0;
     font-weight: bold;
@@ -161,9 +163,9 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 常に2列 */
-    gap: 2vw; /* グリッドアイテム間の間隔 */
+    gap: 3vw; /* グリッドアイテム間の間隔 */
     width: 100%;
-    padding: 7px;
+    padding: 3vw;
     box-sizing: border-box; /* グリッドアイテム間の間隔 */
 }
 /* grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
