@@ -3,11 +3,7 @@
     font-weight: 400;
     font-style: normal;
 }
-@media (min-width: 601px) {
-    .app {
-        padding: 20px;
-    }
-}
+
 html{
     font-size:16px;
 }
@@ -209,12 +205,18 @@ gap: 20px;
     display: grid;
 }
 
-
+.carousel-wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #pickup-carousels{
     display: flex;
     justify-content: center; /* 水平方向の中央揃え */
     align-items: center;
+    width: 100vw;
 }
 #accordion-container{
     margin: 0 auto;
@@ -222,7 +224,7 @@ gap: 20px;
 
 .carousel {
     position: relative;
-    width: 345px;
+    width: 90%;
     height: 540px;
     overflow: hidden;
     border-radius: 20px;
@@ -237,16 +239,16 @@ gap: 20px;
 }
 
 .carousel-images img {
-    width: 316px;
-    height: 316px;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
-    margin-top: 14.5px;
-    margin-bottom: 14.5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border-radius: 22px;
 }
 
 .carousel-images img:first-child {
-    margin-left: 14.5px;
+    margin-left: 5%;
 }
 
 .carousel .click-area {

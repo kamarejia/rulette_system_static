@@ -742,6 +742,7 @@ function createCarousel(gamename) {
     carouselContainer.appendChild(gameControls);
 
     const carouselWrapper = document.createElement('div');
+    carouselWrapper.classList.add("carousel-wrapper");
     // carouselWrapper.appendChild(gameName);
     carouselWrapper.appendChild(carouselContainer);
     // carouselWrapper.appendChild(gameControls);
