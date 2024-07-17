@@ -278,8 +278,8 @@ gap: 20px;
 .gametitle{
     color:#1c1c1c;
     text-align: center;
-    font-size: 22px;
-    margin-top: 24px;
+    font-size: calc(1.2rem + 0.6vw);
+    margin-top: 7vw;
     margin-bottom: 0;
 }
 .explanation{
@@ -287,17 +287,17 @@ gap: 20px;
     max-width: 80%;
     color:#8A8A8A;
     text-align: center;
-    font-size:12px;
-    margin-top: 10px;
+    font-size:calc(0.7rem + 0.6vw);
+    margin-top: 4vw;
 }
 .carousel-dots {
     position: absolute;
-    top:345.5px;
+    top:90vw;
     /* bottom: 10px; */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 5px;
+    gap: 1.6vw;
 }
 
 .carousel-dots span {
