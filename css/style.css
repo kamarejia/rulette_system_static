@@ -64,8 +64,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5vh;
-    margin-top:6vh;
+    margin-bottom: 4vh;
+    margin-top:3vh;
 }
 .rulette-title{
     display:inline-flex;
@@ -99,7 +99,7 @@ header {
     padding:0;
     font-weight: bold;
     position: absolute;
-    top:5vh;
+    top:4vh;
     right:0;
     margin: 0;
 }
@@ -131,7 +131,7 @@ main {
     position: relative;
     border-radius: 20px;
     background-color: #1c1c1c;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 .grid-item img {
@@ -165,9 +165,9 @@ main {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 常に2列 */
-    gap: 3vw; /* グリッドアイテム間の間隔 */
+    gap: 3.5vw; /* グリッドアイテム間の間隔 */
     width: 100%;
-    padding: 3vw;
+    padding: 3.5vw;
     box-sizing: border-box; /* グリッドアイテム間の間隔 */
 }
 /* grid-template-columns: repeat(auto-fit, minmax(156px, 1fr));
@@ -211,8 +211,14 @@ gap: 20px;
 
 
 
-
-
+#pickup-carousels{
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center;
+}
+#accordion-container{
+    margin: 0 auto;
+}
 
 .carousel {
     position: relative;
