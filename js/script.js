@@ -596,7 +596,8 @@ class Carousel {
     }
 
     updateCarousel() {
-        const offset = -this.currentIndex * 316; 
+        const imageWidth=this.images[0].clientWidth;
+        const offset = -this.currentIndex * imageWidth; 
         this.carouselImages.style.transform = `translateX(${offset}px)`;
 
         const dots = this.carouselDots.querySelectorAll('span');
