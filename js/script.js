@@ -85,7 +85,7 @@ const games = [
         id:1002,
         grid: '/pictures/ごきぶり/grid/gokiburi_grid.webp',
         name: 'ごきぶりポーカー',
-        explanation:'うそをついて相手に害虫を押し付けよう！同じ害虫を押し付けられすぎると負け！',
+        explanation:'うそをついて害虫を押し付けよう！押し付けられすぎると負け！',
         likes: {
             count: 1,
             timestamps: []
@@ -125,7 +125,7 @@ const games = [
         id:1003,
         grid: '/pictures/コヨーテ/grid/coyote_grid.webp',
         name: 'コヨーテ',
-        explanation:"新感覚インディアンポーカー！他の人の予想が多すぎるとおもったら「コヨーテ」！",
+        explanation:"新感覚インディアンポーカー！予想が多すぎるとおもったら「コヨーテ」！",
         likes: {
             count: 2,
             timestamps: []
@@ -300,7 +300,7 @@ const games = [
         grid: '/pictures/Ito/grid/ito_grid.webp',
         name: 'ito',
         // 46文字まで
-        explanation:"80ならゾウ？3ならアリかな？テーマにあわせて数字を言葉で表現する協力ゲーム！",
+        explanation:"80ならゾウ？3ならアリかな？テーマにあわせて数字を表現！",
         likes: {
             count: 3,
             timestamps: []
@@ -344,7 +344,7 @@ const games = [
         grid: '/pictures/バトルライン/grid/battleline_grid.webp',
         name: 'バトルライン',
         // 46文字まで
-        explanation:"戦略と駆け引きでフラッグを奪い合うカードゲーム！麻雀の要素も持ったなんども遊びたくなる大作！",
+        explanation:"戦略と駆け引きでフラッグを奪い合え！麻雀っぽいなんども遊びたくなる大作！",
         likes: {
             count: 3,
             timestamps: []

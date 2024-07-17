@@ -64,24 +64,26 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5vh;
+    margin-top:6vh;
 }
 .rulette-title{
     display:inline-flex;
     align-items: center;
-    margin-top: 35px;
+    
     
 }
 .rulette-logo{
     height: calc(2rem + 2vw); /* 画面サイズに応じて調整 */
     width: calc(2rem + 2vw);
-    margin-bottom: 7px;
-    margin-right: 10px;
+    /* margin-bottom: 7px; */
+    margin-right: 1.3vw;
 }
 .title-container{
     position: relative;
     /* text-align: right; */
-    width:110px;
-    height: 40px; /* 必要に応じて調整 */
+    /* width:110px; */
+    /* height: 40px; 必要に応じて調整 */
     /* border: 1px solid #ccc; */
     cursor: pointer;
 }
@@ -89,11 +91,11 @@ header {
 .title-container h1{
     margin:0;
     padding:0;
-    font-size: calc(1.4rem + 1vw);
+    font-size: calc(1.7rem + 1vw);
 }
 .title-container p{
-    font-size: calc(0.7rem + 0.8vw);
-    margin:0;
+    font-size: calc(0.4rem + 0.7vw);
+    /* margin:0; */
     padding:0;
     font-weight: bold;
     position: absolute;
@@ -146,7 +148,7 @@ main {
 }
 .grid-title {
     text-align: center;
-    font-size: calc(1rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
+    font-size: calc(0.9rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
     font-weight: bold;
     color: #4B5563;
     margin-top: 10px;
@@ -156,7 +158,7 @@ main {
 .grid-description {
     font-weight: 600;
     text-align: center;
-    font-size: calc(0.575rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
+    font-size: calc(0.57rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
     color: #949495;
     margin-top: 5px;
 }
