@@ -59,9 +59,9 @@ const games = [
             components: [
                 '/pictures/ガイスター/rules/description/gaisuta_1.webp',
                 '/pictures/ガイスター/rules/description/gaisuta_2.webp',
-                '/pictures/ガイスター/grid/gaisuta_grid.webp',
-                '/pictures/ガイスター/grid/box.png',
-                '/pictures/ガイスター/grid/配置図.png'
+                '/pictures/ガイスター/pickup/components/gaisuta_grid_800.webp',
+                '/pictures/ガイスター/pickup/components/gaisuta_box.webp',
+                '/pictures/ガイスター/pickup/components/gaisuta_setting.webp',
             ]
         },
         rules: {
@@ -101,9 +101,9 @@ const games = [
             overview: 'https://via.placeholder.com/300x200?text=Overview+3',
             components: [
                 '/pictures/ごきぶり/rules/description/gokiburi_1.webp',
-                '/pictures/ごきぶり/grid/gokiburi_grid.webp',
-                '/pictures/ごきぶり/pickup/components/box1.png',
-                '/pictures/ごきぶり/pickup/components/準備1.png'
+                '/pictures/ごきぶり/pickup/components/gokiburi_grid_800.webp',
+                '/pictures/ごきぶり/pickup/components/gokiburi_box.webp',
+                '/pictures/ごきぶり/pickup/components/gokiburi_setting.webp',
             ]
         },
         rules: {
@@ -142,9 +142,9 @@ const games = [
             overview: 'https://via.placeholder.com/300x200?text=Overview+4',
             components: [
                 '/pictures/コヨーテ/rules/description/coyote_1.webp',
-                '/pictures/コヨーテ/grid/coyote_grid.webp',
-                '/pictures/コヨーテ/pickup/components/box.png',
-                '/pictures/コヨーテ/pickup/components/準備2.png'
+                '/pictures/コヨーテ/pickup/components/coyote_gird_800.webp',
+                '/pictures/コヨーテ/pickup/components/coyote_box.webp',
+                '/pictures/コヨーテ/pickup/components/coyote_setting.webp',
             ]
         },
         rules: {
@@ -189,9 +189,9 @@ const games = [
                 '/pictures/ニムト/rules/description/nimmt_2.webp',
                 '/pictures/ニムト/rules/description/nimmt_3.webp',
                 '/pictures/ニムト/rules/description/nimmt_4.webp',
-                '/pictures/ニムト/grid/nimmt_grid.webp',
-                '/pictures/ニムト/pickup/components/共有box.png',
-                '/pictures/ニムト/pickup/components/全体はいち.png'
+                '/pictures/ニムト/pickup/components/nimmt_grid_800.webp',
+                '/pictures/ニムト/pickup/components/nimmt_box.webp',
+                '/pictures/ニムト/pickup/components/nimmt_setting.webp',
             ]
         },
         rules: {
@@ -239,9 +239,9 @@ const games = [
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
                 '/pictures/はぁ/rules/description/hatteiugame_1.webp',
-                '/pictures/はぁ/grid/hatteiugame_grid.webp',
-                '/pictures/はぁ/pickup/components/box2.png',
-                '/pictures/はぁ/pickup/components/準備.1.png',
+                '/pictures/はぁ/pickup/components/hatteiugame_grid_800.png',
+                '/pictures/はぁ/pickup/components/hatteiugame_box.png',
+                '/pictures/はぁ/pickup/components/hatteiugame_setting.png',
                 
             ]
         },
@@ -282,9 +282,9 @@ const games = [
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
                 '/pictures/ボブジテン/rules/description/bobujitenn_1.webp',
-                '/pictures/ボブジテン/grid/bobujitenn_grid.webp',
-                '/pictures/ボブジテン/pickup/components/box2.png',
-                '/pictures/ボブジテン/pickup/components/準備2.png'
+                '/pictures/ボブジテン/pickup/components/bobujitenn_grid_800.png',
+                '/pictures/ボブジテン/pickup/components/bobujitenn_box.png',
+                '/pictures/ボブジテン/pickup/components/bobujitenn_setting.png',
             ]
         },
         rules: {
@@ -324,9 +324,9 @@ const games = [
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
                 '/pictures/Ito/rules/description/ito_1.webp',
-                '/pictures/Ito/grid/ito_grid.webp',
-                '/pictures/Ito/pickup/components/grid1.png',
-                '/pictures/Ito/pickup/components/準備5.png',
+                '/pictures/Ito/pickup/components/ito_grid_800.webp',
+                '/pictures/Ito/pickup/components/ito_box.webp',
+                '/pictures/Ito/pickup/components/ito_setting.webp',
             ]
         },
         rules: {
@@ -370,8 +370,9 @@ const games = [
             components: [
                 '/pictures/バトルライン/rules/description/battleline_1.webp',
                 '/pictures/バトルライン/rules/description/battleline_2.webp',
-                '/pictures/バトルライン/grid/battleline_grid.webp',
-                '/pictures/バトルライン/pickup/components/box.webp',
+                '/pictures/バトルライン/pickup/components/battleline_grid_800.webp',
+                '/pictures/バトルライン/pickup/components/battleline_box.webp',
+                '/pictures/バトルライン/pickup/components/battleline_setting.webp',
                 
             ]
         },
@@ -418,7 +419,9 @@ const games = [
             components: [
                 '/pictures/Skull/rules/description/skull_1.webp',
                 '/pictures/Skull/rules/description/skull_2.webp',
-                '/pictures/Skull/grid/skull_grid.webp',
+                '/pictures/Skull/pickup/components/skull_grid_800.webp',
+                '/pictures/Skull/pickup/components/skull_box.webp',
+                '/pictures/Skull/pickup/components/skull_setting.webp',
                 
             ]
         },
@@ -451,7 +454,7 @@ const games = [
     },
     {
         id:1010,
-        grid: '/pictures/scout/grid/scout_grid_400.webp',
+        grid: '/pictures/スカウト/grid/scout_grid_400.webp',
         name: 'SCOUT!',
         explanation:"新感覚の大富豪！だせなくなったらスカウト！",
         likes: {
@@ -464,6 +467,11 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
             overview: 'https://via.placeholder.com/300x200?text=Overview+2',
             components: [
+                "/pictures/スカウト/pickup/components/scout_grid_800.webp",
+                "/pictures/スカウト/pickup/components/box.webp",
+                "/pictures/スカウト/pickup/components/setting.webp",
+                "/pictures/スカウト/pickup/components/scout_component.webp",
+
                 
             ]
         },
