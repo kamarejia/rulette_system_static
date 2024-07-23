@@ -57,6 +57,8 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
             overview: 'https://via.placeholder.com/300x200?text=Overview+2',
             components: [
+                '/pictures/ガイスター/rules/description/gaisuta_1.webp',
+                '/pictures/ガイスター/rules/description/gaisuta_2.webp',
                 '/pictures/ガイスター/grid/gaisuta_grid.webp',
                 '/pictures/ガイスター/grid/box.png',
                 '/pictures/ガイスター/grid/配置図.png'
@@ -98,6 +100,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+3',
             overview: 'https://via.placeholder.com/300x200?text=Overview+3',
             components: [
+                '/pictures/ごきぶり/rules/description/gokiburi_1.webp',
                 '/pictures/ごきぶり/grid/gokiburi_grid.webp',
                 '/pictures/ごきぶり/pickup/components/box1.png',
                 '/pictures/ごきぶり/pickup/components/準備1.png'
@@ -138,6 +141,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+4',
             overview: 'https://via.placeholder.com/300x200?text=Overview+4',
             components: [
+                '/pictures/コヨーテ/rules/description/coyote_1.webp',
                 '/pictures/コヨーテ/grid/coyote_grid.webp',
                 '/pictures/コヨーテ/pickup/components/box.png',
                 '/pictures/コヨーテ/pickup/components/準備2.png'
@@ -145,23 +149,23 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/コヨーテ/rules/description/コヨーテ_1.webp',
+                '/pictures/コヨーテ/rules/description/coyote_1.webp',
                 
             ],
             setup: [
-                '/pictures/コヨーテ/rules/setup/コヨーテ_2.webp',
+                '/pictures/コヨーテ/rules/setup/coyote_2.webp',
             
             ],
             gameplay: [
-                '/pictures/コヨーテ/rules/gameplay/コヨーテ_3.webp',
-                '/pictures/コヨーテ/rules/gameplay/コヨーテ_4.webp',
-                '/pictures/コヨーテ/rules/gameplay/コヨーテ_5.webp',
-                '/pictures/コヨーテ/rules/gameplay/コヨーテ_6.webp',
-                '/pictures/コヨーテ/rules/gameplay/コヨーテ_7.webp',
-                '/pictures/コヨーテ/rules/gameplay/コヨーテ_8.webp',
+                '/pictures/コヨーテ/rules/gameplay/coyote_3.webp',
+                '/pictures/コヨーテ/rules/gameplay/coyote_4.webp',
+                '/pictures/コヨーテ/rules/gameplay/coyote_5.webp',
+                '/pictures/コヨーテ/rules/gameplay/coyote_6.webp',
+                '/pictures/コヨーテ/rules/gameplay/coyote_7.webp',
+                '/pictures/コヨーテ/rules/gameplay/coyote_8.webp',
             ],
             endgame: [
-                '/pictures/コヨーテ/rules/endgame/コヨーテ_9.webp',
+                '/pictures/コヨーテ/rules/endgame/coyote_9.webp',
                 
             ]
         }
@@ -181,6 +185,10 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+5',
             overview: 'https://via.placeholder.com/300x200?text=Overview+5',
             components: [
+                '/pictures/ニムト/rules/description/nimmt_1.webp',
+                '/pictures/ニムト/rules/description/nimmt_2.webp',
+                '/pictures/ニムト/rules/description/nimmt_3.webp',
+                '/pictures/ニムト/rules/description/nimmt_4.webp',
                 '/pictures/ニムト/grid/nimmt_grid.webp',
                 '/pictures/ニムト/pickup/components/共有box.png',
                 '/pictures/ニムト/pickup/components/全体はいち.png'
@@ -188,28 +196,28 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/ニムト/rules/description/ニムと_1.webp',
-                '/pictures/ニムト/rules/description/ニムと_2.webp',
-                '/pictures/ニムト/rules/description/ニムと_3.webp',
-                '/pictures/ニムト/rules/description/ニムと_4.webp',
+                '/pictures/ニムト/rules/description/nimmt_1.webp',
+                '/pictures/ニムト/rules/description/nimmt_2.webp',
+                '/pictures/ニムト/rules/description/nimmt_3.webp',
+                '/pictures/ニムト/rules/description/nimmt_4.webp',
             ],
             setup: [
-                '/pictures/ニムト/rules/setup/ニムと_5.webp',
+                '/pictures/ニムト/rules/setup/nimmt_5.webp',
             
             ],
             gameplay: [
-                '/pictures/ニムト/rules/gameplay/ニムと_6.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_7.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_8.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_9.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_10.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_11.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_12.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_13.webp',
-                '/pictures/ニムト/rules/gameplay/ニムと_14.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_6.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_7.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_8.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_9.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_10.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_11.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_12.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_13.webp',
+                '/pictures/ニムト/rules/gameplay/nimmt_14.webp',
             ],
             endgame: [
-                '/pictures/ニムト/rules/endgame/ニムと_15.webp',
+                '/pictures/ニムト/rules/endgame/nimmt_15.webp',
                 
             ]
         }
@@ -230,6 +238,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                '/pictures/はぁ/rules/description/hatteiugame_1.webp',
                 '/pictures/はぁ/grid/hatteiugame_grid.webp',
                 '/pictures/はぁ/pickup/components/box2.png',
                 '/pictures/はぁ/pickup/components/準備.1.png',
@@ -238,21 +247,21 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/はぁ/rules/description/はぁっていうゲーム_1.webp',
+                '/pictures/はぁ/rules/description/hatteiugame_1.webp',
                 
             ],
             setup: [
-                '/pictures/はぁ/rules/setup/はぁっていうゲーム_2.webp',
+                '/pictures/はぁ/rules/setup/hatteiugame_2.webp',
         
             ],
             gameplay: [
-                '/pictures/はぁ/rules/gameplay/はぁっていうゲーム_3.webp',
-                '/pictures/はぁ/rules/gameplay/はぁっていうゲーム_4.webp',
-                '/pictures/はぁ/rules/gameplay/はぁっていうゲーム_5.webp',
+                '/pictures/はぁ/rules/gameplay/hatteiugame_3.webp',
+                '/pictures/はぁ/rules/gameplay/hatteiugame_4.webp',
+                '/pictures/はぁ/rules/gameplay/hatteiugame_5.webp',
             ],
             endgame: [
-                '/pictures/はぁ/rules/endgame/はぁっていうゲーム_6.webp',
-                '/pictures/はぁ/rules/endgame/はぁっていうゲーム_7.webp'
+                '/pictures/はぁ/rules/endgame/hatteiugame_6.webp',
+                '/pictures/はぁ/rules/endgame/hatteiugame_7.webp'
             ]
         }
     },
@@ -272,6 +281,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                '/pictures/ボブジテン/rules/description/bobujitenn_1.webp',
                 '/pictures/ボブジテン/grid/bobujitenn_grid.webp',
                 '/pictures/ボブジテン/pickup/components/box2.png',
                 '/pictures/ボブジテン/pickup/components/準備2.png'
@@ -279,21 +289,21 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/ボブジテン/rules/description/ボブジテン_1.webp',
+                '/pictures/ボブジテン/rules/description/bobujitenn_1.webp',
                 
             ],
             setup: [
-                '/pictures/ボブジテン/rules/setup/ボブジテン_2.webp',
-                '/pictures/ボブジテン/rules/setup/ボブジテン_3.webp'
+                '/pictures/ボブジテン/rules/setup/bobujitenn_2.webp',
+                '/pictures/ボブジテン/rules/setup/bobujitenn_3.webp'
             ],
             gameplay: [
-                '/pictures/ボブジテン/rules/gameplay/ボブジテン_4.webp',
-                '/pictures/ボブジテン/rules/gameplay/ボブジテン_5.webp',
-                '/pictures/ボブジテン/rules/gameplay/ボブジテン_6.webp',
+                '/pictures/ボブジテン/rules/gameplay/bobujitenn_4.webp',
+                '/pictures/ボブジテン/rules/gameplay/bobujitenn_5.webp',
+                '/pictures/ボブジテン/rules/gameplay/bobujitenn_6.webp',
             ],
             endgame: [
-                '/pictures/ボブジテン/rules/endgame/ボブジテン_7.webp',
-                '/pictures/ボブジテン/rules/endgame/ボブジテン_8.webp'
+                '/pictures/ボブジテン/rules/endgame/bobujitenn_7.webp',
+                '/pictures/ボブジテン/rules/endgame/bobujitenn_8.webp'
             ]
         }
     },
@@ -313,6 +323,7 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                '/pictures/Ito/rules/description/ito_1.webp',
                 '/pictures/Ito/grid/ito_grid.webp',
                 '/pictures/Ito/pickup/components/grid1.png',
                 '/pictures/Ito/pickup/components/準備5.png',
@@ -357,6 +368,8 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                '/pictures/バトルライン/rules/description/battleline_1.webp',
+                '/pictures/バトルライン/rules/description/battleline_2.webp',
                 '/pictures/バトルライン/grid/battleline_grid.webp',
                 '/pictures/バトルライン/pickup/components/box.webp',
                 'https://via.placeholder.com/300x200?text=Component+1-3'
@@ -364,26 +377,26 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/バトルライン/rules/description/バトルライン_1.webp',
-                '/pictures/バトルライン/rules/description/バトルライン_2.webp'
+                '/pictures/バトルライン/rules/description/battleline_1.webp',
+                '/pictures/バトルライン/rules/description/battleline_2.webp'
             ],
             setup: [
-                '/pictures/バトルライン/rules/setup/バトルライン_3.webp',
-                '/pictures/バトルライン/rules/setup/バトルライン_4.webp'
+                '/pictures/バトルライン/rules/setup/battleline_3.webp',
+                '/pictures/バトルライン/rules/setup/battleline_4.webp'
             ],
             gameplay: [
-                '/pictures/バトルライン/rules/gameplay/バトルライン_5.webp',
-                '/pictures/バトルライン/rules/gameplay/バトルライン_6.webp',
-                '/pictures/バトルライン/rules/gameplay/バトルライン_7.webp',
-                '/pictures/バトルライン/rules/gameplay/バトルライン_8.webp',
-                '/pictures/バトルライン/rules/gameplay/バトルライン_9.webp',
-                '/pictures/バトルライン/rules/gameplay/バトルライン_10.webp',
-                '/pictures/バトルライン/rules/gameplay/バトルライン_11.webp',
-                '/pictures/バトルライン/rules/gameplay/バトルライン_12.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_5.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_6.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_7.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_8.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_9.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_10.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_11.webp',
+                '/pictures/バトルライン/rules/gameplay/battleline_12.webp',
             ],
             endgame: [
-                '/pictures/バトルライン/rules/endgame/バトルライン_13.webp',
-                '/pictures/バトルライン/rules/endgame/バトルライン_14.webp'
+                '/pictures/バトルライン/rules/endgame/battleline_13.webp',
+                '/pictures/バトルライン/rules/endgame/battleline_14.webp'
             ]
         }
     },
@@ -403,9 +416,10 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                '/pictures/Skull/rules/description/skull_1.webp',
+                '/pictures/Skull/rules/description/skull_2.webp',
                 '/pictures/Skull/grid/skull_grid.webp',
-                'https://via.placeholder.com/300x200?text=Component+1-2',
-                'https://via.placeholder.com/300x200?text=Component+1-3'
+                
             ]
         },
         rules: {
