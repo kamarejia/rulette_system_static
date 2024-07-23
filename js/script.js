@@ -44,7 +44,7 @@
 const games = [
     {
         id:1001,
-        grid: '/pictures/ガイスター/grid/gaisuta_grid.webp',
+        grid: '/pictures/ガイスター/grid/gaisuta_grid_400.webp',
         name: 'ガイスター',
         explanation:"大人と子供が互角に戦える！相手の心理を読んで戦略を立てよう！",
         likes: {
@@ -468,8 +468,8 @@ const games = [
             overview: 'https://via.placeholder.com/300x200?text=Overview+2',
             components: [
                 "/pictures/スカウト/pickup/components/scout_grid_800.webp",
-                "/pictures/スカウト/pickup/components/box.webp",
-                "/pictures/スカウト/pickup/components/setting.webp",
+                "/pictures/スカウト/pickup/components/scout_box.webp",
+                "/pictures/スカウト/pickup/components/scout_setting.webp",
                 "/pictures/スカウト/pickup/components/scout_component.webp",
 
                 
@@ -477,17 +477,34 @@ const games = [
         },
         rules: {
             description: [
+                "/pictures/スカウト/rules/description/scout!_1.webp",
+                "/pictures/スカウト/rules/description/scout!_2.webp",
+                "/pictures/スカウト/rules/description/scout!_3.webp",
+                "/pictures/スカウト/rules/description/scout!_4.webp",
                 
             ],
             setup: [
-                
+                "/pictures/スカウト/rules/setup/scout!_5.webp",
+                "/pictures/スカウト/rules/setup/scout!_6.webp",
+                "/pictures/スカウト/rules/setup/scout!_7.webp",
                
             ],
             gameplay: [
-                
+                "/pictures/スカウト/rules/gameplay/scout!_8.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_9.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_10.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_11.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_12.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_13.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_14.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_15.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_16.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_17.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_18.webp",
+                "/pictures/スカウト/rules/gameplay/scout!_19.webp",
             ],
             endgame: [
-                
+                "/pictures/スカウト/rules/endgame/scout!_20.webp"
                
             ]
         }
