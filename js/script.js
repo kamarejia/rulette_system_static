@@ -64,20 +64,22 @@ const games = [
         },
         rules: {
             description: [
-                'https://via.placeholder.com/300x200?text=Description+2-1',
-                'https://via.placeholder.com/300x200?text=Description+2-2'
+                '/pictures/ガイスター/rules/description/gaisuta_1.webp',
+                '/pictures/ガイスター/rules/description/gaisuta_2.webp',
             ],
             setup: [
-                'https://via.placeholder.com/300x200?text=Setup+2-1',
-                'https://via.placeholder.com/300x200?text=Setup+2-2'
+                '/pictures/ガイスター/rules/description/gaisuta_3.webp',
+               
             ],
             gameplay: [
-                'https://via.placeholder.com/300x200?text=Gameplay+2-1',
-                'https://via.placeholder.com/300x200?text=Gameplay+2-2'
+                '/pictures/ガイスター/rules/description/gaisuta_4.webp',
+                '/pictures/ガイスター/rules/description/gaisuta_5.webp',
             ],
             endgame: [
-                'https://via.placeholder.com/300x200?text=Endgame+2-1',
-                'https://via.placeholder.com/300x200?text=Endgame+2-2'
+                '/pictures/ガイスター/rules/description/gaisuta_6.webp',
+                '/pictures/ガイスター/rules/description/gaisuta_7.webp',
+                '/pictures/ガイスター/rules/description/gaisuta_8.webp',
+               
             ]
         }
     },
@@ -103,21 +105,21 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/ごきぶり/rules/description/ゴキブリポーカー_1.webp',
+                '/pictures/ごきぶり/rules/description/gokiburi_1.webp',
             ],
             setup: [
-                '/pictures/ごきぶり/rules/setup/ゴキブリポーカー_2.webp',
+                '/pictures/ごきぶり/rules/setup/gokiburi_2.webp',
             ],
             gameplay: [
-                '/pictures/ごきぶり/rules/gameplay/ゴキブリポーカー_3.webp',
-                '/pictures/ごきぶり/rules/gameplay/ゴキブリポーカー_4.webp',
-                '/pictures/ごきぶり/rules/gameplay/ゴキブリポーカー_5.webp',
-                '/pictures/ごきぶり/rules/gameplay/ゴキブリポーカー_6.webp',
-                '/pictures/ごきぶり/rules/gameplay/ゴキブリポーカー_7.webp',
+                '/pictures/ごきぶり/rules/gameplay/gokiburi_3.webp',
+                '/pictures/ごきぶり/rules/gameplay/gokiburi_4.webp',
+                '/pictures/ごきぶり/rules/gameplay/gokiburi_5.webp',
+                '/pictures/ごきぶり/rules/gameplay/gokiburi_6.webp',
+                '/pictures/ごきぶり/rules/gameplay/gokiburi_7.webp',
             ],
             endgame: [
-                '/pictures/ごきぶり/rules/endgame/ゴキブリポーカー_8.webp',
-                '/pictures/ごきぶり/rules/endgame/ゴキブリポーカー_9.webp'
+                '/pictures/ごきぶり/rules/endgame/gokiburi_8.webp',
+                '/pictures/ごきぶり/rules/endgame/gokiburi_9.webp'
             ]
         }
     },
@@ -408,28 +410,28 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/Skull/rules/description/スカル_1.webp',
-                '/pictures/Skull/rules/description/スカル_2.webp'
+                '/pictures/Skull/rules/description/skull_1.webp',
+                '/pictures/Skull/rules/description/skull_2.webp'
             ],
             setup: [
-                '/pictures/Skull/rules/setup/スカル_3.webp',
-                '/pictures/Skull/rules/setup/スカル_4.webp'
+                '/pictures/Skull/rules/setup/skull_3.webp',
+                '/pictures/Skull/rules/setup/skull_4.webp'
             ],
             gameplay: [
-                '/pictures/Skull/rules/gameplay/スカル_5.webp',
-                '/pictures/Skull/rules/gameplay/スカル_6.webp',
-                '/pictures/Skull/rules/gameplay/スカル_7.webp',
-                '/pictures/Skull/rules/gameplay/スカル_8.webp',
-                '/pictures/Skull/rules/gameplay/スカル_9.webp',
-                '/pictures/Skull/rules/gameplay/スカル_10.webp',
-                '/pictures/Skull/rules/gameplay/スカル_11.webp',
-                '/pictures/Skull/rules/gameplay/スカル_12.webp',
-                '/pictures/Skull/rules/gameplay/スカル_13.webp',
+                '/pictures/Skull/rules/gameplay/skull_5.webp',
+                '/pictures/Skull/rules/gameplay/skull_6.webp',
+                '/pictures/Skull/rules/gameplay/skull_7.webp',
+                '/pictures/Skull/rules/gameplay/skull_8.webp',
+                '/pictures/Skull/rules/gameplay/skull_9.webp',
+                '/pictures/Skull/rules/gameplay/skull_10.webp',
+                '/pictures/Skull/rules/gameplay/skull_11.webp',
+                '/pictures/Skull/rules/gameplay/skull_12.webp',
+                '/pictures/Skull/rules/gameplay/skull_13.webp',
             ],
             endgame: [
-                '/pictures/Skull/rules/endgame/スカル_14.webp',
-                '/pictures/Skull/rules/endgame/スカル_15.webp',
-                '/pictures/Skull/rules/endgame/スカル_16.webp'
+                '/pictures/Skull/rules/endgame/skull_14.webp',
+                '/pictures/Skull/rules/endgame/skull_15.webp',
+                '/pictures/Skull/rules/endgame/skull_16.webp'
             ]
         }
     },
