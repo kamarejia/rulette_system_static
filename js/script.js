@@ -467,6 +467,10 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
             overview: 'https://via.placeholder.com/300x200?text=Overview+2',
             components: [
+                "/pictures/スカウト/rules/description/scout!_1.webp",
+                "/pictures/スカウト/rules/description/scout!_2.webp",
+                "/pictures/スカウト/rules/description/scout!_3.webp",
+                "/pictures/スカウト/rules/description/scout!_4.webp",
                 "/pictures/スカウト/pickup/components/scout_grid_800.webp",
                 "/pictures/スカウト/pickup/components/scout_box.webp",
                 "/pictures/スカウト/pickup/components/scout_setting.webp",
