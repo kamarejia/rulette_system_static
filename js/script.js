@@ -70,17 +70,17 @@ const games = [
                 '/pictures/ガイスター/rules/description/gaisuta_2.webp',
             ],
             setup: [
-                '/pictures/ガイスター/rules/description/gaisuta_3.webp',
+                '/pictures/ガイスター/rules/setup/gaisuta_3.webp',
                
             ],
             gameplay: [
-                '/pictures/ガイスター/rules/description/gaisuta_4.webp',
-                '/pictures/ガイスター/rules/description/gaisuta_5.webp',
+                '/pictures/ガイスター/rules/gameplay/gaisuta_4.webp',
+                '/pictures/ガイスター/rules/gameplay/gaisuta_5.webp',
             ],
             endgame: [
-                '/pictures/ガイスター/rules/description/gaisuta_6.webp',
-                '/pictures/ガイスター/rules/description/gaisuta_7.webp',
-                '/pictures/ガイスター/rules/description/gaisuta_8.webp',
+                '/pictures/ガイスター/rules/endgame/gaisuta_6.webp',
+                '/pictures/ガイスター/rules/endgame/gaisuta_7.webp',
+                '/pictures/ガイスター/rules/endgame/gaisuta_8.webp',
                
             ]
         }
@@ -372,7 +372,7 @@ const games = [
                 '/pictures/バトルライン/rules/description/battleline_2.webp',
                 '/pictures/バトルライン/grid/battleline_grid.webp',
                 '/pictures/バトルライン/pickup/components/box.webp',
-                'https://via.placeholder.com/300x200?text=Component+1-3'
+                
             ]
         },
         rules: {
@@ -446,6 +446,41 @@ const games = [
                 '/pictures/Skull/rules/endgame/skull_14.webp',
                 '/pictures/Skull/rules/endgame/skull_15.webp',
                 '/pictures/Skull/rules/endgame/skull_16.webp'
+            ]
+        }
+    },
+    {
+        id:1010,
+        grid: '/pictures/scout/grid/scout_grid_400.webp',
+        name: 'SCOUT!',
+        explanation:"新感覚の大富豪！だせなくなったらスカウト！",
+        likes: {
+            count: 4,
+            timestamps: []
+        },
+        purchaseLink: 'https://example.com/purchase2',
+        shareLink: 'https://example.com/share2',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+2',
+            components: [
+                
+            ]
+        },
+        rules: {
+            description: [
+                
+            ],
+            setup: [
+                
+               
+            ],
+            gameplay: [
+                
+            ],
+            endgame: [
+                
+               
             ]
         }
     },
