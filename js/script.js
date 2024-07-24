@@ -814,7 +814,7 @@ function createCarousel(gamename) {
     shareButton.appendChild(document.createTextNode('ひろめる'));
     shareButton.classList.add("shareButton");
     // シェアボタンがクリックされた際のイベント処理
-    shareButton.addEventListener("click",copyToClipboard);
+    shareButton.addEventListener("click",copyToClipboard(gamename));
 
     gameControls.appendChild(purchaseButton);
     
@@ -946,21 +946,43 @@ function renderPage(state){
     }
 }
 
-function copyToClipboard() {
-    const url = window.location.href;
-    
-    navigator.clipboard.writeText(url).then(() => {
-        const notification = document.getElementById('notification');
-        notification.classList.add('show');
+// function copyToClipboard(gamename) {
+//     const url = window.location.href;
+//     const texts=
 
-        setTimeout(() => {
-            notification.classList.remove('show');
-        }, 3000);
-    }).catch(err => {
-        console.error('Could not copy text: ', err);
-    });
+//     navigator.clipboard.writeText(texts).then(() => {
+//         const notification = document.getElementById('notification');
+//         notification.classList.add('show');
+
+//         setTimeout(() => {
+//             notification.classList.remove('show');
+//         }, 3000);
+//     }).catch(err => {
+//         console.error('Could not copy text: ', err);
+//     });
+// }
+function copyToClipboard(gamename) {
+    // 対象ゲームの情報を探す
+    const game = games.find(g => g.name === gamename);
+
+    if (game) {
+        // textsの内容を作成
+        const texts = `『${game.name}』\nhttps://rulette.game/game/${game.id}\n\n${game.explanation}`;
+
+        navigator.clipboard.writeText(texts).then(() => {
+            const notification = document.getElementById('notification');
+            notification.classList.add('show');
+
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }).catch(err => {
+            console.error('Could not copy text: ', err);
+        });
+    } else {
+        console.error('ゲームが見つかりませんでした');
+    }
 }
-
 //homeに戻る関数
 function screenRender(){
     const path = `/`;
