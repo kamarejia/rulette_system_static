@@ -766,12 +766,12 @@ class Accordion {
             this.accordion.classList.remove('closed');
             this.accordion.classList.add('open');
             this.content.style.display = 'flex';
-            this.toggleButton.style.backgroundImage = "url('/pictures/system_design/アコーディオン_close.png')"; // 開いた状態の画像URL
+            this.toggleButton.style.backgroundImage = "url('/pictures/system_design/toggle_close.svg')"; // 開いた状態の画像URL
         } else {
             this.accordion.classList.remove('open');
             this.accordion.classList.add('closed');
             this.content.style.display = 'none';
-            this.toggleButton.style.backgroundImage = "url('/pictures/system_design/アコーディオン_open.png')"; // 閉じた状態の画像URL
+            this.toggleButton.style.backgroundImage = "url('/pictures/system_design/toggle_open.svg')"; // 閉じた状態の画像URL
         }
     }
 }
