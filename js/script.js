@@ -964,7 +964,7 @@ function renderPage(state){
 function copyToClipboard() {
     // URLからゲームのIDを抽出する
     const url = window.location.href;
-    const idMatch = url.match(/\/game\/(\d+)/);
+    const idMatch = url.match(/\/games\/(\d+)/);
     if (!idMatch || idMatch.length < 2) {
         console.error('ゲームIDがURLから取得できませんでした');
         return;
