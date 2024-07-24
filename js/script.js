@@ -946,21 +946,6 @@ function renderPage(state){
     }
 }
 
-// function copyToClipboard(gamename) {
-//     const url = window.location.href;
-//     const texts=
-
-//     navigator.clipboard.writeText(texts).then(() => {
-//         const notification = document.getElementById('notification');
-//         notification.classList.add('show');
-
-//         setTimeout(() => {
-//             notification.classList.remove('show');
-//         }, 3000);
-//     }).catch(err => {
-//         console.error('Could not copy text: ', err);
-//     });
-// }
 function copyToClipboard() {
     // URLからゲームのIDを抽出する
     const url = window.location.href;
@@ -1004,8 +989,5 @@ function screenRender(){
 createGridItems("home");
 handleRouting(window.location.pathname)
 window.scrollTo(0, 0);
-//pickUp画面
-// createCarousel("ニムト");
-// createAccordion("ニムト");
-// createGridItems("ニムト");
+
 
