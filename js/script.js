@@ -814,7 +814,7 @@ function createCarousel(gamename) {
     shareButton.appendChild(document.createTextNode('ひろめる'));
     shareButton.classList.add("shareButton");
     // シェアボタンがクリックされた際のイベント処理
-    shareButton.addEventListener("click",copyToClipboard(gamename));
+    shareButton.addEventListener("click",copyToClipboard);
 
     gameControls.appendChild(purchaseButton);
     
@@ -961,9 +961,18 @@ function renderPage(state){
 //         console.error('Could not copy text: ', err);
 //     });
 // }
-function copyToClipboard(gamename) {
+function copyToClipboard() {
+    // URLからゲームのIDを抽出する
+    const url = window.location.href;
+    const idMatch = url.match(/\/game\/(\d+)/);
+    if (!idMatch || idMatch.length < 2) {
+        console.error('ゲームIDがURLから取得できませんでした');
+        return;
+    }
+    const gameId = parseInt(idMatch[1], 10);
+
     // 対象ゲームの情報を探す
-    const game = games.find(g => g.name === gamename);
+    const game = games.find(g => g.id === gameId);
 
     if (game) {
         // textsの内容を作成
@@ -983,6 +992,7 @@ function copyToClipboard(gamename) {
         console.error('ゲームが見つかりませんでした');
     }
 }
+
 //homeに戻る関数
 function screenRender(){
     const path = `/`;
