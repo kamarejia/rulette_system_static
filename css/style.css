@@ -37,6 +37,9 @@ main{
     margin:0 ;
     padding:0;
 }
+.front-message{
+    display: none;
+}
 .home-title-pop{
     color: #4B5563;
     font-weight: bold;
