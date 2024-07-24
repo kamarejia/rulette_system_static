@@ -724,7 +724,7 @@ class Carousel {
         const diffY = e.touches[0].clientY - this.startY;
 
         // スワイプが水平方向かどうかの判定
-        if (Math.abs(diffX) > Math.abs(diffY)*0.25) {
+        if (Math.abs(diffX) > Math.abs(diffY)*0.5) {
             e.stopPropagation();
         }
     }
