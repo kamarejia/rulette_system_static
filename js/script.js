@@ -513,6 +513,49 @@ const games = [
             ]
         }
     },
+    {
+        id:1011,
+        grid: '/pictures/ラブレター/grid/loveletter_grid_400.webp',
+        name: 'Love Letter',
+        explanation:"手札は1枚！姫に恋文を届けるべく家臣たちの思惑が交錯する！",
+        likes: {
+            count: 4,
+            timestamps: []
+        },
+        purchaseLink: 'https://example.com/purchase2',
+        shareLink: 'https://example.com/share2',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+2',
+            components: [
+                "/pictures/ラブレター/pickup/components/loveletter_grid_800.webp",
+                "/pictures/ラブレター/pickup/components/loveletter_box.webp",
+                "/pictures/ラブレター/pickup/components/loveletter_component.webp",
+
+                
+            ]
+        },
+        rules: {
+            description: [
+                "/pictures/スカウト/rules/description/scout!_1.webp",
+          
+                
+            ],
+            setup: [
+                "/pictures/スカウト/rules/setup/scout!_5.webp",
+              
+               
+            ],
+            gameplay: [
+                "/pictures/スカウト/rules/gameplay/scout!_8.webp",
+               
+            ],
+            endgame: [
+                "/pictures/スカウト/rules/endgame/scout!_20.webp"
+               
+            ]
+        }
+    },
 ];
 
 // 現在の状態を管理する変数
