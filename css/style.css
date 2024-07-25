@@ -398,10 +398,11 @@ gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3vw 4vw;
+    /* padding: 3vw 4vw; */
     color: #eec32c;
     position:relative;
     font-size: calc(0.9rem + 0.7vw);
+    height: 13vw;
 }
 .accordion-header span {
     font-size: calc(0.9rem + 0.8vw);

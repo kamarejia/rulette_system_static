@@ -491,7 +491,6 @@ const games = [
                 "/pictures/スカウト/rules/setup/scout!_5.webp",
                 "/pictures/スカウト/rules/setup/scout!_6.webp",
                 "/pictures/スカウト/rules/setup/scout!_7.webp",
-               
             ],
             gameplay: [
                 "/pictures/スカウト/rules/gameplay/scout!_8.webp",
@@ -509,7 +508,7 @@ const games = [
             ],
             endgame: [
                 "/pictures/スカウト/rules/endgame/scout!_20.webp"
-               
+
             ]
         }
     },
@@ -528,6 +527,9 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
             overview: 'https://via.placeholder.com/300x200?text=Overview+2',
             components: [
+                "/pictures/ラブレター/rules/description/loveletter_1.webp",
+                "/pictures/ラブレター/rules/description/loveletter_2.webp",
+                "/pictures/ラブレター/rules/description/loveletter_3.webp",
                 "/pictures/ラブレター/pickup/components/loveletter_grid_800.webp",
                 "/pictures/ラブレター/pickup/components/loveletter_box.webp",
                 "/pictures/ラブレター/pickup/components/loveletter_component.webp",
@@ -537,22 +539,30 @@ const games = [
         },
         rules: {
             description: [
-                "/pictures/スカウト/rules/description/scout!_1.webp",
-          
+                "/pictures/ラブレター/rules/description/loveletter_1.webp",
+                "/pictures/ラブレター/rules/description/loveletter_2.webp",
+                "/pictures/ラブレター/rules/description/loveletter_3.webp",
                 
             ],
             setup: [
-                "/pictures/スカウト/rules/setup/scout!_5.webp",
-              
-               
+                "/pictures/ラブレター/rules/setup/loveletter_4.webp",
+                "/pictures/ラブレター/rules/setup/loveletter_5.webp",
+
             ],
             gameplay: [
-                "/pictures/スカウト/rules/gameplay/scout!_8.webp",
-               
+                "/pictures/ラブレター/rules/gameplay/loveletter_6.webp",
+                "/pictures/ラブレター/rules/gameplay/loveletter_7.webp",
+                "/pictures/ラブレター/rules/gameplay/loveletter_8.webp",
+                "/pictures/ラブレター/rules/gameplay/loveletter_9.webp",
+                "/pictures/ラブレター/rules/gameplay/loveletter_10.webp",
+                "/pictures/ラブレター/rules/gameplay/loveletter_11.webp",
+
             ],
             endgame: [
-                "/pictures/スカウト/rules/endgame/scout!_20.webp"
-               
+                "/pictures/ラブレター/rules/endgame/loveletter_12.webp",
+                "/pictures/ラブレター/rules/endgame/loveletter_13.webp",
+                "/pictures/ラブレター/rules/endgame/loveletter_14.webp",
+
             ]
         }
     },
