@@ -398,7 +398,7 @@ gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 20px;
+    padding: 3vw 4vw;
     color: #eec32c;
     position:relative;
     font-size: calc(0.9rem + 0.7vw);
