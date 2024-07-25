@@ -227,7 +227,7 @@ const games = [
         grid: '/pictures/はぁ/grid/hatteiugame_grid.webp',
         name: 'はぁって言うゲーム',
         // 46文字まで
-        explanation:"その「はぁ」なんの「はぁ」？演技を当てて得点！当ててもらっても得点！",
+        explanation:"その「はぁ」なんの「はぁ」？演技を当てて得点！当ててもらって得点！",
         likes: {
             count: 3,
             timestamps: []
@@ -357,7 +357,7 @@ const games = [
         grid: '/pictures/バトルライン/grid/battleline_grid.webp',
         name: 'バトルライン',
         // 46文字まで
-        explanation:"戦略と駆け引きでフラッグを奪い合え！麻雀っぽいなんども遊びたくなる大作！",
+        explanation:"戦略と駆け引きでフラッグを奪え！麻雀っぽい何度も遊びたくなる大作！",
         likes: {
             count: 3,
             timestamps: []
