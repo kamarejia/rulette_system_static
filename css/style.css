@@ -292,8 +292,9 @@ gap: 20px;
 .gametitle{
     color:#4B5563;
     text-align: center;
-    font-size: calc(1.4rem + 0.6vw);
+    font-size: calc(1.5rem + 0.62vw);
     margin-top: 7vw;
+    margin-bottom: 0vw;
 }
 
 .game-icon-container{
@@ -305,13 +306,14 @@ gap: 20px;
 }
 
 .game-info-icons{
-    width: calc(1rem + 0.6vw);
+    width: calc(1.2rem + 0.6vw);
     margin-right: 1.5vw;
 }
 .game-info-texts{
     color: #8E959D;
-    font-size: calc(0.8rem + 0.6vw);
+    font-size: calc(0.9rem + 0.6vw);
     margin-right: 4vw;
+    font-weight: 600;
 }
 
 .explanation{
@@ -320,7 +322,8 @@ gap: 20px;
     color:#8A8A8A;
     text-align: center;
     font-size:calc(0.7rem + 0.6vw);
-    /* margin-top: 4vw; */
+    font-weight: 600;
+    margin-top: 0vw;
 }
 .accordion-content .carousel-dots{
     left: 45%;
