@@ -702,7 +702,9 @@ class Carousel {
         this.totalImages = this.images.length;
         this.currentIndex = 0;
         this.startX = 0;
+        this.startY = 0; // Y座標もトラッキング
         this.endX = 0;
+        this.endY = 0;   // Y座標もトラッキング
 
         this.initDots();
         this.updateCarousel();
@@ -758,31 +760,42 @@ class Carousel {
         }
     }
     handleTouchMove(e) {
-        // prevent scrolling
-        e.preventDefault();
+        const deltaX = e.touches[0].clientX - this.startX;
+        const deltaY = e.touches[0].clientY - this.startY;
+
+        if (Math.abs(deltaX) > Math.abs(deltaY)) {
+            // 水平方向の移動が垂直方向の移動よりも大きい場合のみデフォルトのスクロールを防ぐ
+            e.preventDefault();
+        }
     }
     handleTouchStart(e) {
         this.startX = e.touches[0].clientX;
-        
+        this.startY = e.touches[0].clientY;
     }
 
     handleTouchEnd(e) {
         this.endX = e.changedTouches[0].clientX;
-        
+        this.endY = e.changedTouches[0].clientY;
         this.handleSwipe();
     }
 
     handleSwipe() {
-        if (this.startX - this.endX > 50) {
+        // if (this.startX - this.endX > 50) {
             
-            this.nextImage();
-            e.preventDefault();
-        } else if (this.endX - this.startX > 50) {
+        //     this.nextImage();
+        //     e.preventDefault();
+        // } else if (this.endX - this.startX > 50) {
             
-            this.prevImage();
-            e.preventDefault();
+        //     this.prevImage();
+        //     e.preventDefault();
+        // }
+        if (Math.abs(this.startX - this.endX) > Math.abs(this.startY - this.endY)) {
+            if (this.startX - this.endX > 50) {
+                this.nextImage();
+            } else if (this.endX - this.startX > 50) {
+                this.prevImage();
+            }
         }
-
         
     }
 }
