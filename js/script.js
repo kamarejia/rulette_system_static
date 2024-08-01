@@ -716,7 +716,7 @@ class Carousel {
 
         this.carouselElement.addEventListener('touchstart', (e) => this.handleTouchStart(e), { passive: true });
         this.carouselElement.addEventListener('touchend', (e) => this.handleTouchEnd(e), { passive: true });
-
+        this.carouselElement.addEventListener('touchmove', (e) => this.handleTouchMove(e), { passive: false });
         
     }
 
@@ -757,7 +757,10 @@ class Carousel {
             this.updateCarousel();
         }
     }
-
+    handleTouchMove(e) {
+        // prevent scrolling
+        e.preventDefault();
+    }
     handleTouchStart(e) {
         this.startX = e.touches[0].clientX;
         
