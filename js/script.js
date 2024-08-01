@@ -714,8 +714,8 @@ class Carousel {
         rightArea.addEventListener('click', () => this.nextImage());
         this.carouselDots.addEventListener('click', (e) => this.dotNavigation(e));
 
-        this.carouselElement.addEventListener('touchstart', (e) => this.handleTouchStart(e), { passive: true });
-        this.carouselElement.addEventListener('touchend', (e) => this.handleTouchEnd(e), { passive: true });
+        this.carouselElement.addEventListener('touchstart', (e) => this.handleTouchStart(e), { passive: false });
+        this.carouselElement.addEventListener('touchend', (e) => this.handleTouchEnd(e), { passive: false });
         this.carouselElement.addEventListener('touchmove', (e) => this.handleTouchMove(e), { passive: false });
         
     }
