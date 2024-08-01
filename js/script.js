@@ -771,8 +771,10 @@ class Carousel {
 
     handleSwipe() {
         if (this.startX - this.endX > 50) {
+            e.preventDefault();
             this.nextImage();
         } else if (this.endX - this.startX > 50) {
+            e.preventDefault();
             this.prevImage();
         }
 
