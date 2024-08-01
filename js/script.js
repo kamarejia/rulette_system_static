@@ -717,8 +717,7 @@ class Carousel {
         this.carouselElement.addEventListener('touchstart', (e) => this.handleTouchStart(e), { passive: true });
         this.carouselElement.addEventListener('touchend', (e) => this.handleTouchEnd(e), { passive: true });
 
-        // 追加: コンストラクタでタッチムーブイベントリスナーを追加
-        this.carouselElement.addEventListener('touchmove', (e) => this.handleTouchMove(e), { passive: false });
+        
     }
 
     initDots() {
@@ -761,41 +760,23 @@ class Carousel {
 
     handleTouchStart(e) {
         this.startX = e.touches[0].clientX;
-        this.startY = e.touches[0].clientY; // y座標の記録
+        
     }
 
     handleTouchEnd(e) {
         this.endX = e.changedTouches[0].clientX;
-        this.endY = e.changedTouches[0].clientY; // y座標の記録
+        
         this.handleSwipe();
     }
 
-    // 追加: タッチ移動時にスクロールを無効化し、スワイプ方向を判定
-    handleTouchMove(e) {
-        e.preventDefault(); // スクロール無効化
-        const diffX = e.touches[0].clientX - this.startX;
-        const diffY = e.touches[0].clientY - this.startY;
-
-        // スワイプが水平方向かどうかの判定
-        if (Math.abs(diffX) > Math.abs(diffY)*0.5) {
-            e.stopPropagation();
-        }
-    }
     handleSwipe() {
-        // if (this.startX - this.endX > 50) {
-        //     this.nextImage();
-        // } else if (this.endX - this.startX > 50) {
-        //     this.prevImage();
-        // }
-
-        // 水平方向の移動距離が十分に大きい場合にスワイプを処理
-        if (Math.abs(this.startX - this.endX) > 50 && Math.abs(this.startY - this.endY) < 30) {
-            if (this.startX - this.endX > 50) {
-                this.nextImage();
-            } else if (this.endX - this.startX > 50) {
-                this.prevImage();
-            }
+        if (this.startX - this.endX > 50) {
+            this.nextImage();
+        } else if (this.endX - this.startX > 50) {
+            this.prevImage();
         }
+
+        
     }
 }
 
