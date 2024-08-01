@@ -866,6 +866,44 @@ function createCarousel(gamename) {
     
     gameInfo.appendChild(gameName);
 
+    const gameiconContainer= document.createElement("div");
+    gameiconContainer.classList.add("game-icon-container");
+
+    const peopleIcon=document.createElement("img");
+    peopleIcon.src="/pictures/system_design/pickup_icons_people.svg"
+    peopleIcon.classList.add("game-info-icons");
+
+    const peopleText =document.createElement("p");
+    peopleText.textContent="2~4人"
+    peopleText.classList.add("game-info-texts")
+
+
+    const playtimeIcon=document.createElement("img");
+    playtimeIcon.src="/pictures/system_design/pickup_icons_playtime.svg"
+    playtimeIcon.classList.add("game-info-icons");
+
+    const playtimeText =document.createElement("p");
+    playtimeText.textContent="30分"
+    playtimeText.classList.add("game-info-texts")
+
+
+    const priceIcon=document.createElement("img");
+    priceIcon.src="/pictures/system_design/pickup_icons_price.svg"
+    priceIcon.classList.add("game-info-icons");
+
+    const priceText =document.createElement("p");
+    priceText.textContent="1700円"
+    priceText.classList.add("game-info-texts")
+
+    gameiconContainer.appendChild(peopleIcon);
+    gameiconContainer.appendChild(peopleText);
+    gameiconContainer.appendChild(playtimeIcon);
+    gameiconContainer.appendChild(playtimeText);
+    gameiconContainer.appendChild(priceIcon);
+    gameiconContainer.appendChild(priceText);
+    
+    gameInfo.appendChild(gameiconContainer);
+
     const explanation = document.createElement('p');
     explanation.textContent=game.explanation;
     explanation.classList.add("explanation");

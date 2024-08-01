@@ -290,12 +290,27 @@ gap: 20px;
 
 }
 .gametitle{
-    color:#1c1c1c;
+    color:#4B5563;
     text-align: center;
-    font-size: calc(1.2rem + 0.6vw);
+    font-size: calc(1.4rem + 0.6vw);
     margin-top: 7vw;
     margin-bottom: 0;
 }
+
+.game-icon-container{
+    width: 80%;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.game-info-icons{
+    font-size:calc(0.7rem + 0.6vw);
+}
+.game-info-texts{
+    color:#8E959D;
+    font-size:calc(0.7rem + 0.6vw);
+}
+
 .explanation{
     display: block;
     max-width: 80%;
