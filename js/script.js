@@ -6,6 +6,14 @@
     name: 'ゲーム1',
     // 46文字まで
     explanation:"text",
+    info:{
+        num_players:"",
+        playtime:"",
+        price:"",
+        system_tag:[],
+        who:[],
+        where:[]
+    },
     likes: {
         count: 3,
         timestamps: []
@@ -47,6 +55,14 @@ const games = [
         grid: '/pictures/ガイスター/grid/gaisuta_grid_400.webp',
         name: 'ガイスター',
         explanation:"大人と子供が互角に戦える！相手の心理を読んで戦略を立てよう！",
+        info:{
+            num_players:"2人",
+            playtime:"15分",
+            price:"3000円",
+            system_tag:["心理戦",],
+            who:["恋人と","家族と","親友と"],
+            where:["家で","カフェで"]
+        },
         likes: {
             count: 4,
             timestamps: []
@@ -90,6 +106,14 @@ const games = [
         grid: '/pictures/ごきぶり/grid/gokiburi_grid.webp',
         name: 'ごきぶりポーカー',
         explanation:'うそをついて害虫を押し付けよう！押し付けられすぎると負け！',
+        info:{
+            num_players:"2~6人",
+            playtime:"20分",
+            price:"1800円",
+            system_tag:["心理戦","カードゲーム"],
+            who:["ともだちと","先輩後輩"],
+            where:["ホームパーティで","カフェで"]
+        },
         likes: {
             count: 1,
             timestamps: []
@@ -131,6 +155,14 @@ const games = [
         grid: '/pictures/コヨーテ/grid/coyote_grid.webp',
         name: 'コヨーテ',
         explanation:"新感覚インディアンポーカー！予想が多すぎるとおもったら「コヨーテ」！",
+        info:{
+            num_players:"2~10人",
+            playtime:"20分",
+            price:"1700円",
+            system_tag:["推測","心理戦"],
+            who:["ともだちと","家族と","親戚と"],
+            where:["パーティで","家で"]
+        },
         likes: {
             count: 2,
             timestamps: []
@@ -175,6 +207,14 @@ const games = [
         grid: '/pictures/ニムト/grid/nimmt_grid.webp',
         name: 'ニムト',
         explanation:"牛を引き取らないようにカードを出そう！ドイツNo.1カードゲーム！",
+        info:{
+            num_players:"2~10人",
+            playtime:"40分",
+            price:"1500円",
+            system_tag:["バースト","ハンドマネージメント"],
+            who:["ともだちと","先輩後輩と", ],
+            where:["カフェで","ともだちの家で"]
+        },
         likes: {
             count: 5,
             timestamps: []
@@ -228,6 +268,14 @@ const games = [
         name: 'はぁって言うゲーム',
         // 46文字まで
         explanation:"その「はぁ」なんの「はぁ」？演技を当てて得点！当ててもらって得点！",
+        info:{
+            num_players:"3~8人",
+            playtime:"15分",
+            price:"1200円",
+            system_tag:["言葉遊び","パーティ"],
+            who:["ともだちと","こどもと","家族と"],
+            where:["パーティで","飲み会で"]
+        },
         likes: {
             count: 3,
             timestamps: []
@@ -271,6 +319,14 @@ const games = [
         name: 'ボブジテン',
         // 46文字まで
         explanation:"カタカナ語を日本語だけで説明しよう！伝われば得点！当てても得点！",
+        info:{
+            num_players:"3~8人",
+            playtime:"20分",
+            price:"1500円",
+            system_tag:["言葉遊び"],
+            who:["ともだちと","初対面の人と"],
+            where:["カフェで","家で"]
+        },
         likes: {
             count: 3,
             timestamps: []
@@ -358,6 +414,14 @@ const games = [
         name: 'バトルライン',
         // 46文字まで
         explanation:"戦略と駆け引きでフラッグを奪え！麻雀っぽい何度も遊びたくなる大作！",
+        info:{
+            num_players:"2人",
+            playtime:"30分",
+            price:"2700円",
+            system_tag:["セットコレクション","ハンドマネージメント"],
+            who:["恋人と","親友と"],
+            where:["カフェで","家で"]
+        },
         likes: {
             count: 3,
             timestamps: []
@@ -407,6 +471,14 @@ const games = [
         name: 'SKULL',
         // 46文字まで
         explanation:"花で勝負か。ドクロの罠か。シンプルながら奥深い心理戦ゲームの傑作！",
+        info:{
+            num_players:"3~6人",
+            playtime:"40分",
+            price:"2800円",
+            system_tag:["心理戦","脱落"],
+            who:["ともだちと","仕事仲間と"],
+            where:["カフェで","ホームパーティで"]
+        },
         likes: {
             count: 3,
             timestamps: []
@@ -457,6 +529,14 @@ const games = [
         grid: '/pictures/スカウト/grid/scout_grid_400.webp',
         name: 'SCOUT!',
         explanation:"新感覚の大富豪！だせなくなったらスカウト！",
+        info:{
+            num_players:"2~5人",
+            playtime:"20分",
+            price:"2200円",
+            system_tag:["ハンドマネージメント","セットコレクション"],
+            who:["ともだちと","仕事仲間と"],
+            where:["カフェで","ホームパーティで"]
+        },
         likes: {
             count: 4,
             timestamps: []
@@ -517,6 +597,14 @@ const games = [
         grid: '/pictures/ラブレター/grid/loveletter_grid_400.webp',
         name: 'Love Letter',
         explanation:"手札は1枚！姫に恋文を届けるべく家臣たちの思惑が交錯する！",
+        info:{
+            num_players:"2~4人",
+            playtime:"20分",
+            price:"2000円",
+            system_tag:["推測",],
+            who:["ともだちと","家族と"],
+            where:["カフェで","家で"]
+        },
         likes: {
             count: 4,
             timestamps: []
@@ -874,7 +962,7 @@ function createCarousel(gamename) {
     peopleIcon.classList.add("game-info-icons");
 
     const peopleText =document.createElement("p");
-    peopleText.textContent="2~4人"
+    peopleText.textContent=game.info.num_players;
     peopleText.classList.add("game-info-texts")
 
 
@@ -883,7 +971,7 @@ function createCarousel(gamename) {
     playtimeIcon.classList.add("game-info-icons");
 
     const playtimeText =document.createElement("p");
-    playtimeText.textContent="30分"
+    playtimeText.textContent=game.info.playtime;
     playtimeText.classList.add("game-info-texts")
 
 
@@ -892,7 +980,7 @@ function createCarousel(gamename) {
     priceIcon.classList.add("game-info-icons");
 
     const priceText =document.createElement("p");
-    priceText.textContent="1700円"
+    priceText.textContent=game.info.price;
     priceText.classList.add("game-info-texts")
 
     gameiconContainer.appendChild(peopleIcon);
@@ -901,7 +989,7 @@ function createCarousel(gamename) {
     gameiconContainer.appendChild(playtimeText);
     gameiconContainer.appendChild(priceIcon);
     gameiconContainer.appendChild(priceText);
-    
+
     gameInfo.appendChild(gameiconContainer);
 
     const explanation = document.createElement('p');
