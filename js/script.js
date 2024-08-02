@@ -67,7 +67,7 @@ const games = [
             count: 4,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase2',
+        purchaseLink: 'https://mobiusgames.shop-pro.jp/?pid=144929015',
         shareLink: 'https://example.com/share2',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
@@ -118,7 +118,7 @@ const games = [
             count: 1,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase3',
+        purchaseLink: 'https://mobiusgames.shop-pro.jp/?pid=144935408',
         shareLink: 'https://example.com/share3',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+3',
@@ -167,7 +167,7 @@ const games = [
             count: 2,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase4',
+        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
         shareLink: 'https://example.com/share4',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+4',
@@ -219,7 +219,7 @@ const games = [
             count: 5,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase5',
+        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
         shareLink: 'https://example.com/share5',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+5',
@@ -280,7 +280,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase1',
+        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -331,7 +331,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase1',
+        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -381,7 +381,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase1',
+        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -434,7 +434,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase1',
+        purchaseLink: 'https://amzn.asia/d/0bMw9FTq',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -491,7 +491,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase1',
+        purchaseLink: 'https://amzn.asia/d/iqGxDcO',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -617,7 +617,7 @@ const games = [
             count: 4,
             timestamps: []
         },
-        purchaseLink: 'https://example.com/purchase2',
+        purchaseLink: 'https://amzn.asia/d/02y7HDwF',
         shareLink: 'https://example.com/share2',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
@@ -1055,7 +1055,9 @@ function createCarousel(gamename) {
     purchaseButton.appendChild(document.createTextNode('ほしい'));
     purchaseButton.classList.add("purchaseButton");
     // 購入ボタンがクリックされた際のイベント処理
-
+    purchaseButton.addEventListener('click', function() {
+        window.location.href = game.purchaseLink;
+    });
     // シェアボタンを作成
     const shareButton = document.createElement('button');
     const shareIcon = document.createElement('img');
