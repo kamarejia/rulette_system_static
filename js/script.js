@@ -60,8 +60,8 @@ const games = [
             playtime:"15分",
             price:"3000円",
             system_tag:["心理戦",],
-            who:["恋人と","家族と","親友と"],
-            where:["家で","カフェで"]
+            who:["恋人と","家族と"],
+            where:["家で"]
         },
         likes: {
             count: 4,
@@ -112,7 +112,7 @@ const games = [
             price:"1800円",
             system_tag:["心理戦","カードゲーム"],
             who:["ともだちと","先輩後輩"],
-            where:["ホームパーティで","カフェで"]
+            where:["ホームパーティで"]
         },
         likes: {
             count: 1,
@@ -160,8 +160,8 @@ const games = [
             playtime:"20分",
             price:"1700円",
             system_tag:["推測","心理戦"],
-            who:["ともだちと","家族と","親戚と"],
-            where:["パーティで","家で"]
+            who:["ともだちと","親戚と"],
+            where:["パーティで"]
         },
         likes: {
             count: 2,
@@ -213,7 +213,7 @@ const games = [
             price:"1500円",
             system_tag:["バースト","ハンドマネージメント"],
             who:["ともだちと","先輩後輩と", ],
-            where:["カフェで","ともだちの家で"]
+            where:["ともだちの家で"]
         },
         likes: {
             count: 5,
@@ -273,7 +273,7 @@ const games = [
             playtime:"15分",
             price:"1200円",
             system_tag:["言葉遊び","パーティ"],
-            who:["ともだちと","こどもと","家族と"],
+            who:["ともだちと","こどもと",],
             where:["パーティで","飲み会で"]
         },
         likes: {
@@ -325,7 +325,7 @@ const games = [
             price:"1500円",
             system_tag:["言葉遊び"],
             who:["ともだちと","初対面の人と"],
-            where:["カフェで","家で"]
+            where:["カフェで"]
         },
         likes: {
             count: 3,
@@ -374,8 +374,8 @@ const games = [
             playtime:"30分",
             price:"2000円",
             system_tag:["言葉遊び","協力"],
-            who:["ともだちと","初対面の人と","先輩後輩と"],
-            where:["カフェで","ホームパーティで"]
+            who:["ともだちと","初対面の人と"],
+            where:["カフェで"]
         },
         likes: {
             count: 3,
@@ -485,7 +485,7 @@ const games = [
             price:"2800円",
             system_tag:["心理戦","脱落"],
             who:["ともだちと","仕事仲間と"],
-            where:["カフェで","ホームパーティで"]
+            where:["ホームパーティで"]
         },
         likes: {
             count: 3,
@@ -543,7 +543,7 @@ const games = [
             price:"2200円",
             system_tag:["ハンドマネージメント","セットコレクション"],
             who:["ともだちと","仕事仲間と"],
-            where:["カフェで","ホームパーティで"]
+            where:["カフェで"]
         },
         likes: {
             count: 4,
@@ -611,7 +611,7 @@ const games = [
             price:"2000円",
             system_tag:["推測",],
             who:["ともだちと","家族と"],
-            where:["カフェで","家で"]
+            where:["カフェで"]
         },
         likes: {
             count: 4,
