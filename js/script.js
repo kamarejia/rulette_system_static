@@ -1042,6 +1042,7 @@ function createCarousel(gamename) {
     });
     gametagContainer.appendChild(systemtagContainer);
     gametagContainer.appendChild(whowheretagContainer);
+    gameInfo.appendChild(gametagContainer);
 
     const gameControls = document.createElement('div');
     gameControls.classList.add('game-controls');
