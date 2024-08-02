@@ -404,6 +404,7 @@ gap: 20px;
     cursor: pointer;
     color: white;
     font-size: calc(0.7rem + 0.6vw);
+    font-weight: bold;
 }
 .purchaseButton{
     background-color:#ff4539;
@@ -459,6 +460,7 @@ gap: 20px;
 }
 .accordion-header span {
     font-size: calc(0.9rem + 0.8vw);
+    font-weight: bold;
 }
 .toggleButton {
     background: none;
