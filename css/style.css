@@ -325,13 +325,34 @@ gap: 20px;
     font-weight: 600;
     margin-top: 0vw;
 }
-.game-tag-container{
+.systemtag-container{
     display: flex;
+}
+.whowheretag-container{
+    display: flex;
+}
+.whowheretag-text {
+    margin: 0;
+    font-size: calc(0.7rem + 0.6vw);
+    color: #8a8a8a;
+    font-weight: bold;
+    margin-right: 2vw;
+}
+.systemtag-text{
+    margin: 0;
+    font-size: calc(0.7rem + 0.6vw);
+    color: #8a8a8a;
+    font-weight: bold;
+    margin-right: 5vw;
 }
 .tag{
     background-color: #f1f2f3;
     border-radius: 8px;
-    font-size:calc(0.7rem + 0.6vw);
+    font-size:calc(0.5rem + 0.6vw);
+    padding: 0.5vw 1.5vw;
+    color: #8a8a8a;
+    margin-right: 1vw;
+
 }
 
 .accordion-content .carousel-dots{
