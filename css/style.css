@@ -325,6 +325,15 @@ gap: 20px;
     font-weight: 600;
     margin-top: 0vw;
 }
+.game-tag-container{
+    display: flex;
+}
+.tag{
+    background-color: #f1f2f3;
+    border-radius: 8px;
+    font-size:calc(0.7rem + 0.6vw);
+}
+
 .accordion-content .carousel-dots{
     left: 45%;
 }

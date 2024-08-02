@@ -209,7 +209,7 @@ const games = [
         explanation:"牛を引き取らないようにカードを出そう！ドイツNo.1カードゲーム！",
         info:{
             num_players:"2~10人",
-            playtime:"40分",
+            playtime:"30分",
             price:"1500円",
             system_tag:["バースト","ハンドマネージメント"],
             who:["ともだちと","先輩後輩と", ],
@@ -321,7 +321,7 @@ const games = [
         explanation:"カタカナ語を日本語だけで説明しよう！伝われば得点！当てても得点！",
         info:{
             num_players:"3~8人",
-            playtime:"20分",
+            playtime:"30分",
             price:"1500円",
             system_tag:["言葉遊び"],
             who:["ともだちと","初対面の人と"],
@@ -369,6 +369,14 @@ const games = [
         name: 'ito',
         // 46文字まで
         explanation:"80ならゾウ？3ならアリかな？テーマにあわせて数字を表現！",
+        info:{
+            num_players:"2~10人",
+            playtime:"30分",
+            price:"2000円",
+            system_tag:["言葉遊び","協力"],
+            who:["ともだちと","初対面の人と","先輩後輩と"],
+            where:["カフェで","ホームパーティで"]
+        },
         likes: {
             count: 3,
             timestamps: []
@@ -416,7 +424,7 @@ const games = [
         explanation:"戦略と駆け引きでフラッグを奪え！麻雀っぽい何度も遊びたくなる大作！",
         info:{
             num_players:"2人",
-            playtime:"30分",
+            playtime:"20分",
             price:"2700円",
             system_tag:["セットコレクション","ハンドマネージメント"],
             who:["恋人と","親友と"],
@@ -473,7 +481,7 @@ const games = [
         explanation:"花で勝負か。ドクロの罠か。シンプルながら奥深い心理戦ゲームの傑作！",
         info:{
             num_players:"3~6人",
-            playtime:"40分",
+            playtime:"20分",
             price:"2800円",
             system_tag:["心理戦","脱落"],
             who:["ともだちと","仕事仲間と"],
@@ -530,8 +538,8 @@ const games = [
         name: 'SCOUT!',
         explanation:"新感覚の大富豪！だせなくなったらスカウト！",
         info:{
-            num_players:"2~5人",
-            playtime:"20分",
+            num_players:"3~5人",
+            playtime:"15分",
             price:"2200円",
             system_tag:["ハンドマネージメント","セットコレクション"],
             who:["ともだちと","仕事仲間と"],
@@ -599,7 +607,7 @@ const games = [
         explanation:"手札は1枚！姫に恋文を届けるべく家臣たちの思惑が交錯する！",
         info:{
             num_players:"2~4人",
-            playtime:"20分",
+            playtime:"5分",
             price:"2000円",
             system_tag:["推測",],
             who:["ともだちと","家族と"],
@@ -954,31 +962,27 @@ function createCarousel(gamename) {
     
     gameInfo.appendChild(gameName);
 
+    // ゲーム情報アイコン
     const gameiconContainer= document.createElement("div");
     gameiconContainer.classList.add("game-icon-container");
 
     const peopleIcon=document.createElement("img");
     peopleIcon.src="/pictures/system_design/pickup_icons_people.svg"
     peopleIcon.classList.add("game-info-icons");
-
     const peopleText =document.createElement("p");
     peopleText.textContent=game.info.num_players;
     peopleText.classList.add("game-info-texts")
 
-
     const playtimeIcon=document.createElement("img");
     playtimeIcon.src="/pictures/system_design/pickup_icons_playtime.svg"
     playtimeIcon.classList.add("game-info-icons");
-
     const playtimeText =document.createElement("p");
     playtimeText.textContent=game.info.playtime;
     playtimeText.classList.add("game-info-texts")
 
-
     const priceIcon=document.createElement("img");
     priceIcon.src="/pictures/system_design/pickup_icons_price.svg"
     priceIcon.classList.add("game-info-icons");
-
     const priceText =document.createElement("p");
     priceText.textContent=game.info.price;
     priceText.classList.add("game-info-texts")
@@ -992,14 +996,55 @@ function createCarousel(gamename) {
 
     gameInfo.appendChild(gameiconContainer);
 
+    // 説明欄
     const explanation = document.createElement('p');
     explanation.textContent=game.explanation;
     explanation.classList.add("explanation");
     gameInfo.appendChild(explanation);
 
+    // ゲームタグ
+    const gametagContainer= document.createElement("div");
+    gametagContainer.classList.add("game-tag-container");
+
+    const systemtagContainer=document.createElement("div");
+    systemtagContainer.classList.add("systemtag-container");
+    const systemtagText=document.createElement("p");
+    systemtagText.textContent="システム"
+    systemtagText.classList.add("systemtag-text");
+    systemtagContainer.appendChild(systemtagText);
+    //システムタグのdivを追加
+    game.info.system_tag.forEach(tag => {
+        const tagElement = document.createElement("span");
+        tagElement.textContent = tag;
+        tagElement.classList.add("tag");
+        systemtagContainer.appendChild(tagElement);
+    });
+
+    const whowheretagContainer=document.createElement("div");
+    whowheretagContainer.classList.add("whowheretag-container");
+    const whowheretagText=document.createElement("p");
+    whowheretagText.textContent="だれと/どこで"
+    whowheretagText.classList.add("whowheretag-text");
+    whowheretagContainer.appendChild(whowheretagText);
+    //だれとどこでタグのdivを追加
+    game.info.who.forEach(tag => {
+        const tagElement = document.createElement("span");
+        tagElement.textContent = tag;
+        tagElement.classList.add("tag");
+        whowheretagContainer.appendChild(tagElement);
+    });
+
+    game.info.where.forEach(tag => {
+        const tagElement = document.createElement("span");
+        tagElement.textContent = tag;
+        tagElement.classList.add("tag");
+        whowheretagContainer.appendChild(tagElement);
+    });
+    gametagContainer.appendChild(systemtagContainer);
+    gametagContainer.appendChild(whowheretagContainer);
+
     const gameControls = document.createElement('div');
     gameControls.classList.add('game-controls');
-
     // 購入ボタンを作成
     const purchaseButton = document.createElement('button');
     const purchaseIcon = document.createElement('img');
