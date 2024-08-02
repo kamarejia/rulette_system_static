@@ -1015,7 +1015,7 @@ function createCarousel(gamename) {
     //システムタグのdivを追加
     game.info.system_tag.forEach(tag => {
         const tagElement = document.createElement("span");
-        tagElement.textContent = tag;
+        tagElement.textContent = `#${tag}`;
         tagElement.classList.add("tag");
         systemtagContainer.appendChild(tagElement);
     });
@@ -1029,14 +1029,14 @@ function createCarousel(gamename) {
     //だれとどこでタグのdivを追加
     game.info.who.forEach(tag => {
         const tagElement = document.createElement("span");
-        tagElement.textContent = tag;
+        tagElement.textContent =`#${tag}`;
         tagElement.classList.add("tag");
         whowheretagContainer.appendChild(tagElement);
     });
 
     game.info.where.forEach(tag => {
         const tagElement = document.createElement("span");
-        tagElement.textContent = tag;
+        tagElement.textContent = `#${tag}`;
         tagElement.classList.add("tag");
         whowheretagContainer.appendChild(tagElement);
     });
