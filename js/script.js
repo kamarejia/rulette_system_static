@@ -663,7 +663,7 @@ const games = [
         }
     },
     {
-        id:xxxx,
+        id:1012,
         grid: '/pictures/ナインタイル/grid/ninetile_grid400.webp',
         name: 'ナインタイル',
         // 46文字まで
