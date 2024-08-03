@@ -662,6 +662,55 @@ const games = [
             ]
         }
     },
+    {
+        id:xxxx,
+        grid: '/pictures/ナインタイル/grid/ninetile_grid400.webp',
+        name: 'ナインタイル',
+        // 46文字まで
+        explanation:"すばやくタイルをそろえるスピードゲーム！ひっくり返して！動かして！",
+        info:{
+            num_players:"2~4人",
+            playtime:"15分",
+            price:"3000円",
+            system_tag:["パズル","スピード"],
+            who:["こどもと","家族と"],
+            where:["家で"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/ナインタイル/pickup/components/ninetile_grid800.webp',
+                "/pictures/ナインタイル/pickup/components/ninetile_box800.webp",
+                '/pictures/ナインタイル/pickup/components/ninetile_setting800.webp',
+                "/pictures/ナインタイル/pickup/components/ninetile_comoponent800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                'https://via.placeholder.com/300x200?text=Description+1-1',
+                'https://via.placeholder.com/300x200?text=Description+1-2'
+            ],
+            setup: [
+                'https://via.placeholder.com/300x200?text=Setup+1-1',
+                'https://via.placeholder.com/300x200?text=Setup+1-2'
+            ],
+            gameplay: [
+                'https://via.placeholder.com/300x200?text=Gameplay+1-1',
+                'https://via.placeholder.com/300x200?text=Gameplay+1-2'
+            ],
+            endgame: [
+                'https://via.placeholder.com/300x200?text=Endgame+1-1',
+                'https://via.placeholder.com/300x200?text=Endgame+1-2'
+            ]
+        }
+    },
 ];
 
 // 現在の状態を管理する変数
