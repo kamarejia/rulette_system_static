@@ -26,7 +26,7 @@ main{
 .app {
     background-color: #fffefa;
     width: 100%;
-    max-width: 500px; /* デスクトップなどの大きな画面での最大幅 */
+    max-width: 600px; /* デスクトップなどの大きな画面での最大幅 */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
