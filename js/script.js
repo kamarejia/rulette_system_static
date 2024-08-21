@@ -686,10 +686,175 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                "/pictures/ナインタイル/rules/description/ninetile_1.webp",
+                "/pictures/ナインタイル/rules/description/ninetile_2.webp",
+                "/pictures/ナインタイル/rules/description/ninetile_3.webp",
                 '/pictures/ナインタイル/pickup/components/ninetile_grid800.webp',
                 "/pictures/ナインタイル/pickup/components/ninetile_box800.webp",
                 '/pictures/ナインタイル/pickup/components/ninetile_setting800.webp',
                 "/pictures/ナインタイル/pickup/components/ninetile_comoponent800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/ナインタイル/rules/description/ninetile_1.webp',
+                '/pictures/ナインタイル/rules/description/ninetile_2.webp',
+                "/pictures/ナインタイル/rules/description/ninetile_3.webp"
+            ],
+            setup: [
+                '/pictures/ナインタイル/rules/setup/ninetile_4.webp',
+                '/pictures/ナインタイル/rules/setup/ninetile_5.webp'
+            ],
+            gameplay: [
+                '/pictures/ナインタイル/rules/gameplay/ninetile_6.webp',
+                '/pictures/ナインタイル/rules/gameplay/ninetile_7.webp',
+                '/pictures/ナインタイル/rules/gameplay/ninetile_8.webp',
+                '/pictures/ナインタイル/rules/gameplay/ninetile_9.webp',
+            ],
+            endgame: [
+                '/pictures/ナインタイル/rules/endgame/ninetile_10.webp',
+            
+            ]
+        }
+    },
+    {
+        id:1013,
+        grid: '/pictures/ジャイプル/grid/jaipur_grid400.webp',
+        name: 'JAIPUR',
+        // 46文字まで
+        explanation:"インドの商人になってお金稼ぎ！勝利の鍵はラクダとまとめ売り！",
+        info:{
+            num_players:"2人",
+            playtime:"30分",
+            price:"3300円",
+            system_tag:["ハンドマネージメント"],
+            who:["ともだちと"],
+            where:["カフェで"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                "/pictures/ジャイプル/rules/description/jaipur_1.webp",
+                "/pictures/ジャイプル/rules/description/jaipur_2.webp",
+                "/pictures/ジャイプル/rules/description/jaipur_3.webp",
+                '/pictures/ジャイプル/pickup/components/jaipur_grid800.webp',
+                "/pictures/ジャイプル/pickup/components/jaipur_box800.webp",
+                '/pictures/ジャイプル/pickup/components/jaipur_setting800.webp',
+                "/pictures/ジャイプル/pickup/components/jaipur_component800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                "/pictures/ジャイプル/rules/description/jaipur_1.webp",
+                "/pictures/ジャイプル/rules/description/jaipur_2.webp",
+                "/pictures/ジャイプル/rules/description/jaipur_3.webp",
+            ],
+            setup: [
+                '/pictures/ジャイプル/rules/setup/jaipur_4.webp',
+                '/pictures/ジャイプル/rules/setup/jaipur_5.webp',
+                '/pictures/ジャイプル/rules/setup/jaipur_6.webp',
+                '/pictures/ジャイプル/rules/setup/jaipur_7.webp',
+            ],
+            gameplay: [
+                '/pictures/ジャイプル/rules/gameplay/jaipur_8.webp',
+                '/pictures/ジャイプル/rules/gameplay/jaipur_9.webp',
+                '/pictures/ジャイプル/rules/gameplay/jaipur_10.webp',
+                '/pictures/ジャイプル/rules/gameplay/jaipur_11.webp',
+                '/pictures/ジャイプル/rules/gameplay/jaipur_12.webp',
+                '/pictures/ジャイプル/rules/gameplay/jaipur_13.webp',
+                '/pictures/ジャイプル/rules/gameplay/jaipur_14.webp',
+                '/pictures/ジャイプル/rules/gameplay/jaipur_15.webp',
+            ],
+            endgame: [
+                '/pictures/ジャイプル/rules/endgame/jaipur_16.webp',
+                '/pictures/ジャイプル/rules/endgame/jaipur_18.webp',
+            ]
+        }
+    },
+    {
+        id:1014,
+        grid: '/pictures/プロポーズ/grid/puropo-zu _grid.webp',
+        name: 'たった今考えたプロポーズの言葉を君に捧ぐよ',
+        // 46文字まで
+        explanation:"愛を語れ！",
+        info:{
+            num_players:"2~4人",
+            playtime:"15分",
+            price:"3000円",
+            system_tag:["パズル","スピード"],
+            who:["こどもと","家族と"],
+            where:["家で"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                "/pictures/プロポーズ/pickup/components/puropo-zu _box800.webp",
+                "/pictures/プロポーズ/pickup/components/puropo-zu _setting800.webp",
+                "/pictures/プロポーズ/pickup/components/puropo-zu _compoment.webp",
+            
+            ]
+        },
+        rules: {
+            description: [
+                'https://via.placeholder.com/300x200?text=Description+1-1',
+                'https://via.placeholder.com/300x200?text=Description+1-2'
+            ],
+            setup: [
+                'https://via.placeholder.com/300x200?text=Setup+1-1',
+                'https://via.placeholder.com/300x200?text=Setup+1-2'
+            ],
+            gameplay: [
+                'https://via.placeholder.com/300x200?text=Gameplay+1-1',
+                'https://via.placeholder.com/300x200?text=Gameplay+1-2'
+            ],
+            endgame: [
+                'https://via.placeholder.com/300x200?text=Endgame+1-1',
+                'https://via.placeholder.com/300x200?text=Endgame+1-2'
+            ]
+        }
+    },
+    {
+        id:1015,
+        grid: '/pictures/モダンアート/grid/modernart_grid400.webp',
+        name: 'Modern Art',
+        // 46文字まで
+        explanation:"絵画のオークションで荒稼ぎ！価値の変動には注意して！",
+        info:{
+            num_players:"2~4人",
+            playtime:"15分",
+            price:"3000円",
+            system_tag:["パズル","スピード"],
+            who:["こどもと","家族と"],
+            where:["家で"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                "/pictures/モダンアート/pickup/components/modernart_grid800.webp",
+                "/pictures/モダンアート/pickup/components/modernart_box800.webp",
+                "/pictures/モダンアート/pickup/components/modernart_setting800.webp",
+                '/pictures/モダンアート/pickup/components/modernart_component800.webp',
             ]
         },
         rules: {
