@@ -1,35 +1,4 @@
-@media (min-width: 600px) {
-    /* body {
-      background-color: lightblue;
-    } */
-    .home-title-pop{
-      font-size:22.8px;
-      margin-left:30px;
-      margin-bottom:18.2px;
-    }
-    .grid-item img {
-      width:268.5px;
-      height:268.5px;
-    }
-    .grid-box {
-      width: 268.5px;
-      
-    }
-    .grid-container {
-     
-      gap: 21px;
-      
-      padding: 21px;
-    }
-    .grid-title {
-      text-align: center;
-      font-size:21.6px;
-      }
-    
-  .grid-description {
-      font-size: 16.32px;
-  }
-}
+
 
 .moul-regular {
     font-family: "Moul", serif;
@@ -534,4 +503,37 @@ gap: 20px;
 .notification.show {
     top: 20px;
     opacity: 1;
+}
+
+@media (min-width: 600px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .home-title-pop{
+      font-size:22.8px;
+      margin-left:30px;
+      margin-bottom:18.2px;
+    }
+    .grid-item img {
+      width:268.5px;
+      height:268.5px;
+    }
+    .grid-box {
+      width: 268.5px;
+      
+    }
+    .grid-container {
+     
+      gap: 21px;
+      
+      padding: 21px;
+    }
+    .grid-title {
+      text-align: center;
+      font-size:21.6px;
+      }
+    
+  .grid-description {
+      font-size: 16.32px;
+  }
 }
