@@ -510,30 +510,85 @@ gap: 20px;
       background-color: lightblue;
     } */
     .home-title-pop{
-      font-size:22.8px;
-      margin-left:30px;
-      margin-bottom:18.2px;
+        font-size:22.8px;
+        margin-left:30px;
+        margin-bottom:18.2px;
     }
     .grid-item img {
-      width:268.5px;
-      height:268.5px;
+        width:268.5px;
+        height:268.5px;
     }
     .grid-box {
-      width: 268.5px;
-      
+        width: 268.5px;
     }
     .grid-container {
-     
-      gap: 21px;
-      
-      padding: 21px;
+
+        gap: 21px;
+        padding: 21px;
     }
     .grid-title {
-      text-align: center;
-      font-size:21.6px;
-      }
+        text-align: center;
+        font-size:21.6px;
+    }
     
-  .grid-description {
-      font-size: 16.32px;
-  }
+    .grid-description {
+        font-size: 16.32px;
+    }
+
+    .carousel{
+        width:564px;
+    }
+    .carousel-dots {
+        gap:9.6px;
+        top: 564px;
+    }
+    .carousel .click-area.left {
+    height: 564px;
+    }
+    .carousel .click-area.right {
+    height: 564px;
+    }
+    .carousel-wrapper {
+    width: 600px;
+    }
+    #pickup-carousels {
+    
+    width: 600px;
+    }
+    .gametitle {
+        margin-top: 42px;
+    }
+    #accordion-container {
+        margin-top: 12px;
+        width: 600px;
+    }
+    .accordion.closed {
+        height: 78px;
+        margin-top: 30px;
+    }
+    .accordion {
+        width: 564px;
+    }
+    .accordion-header {
+        height: 78px;
+    }
+    .accordion-content {
+        width: 600px;
+    }
+    .accordion-content .carousel {
+        height: 582px;
+    }
+    .accordion.open {
+        height: 684px;
+        margin-top: 30px;
+        /* margin-bottom: 10px; */
+    }
+        
+    .pickup-title-more {
+        color: #4B5563;
+        font-size:22.8px;
+        margin-left:30px;
+        margin-bottom:18.2px;
+        margin-top:18.2px;
+    }
 }

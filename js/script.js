@@ -726,7 +726,7 @@ const games = [
         info:{
             num_players:"2人",
             playtime:"30分",
-            price:"3300円",
+            price:"2700円",
             system_tag:["ハンドマネージメント"],
             who:["ともだちと"],
             where:["カフェで"]
@@ -735,7 +735,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        purchaseLink: 'https://amzn.asia/d/70UYl5m',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -785,18 +785,18 @@ const games = [
         // 46文字まで
         explanation:"愛を語れ！",
         info:{
-            num_players:"2~4人",
-            playtime:"15分",
-            price:"3000円",
-            system_tag:["パズル","スピード"],
-            who:["こどもと","家族と"],
-            where:["家で"]
+            num_players:"3~6人",
+            playtime:"15~30分",
+            price:"3500円",
+            system_tag:["パーティゲーム","大喜利"],
+            who:["ともだちと","恋人と"],
+            where:["パーティで"]
         },
         likes: {
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        purchaseLink: 'https://www.clagla.jp/propose-series.html',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -834,18 +834,18 @@ const games = [
         // 46文字まで
         explanation:"絵画のオークションで荒稼ぎ！価値の変動には注意して！",
         info:{
-            num_players:"2~4人",
-            playtime:"15分",
-            price:"3000円",
-            system_tag:["パズル","スピード"],
-            who:["こどもと","家族と"],
+            num_players:"3~5人",
+            playtime:"45~60分",
+            price:"3300円",
+            system_tag:["オークション"],
+            who:["ともだちと","親友と"],
             where:["家で"]
         },
         likes: {
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        purchaseLink: '',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
