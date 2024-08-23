@@ -1428,7 +1428,7 @@ function copyToClipboard() {
 
     if (game) {
         // textsの内容を作成
-        const texts = `『${game.name}』\nhttps://rulette-system-static.vercel.app/games/${game.id}\n\n${game.explanation}`;
+        const texts = `『${game.name}』\nhttps://rulette.games/games/${game.id}\n\n${game.explanation}`;
 
         navigator.clipboard.writeText(texts).then(() => {
             const notification = document.getElementById('notification');
