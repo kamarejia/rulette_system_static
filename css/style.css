@@ -75,20 +75,11 @@ header {
     
     
 }
-.rulette-logo{
-    height: calc(2rem + 2vw); /* 画面サイズに応じて調整 */
-    width: calc(2rem + 2vw);
-    /* margin-bottom: 7px; */
-    margin-right: 1.3vw;
+.rulette-logo-header{
+    height: 10vw; 
+    
 }
-.title-container{
-    position: relative;
-    /* text-align: right; */
-    /* width:110px; */
-    /* height: 40px; 必要に応じて調整 */
-    /* border: 1px solid #ccc; */
-    cursor: pointer;
-}
+
 
 .title-container h1{
     margin:0;
