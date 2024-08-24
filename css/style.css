@@ -66,8 +66,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 4vh;
-    margin-top:3vh;
+    margin-bottom: 2vw;
+    margin-top:4vw;
 }
 .rulette-title{
     display:inline-flex;
@@ -76,7 +76,7 @@ header {
     
 }
 .rulette-logo-header{
-    height: 10vw; 
+    height: 12vw; 
     
 }
 
@@ -637,5 +637,12 @@ gap: 20px;
         width: 27.09px;
         height: 27.09px;
 
+    }
+    .rulette-logo-header {
+        height: 72px;
+    }
+    header{
+        margin-top: 24px;
+        margin-bottom: 12px;
     }
 }
