@@ -90,7 +90,7 @@ header {
     font-size: calc(0.4rem + 0.7vw);
     /* margin:0; */
     padding:0;
-    font-weight: bold;
+    font-weight: 700;
     position: absolute;
     top:4vh;
     right:0;
@@ -149,7 +149,7 @@ main {
 }
 
 .grid-description {
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     font-size: calc(0.57rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
     color: #949495;
@@ -307,7 +307,7 @@ gap: 20px;
     color: #8E959D;
     font-size: calc(0.9rem + 0.6vw);
     margin-right: 4vw;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .explanation{
@@ -316,7 +316,7 @@ gap: 20px;
     color:#8A8A8A;
     text-align: center;
     font-size:calc(0.7rem + 0.6vw);
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 0vw;
 }
 .systemtag-container{
@@ -330,14 +330,14 @@ gap: 20px;
     margin: 0;
     font-size: calc(0.7rem + 0.6vw);
     color: #8a8a8a;
-    font-weight: 600;
+    font-weight: 700;
     margin-right: 2vw;
 }
 .systemtag-text{
     margin: 0;
     font-size: calc(0.7rem + 0.6vw);
     color: #8a8a8a;
-    font-weight: 600;
+    font-weight: 700;
     margin-right: 5vw;
     margin-left: 4vw;
 }
@@ -398,7 +398,7 @@ gap: 20px;
     cursor: pointer;
     color: white;
     font-size: calc(0.7rem + 0.6vw);
-    font-weight: 600;
+    font-weight: 700;
 }
 .purchaseButton{
     background-color:#ff4539;
@@ -454,7 +454,7 @@ gap: 20px;
 }
 .accordion-header span {
     font-size: calc(0.9rem + 0.8vw);
-    font-weight: 600;
+    font-weight: 700;
 }
 .toggleButton {
     background: none;
