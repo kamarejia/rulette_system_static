@@ -830,7 +830,7 @@ const games = [
     {
         id:1015,
         grid: '/pictures/モダンアート/grid/modernart_grid400.webp',
-        name: 'Modern Art',
+        name: 'MODERN Art',
         // 46文字まで
         explanation:"絵画のオークションで荒稼ぎ！価値の変動には注意して！",
         info:{
@@ -851,6 +851,10 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                "/pictures/モダンアート/rules/description/modernart_1.webp",
+                "/pictures/モダンアート/rules/description/modernart_2.webp",
+                "/pictures/モダンアート/rules/description/modernart_3.webp",
+                "/pictures/モダンアート/rules/description/modernart_4.webp",
                 "/pictures/モダンアート/pickup/components/modernart_grid800.webp",
                 "/pictures/モダンアート/pickup/components/modernart_box800.webp",
                 "/pictures/モダンアート/pickup/components/modernart_setting800.webp",
@@ -859,20 +863,162 @@ const games = [
         },
         rules: {
             description: [
-                'https://via.placeholder.com/300x200?text=Description+1-1',
-                'https://via.placeholder.com/300x200?text=Description+1-2'
+                "/pictures/モダンアート/rules/description/modernart_1.webp",
+                "/pictures/モダンアート/rules/description/modernart_2.webp",
+                "/pictures/モダンアート/rules/description/modernart_3.webp",
+                "/pictures/モダンアート/rules/description/modernart_4.webp",
             ],
             setup: [
-                'https://via.placeholder.com/300x200?text=Setup+1-1',
-                'https://via.placeholder.com/300x200?text=Setup+1-2'
+                '/pictures/モダンアート/rules/setup/modernart_5.webp',
+                '/pictures/モダンアート/rules/setup/modernart_6.webp',
+                '/pictures/モダンアート/rules/setup/modernart_7.webp',
+                '/pictures/モダンアート/rules/setup/modernart_8.webp',
+                
+
             ],
             gameplay: [
-                'https://via.placeholder.com/300x200?text=Gameplay+1-1',
-                'https://via.placeholder.com/300x200?text=Gameplay+1-2'
+                '/pictures/モダンアート/rules/gameplay/modernart_9.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_10.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_11.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_12.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_13.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_14.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_15.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_16.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_17.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_18.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_19.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_20.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_21.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_22.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_23.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_24.webp',
+                '/pictures/モダンアート/rules/gameplay/modernart_25.webp',
             ],
             endgame: [
-                'https://via.placeholder.com/300x200?text=Endgame+1-1',
-                'https://via.placeholder.com/300x200?text=Endgame+1-2'
+                '/pictures/モダンアート/rules/endgame/modernart_26.webp',
+                '/pictures/モダンアート/rules/endgame/modernart_27.webp',
+            ]
+        }
+    },
+    {
+        id:1016,
+        grid: '/pictures/ラマ/grid/lama_grid400.webp',
+        name: 'ラマ',
+        // 46文字まで
+        explanation:"手札は残ると減点！だれよりもはやく捨てきれ！ラマには要注意...",
+        info:{
+            num_players:"2~6人",
+            playtime:"20分",
+            price:"1800円",
+            system_tag:["ハンドマネージメント"],
+            who:["ともだちと","親戚と"],
+            where:["家で"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: '',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                "/pictures/ラマ/rules/description/lama_1.webp",
+                "/pictures/ラマ/rules/description/lama_2.webp",
+                "/pictures/ラマ/rules/description/lama_3.webp",
+                "/pictures/ラマ/rules/description/lama_4.webp",
+                "/pictures/ラマ/pickup/components/lama_grid800.webp",
+                "/pictures/ラマ/pickup/components/lama_box800.webp",
+                "/pictures/ラマ/pickup/components/lama_setting800.webp",
+                '/pictures/ラマ/pickup/components/lama_component800.webp',
+            ]
+        },
+        rules: {
+            description: [
+                "/pictures/ラマ/rules/description/lama_1.webp",
+                "/pictures/ラマ/rules/description/lama_2.webp",
+                "/pictures/ラマ/rules/description/lama_3.webp",
+                "/pictures/ラマ/rules/description/lama_4.webp",
+            ],
+            setup: [
+                '/pictures/ラマ/rules/setup/lama_5.webp',
+
+            ],
+            gameplay: [
+                '/pictures/ラマ/rules/gameplay/lama_6.webp',
+                '/pictures/ラマ/rules/gameplay/lama_7.webp',
+                '/pictures/ラマ/rules/gameplay/lama_8.webp',
+                '/pictures/ラマ/rules/gameplay/lama_9.webp',
+                '/pictures/ラマ/rules/gameplay/lama_10.webp',
+                '/pictures/ラマ/rules/gameplay/lama_11.webp',
+                '/pictures/ラマ/rules/gameplay/lama_12.webp',
+                '/pictures/ラマ/rules/gameplay/lama_13.webp',
+                '/pictures/ラマ/rules/gameplay/lama_14.webp',
+                '/pictures/ラマ/rules/gameplay/lama_15.webp',
+            ],
+            endgame: [
+                '/pictures/ラマ/rules/endgame/lama_16.webp',
+            ]
+        }
+    },
+    {
+        id:1017,
+        grid: '/pictures/ナナ/grid/nana_grid400.webp',
+        name: 'ナナ',
+        // 46文字まで
+        explanation:"手札ありの神経衰弱！「ナナ」をつくってあがり！",
+        info:{
+            num_players:"2~5人",
+            playtime:"15分",
+            price:"1500円",
+            system_tag:["メモリー"],
+            who:["こどもと","ともだちと"],
+            where:["家で"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: '',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                "/pictures/ナナ/rules/description/nana_1.webp",
+                "/pictures/ナナ/rules/description/nana_2.webp",
+                "/pictures/ナナ/rules/description/nana_3.webp",
+                "/pictures/ナナ/rules/description/nana_4.webp",
+                "/pictures/ナナ/pickup/components/nana_grid800.webp",
+                "/pictures/ナナ/pickup/components/nana_box800.webp",
+                "/pictures/ナナ/pickup/components/nana_setting800.webp",
+                '/pictures/ナナ/pickup/components/nana_component800.webp',
+            ]
+        },
+        rules: {
+            description: [
+                "/pictures/ナナ/rules/description/nana_1.webp",
+                "/pictures/ナナ/rules/description/nana_2.webp",
+                "/pictures/ナナ/rules/description/nana_3.webp",
+                "/pictures/ナナ/rules/description/nana_4.webp",
+            ],
+            setup: [
+                '/pictures/ナナ/rules/setup/nana_5.webp',
+                '/pictures/ナナ/rules/setup/nana_6.webp',
+
+            ],
+            gameplay: [
+                '/pictures/ナナ/rules/gameplay/nana_10.webp',
+                '/pictures/ナナ/rules/gameplay/nana_7.webp',
+                '/pictures/ナナ/rules/gameplay/nana_8.webp',
+                '/pictures/ナナ/rules/gameplay/nana_9.webp',
+            ],
+            endgame: [
+                '/pictures/ナナ/rules/endgame/nana_11.webp',
+                '/pictures/ナナ/rules/endgame/nana_12.webp',
+                '/pictures/ナナ/rules/endgame/nana_13.webp',
             ]
         }
     },
