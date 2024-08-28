@@ -503,6 +503,7 @@ gap: 20px;
     background-color: #f1d058; /* 指定の黄色 */
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .footer-content {
@@ -524,29 +525,34 @@ gap: 20px;
 
 .sns-icons {
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
 .sns-icon {
-    margin-right: 20px;
+    color: #f1d058;
+    width: 40px;
 }
 
 .sns-image {
     width: 40px; /* アイコンのサイズを適宜調整 */
     height: 40px;
+    color: #f1d058;
 }
 
 .google-form-button {
     background-color: white;
     color: #f1d058;
-    padding: 10px 20px;
+    padding: 8px 60px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    font-size: calc(1.2rem + 0.6vw); /* 指定のフォントサイズ */
+    font-size: calc(0.8rem + 0.6vw);
     font-weight: 700;
     margin-bottom: 2vh;
-    margin-left: 5vw;
+   
 }
 
 @media (min-width: 600px) {
