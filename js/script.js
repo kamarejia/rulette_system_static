@@ -810,20 +810,20 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/system_design/preparation.webp',
-                '/pictures/system_design/preparation.webp',
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
             ],
             setup: [
-                'https://via.placeholder.com/300x200?text=Setup+1-1',
-                'https://via.placeholder.com/300x200?text=Setup+1-2'
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
             ],
             gameplay: [
-                'https://via.placeholder.com/300x200?text=Gameplay+1-1',
-                'https://via.placeholder.com/300x200?text=Gameplay+1-2'
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
             ],
             endgame: [
-                'https://via.placeholder.com/300x200?text=Endgame+1-1',
-                'https://via.placeholder.com/300x200?text=Endgame+1-2'
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
             ]
         }
     },
