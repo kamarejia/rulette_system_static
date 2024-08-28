@@ -497,6 +497,58 @@ gap: 20px;
     opacity: 1;
 }
 
+
+/* フッターのスタイル */
+.footer {
+    background-color: #f1d058; /* 指定の黄色 */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.footer p {
+    color: white;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.sns-icons {
+    margin: 20px 0;
+}
+
+.sns-icon {
+    margin-right: 20px;
+}
+
+.sns-image {
+    width: 40px; /* アイコンのサイズを適宜調整 */
+    height: 40px;
+}
+
+.google-form-button {
+    background-color: white;
+    color: #f1d058;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: calc(1.2rem + 0.6vw); /* 指定のフォントサイズ */
+    font-weight: 700;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+}
+
 @media (min-width: 600px) {
     /* body {
         background-color: lightblue;
