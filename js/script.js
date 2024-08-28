@@ -1029,9 +1029,17 @@ const games = [
 
 
 const routes = [
-    { path: "/", view: () => renderPage(0) },
-    { path: "/games/:id", view: (params) => renderPage(params.id) }
+    { path: "/", view: () => renderPage(0), title: "Rulette ゲームルールまとめ" },
+    { path: "/games/:id", view: (params) => renderPage(params.id), title: (params) => `Game ${params.id} - Rulette` }
 ];
+function updateTitle(route, params) {
+    if (typeof route.title === 'function') {
+        document.title = route.title(params);
+    } else {
+        document.title = route.title;
+    }
+}
+
 const matchRoute = (path) => {
     for (const route of routes) {
         const paramNames = [];
@@ -1054,11 +1062,14 @@ const matchRoute = (path) => {
 const handleRouting = (path) => {
     const matchedRoute = matchRoute(path);
     if (matchedRoute) {
+        updateTitle(matchedRoute.route, matchedRoute.params);
         matchedRoute.route.view(matchedRoute.params);
     } else {
         app.innerHTML = "<h1>404 - Not Found</h1><p>Page not found!</p>";
+        document.title = "404 - Not Found - Rulette";
     }
 };
+
 window.addEventListener("popstate", () => {
     
     handleRouting(window.location.pathname);
