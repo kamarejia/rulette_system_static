@@ -1029,8 +1029,15 @@ const games = [
 
 
 const routes = [
-    { path: "/", view: () => renderPage(0), title: "Rulette ゲームルールまとめ" },
-    { path: "/games/:id", view: (params) => renderPage(params.id), title: (params) => `Game ${params.id} - Rulette` }
+    { path: "/", view: () => renderPage(0), title: "Home - Rulette" },
+    { 
+        path: "/games/:id", 
+        view: (params) => renderPage(params.id),
+        title: (params) => {
+            const game = games.find(game => game.id == params.id);
+            return game ? `${game.name} - Rulette` : 'Game - Rulette';
+        }
+    }
 ];
 function updateTitle(route, params) {
     if (typeof route.title === 'function') {
