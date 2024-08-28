@@ -810,8 +810,8 @@ const games = [
         },
         rules: {
             description: [
-                'https://via.placeholder.com/300x200?text=Description+1-1',
-                'https://via.placeholder.com/300x200?text=Description+1-2'
+                '/pictures/system_design/preparation.webp',
+                '/pictures/system_design/preparation.webp',
             ],
             setup: [
                 'https://via.placeholder.com/300x200?text=Setup+1-1',
