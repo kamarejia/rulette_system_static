@@ -1022,6 +1022,65 @@ const games = [
             ]
         }
     },
+    {
+        id:1018,
+        grid: '/pictures/fabfib/grid/fabfib_grid400.webp',
+        name: 'FABFIB',
+        // 46文字まで
+        explanation:"3けたの数字を宣言！相手を騙してライフを削れ！お手軽ブラフゲーム！",
+        info:{
+            num_players:"3~10人",
+            playtime:"20~30分",
+            price:"1500円",
+            system_tag:["ブラフ"],
+            who:["ともだちと"],
+            where:["家で","パーティで"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: '',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                "/pictures/fabfib/rules/description/fabfib_1.webp",
+                "/pictures/fabfib/rules/description/fabfib_2.webp",
+                "/pictures/fabfib/rules/description/fabfib_3.webp",
+                "/pictures/fabfib/pickup/components/fabfib_grid800.webp",
+                "/pictures/fabfib/pickup/components/fabfib_box800.webp",
+                "/pictures/fabfib/pickup/components/fabfib_setting800.webp",
+                'pictures/fabfib/pickup/components/fabfib_component800.webp',
+            ]
+        },
+        rules: {
+            description: [
+                "/pictures/fabfib/rules/description/fabfib_1.webp",
+                "/pictures/fabfib/rules/description/fabfib_2.webp",
+                "/pictures/fabfib/rules/description/fabfib_3.webp",
+            ],
+            setup: [
+                '/pictures/fabfib/rules/setup/fabfib_4.webp',
+                '/pictures/fabfib/rules/setup/fabfib_5.webp',
+
+            ],
+            gameplay: [
+                '/pictures/fabfib/rules/gameplay/fabfib_6.webp',
+                '/pictures/fabfib/rules/gameplay/fabfib_7.webp',
+                '/pictures/fabfib/rules/gameplay/fabfib_8.webp',
+                '/pictures/fabfib/rules/gameplay/fabfib_9.webp',
+                '/pictures/fabfib/rules/gameplay/fabfib_10.webp',
+                '/pictures/fabfib/rules/gameplay/fabfib_11.webp',
+                '/pictures/fabfib/rules/gameplay/fabfib_12.webp',
+            ],
+            endgame: [
+                '/pictures/fabfib/rules/endgame/fabfib_13.webp',
+            ]
+        }
+    },
+    
 ];
 
 // 現在の状態を管理する変数
