@@ -994,7 +994,7 @@ const games = [
                 "/pictures/ナナ/pickup/components/nana_grid800.webp",
                 "/pictures/ナナ/pickup/components/nana_box800.webp",
                 "/pictures/ナナ/pickup/components/nana_setting800.webp",
-                '/pictures/ナナ/pickup/components/nana_component800.webp',
+                "/pictures/ナナ/pickup/components/nana_component800.webp"
             ]
         },
         rules: {
@@ -1052,7 +1052,7 @@ const games = [
                 "/pictures/fabfib/pickup/components/fabfib_grid800.webp",
                 "/pictures/fabfib/pickup/components/fabfib_box800.webp",
                 "/pictures/fabfib/pickup/components/fabfib_setting800.webp",
-                'pictures/fabfib/pickup/components/fabfib_component800.webp',
+                '/pictures/fabfib/pickup/components/fabfib_component800.webp',
             ]
         },
         rules: {
