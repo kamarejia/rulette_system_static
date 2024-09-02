@@ -1098,7 +1098,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://www.clagla.jp/propose-series.html',
+        purchaseLink: '',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
