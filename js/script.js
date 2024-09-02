@@ -14,6 +14,36 @@
         who:[],
         where:[]
     },
+    details:{
+        gameStory:"",
+        basicInfo:{
+            refPrice:"2000円",
+            numPlayers:"4人",
+            playTime:"20分",
+            release:"2010年",
+            difficulty:"ふつう",
+            ageRange:"8歳以上",
+            gameSystem:"セットコレクション",
+            size:"縦：横：高さ=20:20:4"
+        },
+        contents:["ルール説明書","舞台カード","フラッグ"],
+        credits:{
+            designer:["クニツィア","大塚健吾"],
+            artwork:["ローレンス","ビーナ","マーク"],
+            company:["クロノノーツゲームズ","GMT","ランドスリべングゲームズ"]
+        }
+    },
+    qAndA:[
+            {
+                "question": "ストレートやストレートフラッシュにおいて1,3,2などだした順番がずれていても役になりますか。",
+                "answer": "順番がずれていても、正しいカードの組み合わせであれば役になります。"
+            },
+            {
+                "question": "プレイヤー数が多い場合の対策はありますか？",
+                "answer": "プレイヤー数が多い場合、ゲームのバランスを保つために特定のルール変更を推奨します。"
+            }
+        ],
+
     likes: {
         count: 3,
         timestamps: []
@@ -87,7 +117,6 @@ const games = [
             ],
             setup: [
                 '/pictures/ガイスター/rules/setup/gaisuta_3.webp',
-               
             ],
             gameplay: [
                 '/pictures/ガイスター/rules/gameplay/gaisuta_4.webp',
@@ -97,7 +126,6 @@ const games = [
                 '/pictures/ガイスター/rules/endgame/gaisuta_6.webp',
                 '/pictures/ガイスター/rules/endgame/gaisuta_7.webp',
                 '/pictures/ガイスター/rules/endgame/gaisuta_8.webp',
-               
             ]
         }
     },
@@ -1036,6 +1064,35 @@ const games = [
             who:["ともだちと"],
             where:["家で","パーティで"]
         },
+        details:{
+            gameStory:"古代の戦争は隊列を組んだ軍団同士の間で戦われました。古代の指揮官たちは自国の隊列を敵よりも優位に動かすことにより敵隊列の分断、または側面からの包囲を試みる戦術の熟練を競ってきたのです。あなたはこの古代の戦術をマスターできるでしょうか？",
+            basicInfo:{
+                refPrice:"2000円",
+                numPlayers:"4人",
+                playTime:"20分",
+                release:"2010年",
+                difficulty:"ふつう",
+                ageRange:"8歳以上",
+                gameSystem:"セットコレクション",
+                size:"縦：横：高さ=20:20:4"
+            },
+            contents:["ルール説明書","舞台カード","フラッグ"],
+            credits:{
+                designer:["クニツィア","大塚健吾"],
+                artwork:["ローレンス","ビーナ","マーク"],
+                company:["クロノノーツゲームズ","GMT","ランドスリべングゲームズ"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "ストレートやストレートフラッシュにおいて1,3,2などだした順番がずれていても役になりますか。",
+                    "answer": "順番がずれていても、正しいカードの組み合わせであれば役になります。"
+                },
+                {
+                    "question": "プレイヤー数が多い場合の対策はありますか？",
+                    "answer": "プレイヤー数が多い場合、ゲームのバランスを保つために特定のルール変更を推奨します。"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -1604,7 +1661,7 @@ function createRuleCarousel(images) {
 }
 
 function createAccordion(gameName) {
-    const titles = ["かんたん説明", "ゲームの準備", "ゲームの流れ", "ゲームの終了"];
+    const titles = ["かんたん説明","詳しい情報", "ゲームの準備", "ゲームの流れ", "ゲームの終了","ルールQ＆A"];
     const container = document.getElementById('accordion-container');
     const game = games.find(g => g.name === gameName);
 
@@ -1628,25 +1685,171 @@ function createAccordion(gameName) {
 
         const content = document.createElement('div');
         content.classList.add('accordion-content');
+        
+        if(title ==="詳しい情報" ){
+            const gameDescription = document.createElement('div');
+            gameDescription.classList.add('game-description');
 
-        let images;
-        switch (index) {
-            case 0:
-                images = game.rules.description;
-                break;
-            case 1:
-                images = game.rules.setup;
-                break;
-            case 2:
-                images = game.rules.gameplay;
-                break;
-            case 3:
-                images = game.rules.endgame;
-                break;
+            const descriptionTitle = document.createElement('div');
+            descriptionTitle.classList.add('section-title');
+            descriptionTitle.textContent = 'ゲームの記述';
+            gameDescription.appendChild(descriptionTitle);
+
+            const descriptionText = document.createElement('p');
+            descriptionText.textContent = game.details.gameStory;
+            gameDescription.appendChild(descriptionText);
+
+            content.appendChild(gameDescription);
+
+            const basicInfo = document.createElement('div');
+            basicInfo.classList.add('basic-info');
+
+            const basicInfoTitle = document.createElement('div');
+            basicInfoTitle.classList.add('section-title');
+            basicInfoTitle.textContent = '基本情報';
+            basicInfo.appendChild(basicInfoTitle);
+
+            const basicInfoContainer = document.createElement('div');
+            basicInfoContainer.classList.add('basic-info-container');
+
+            const tableLeft = document.createElement('div');
+            tableLeft.classList.add('basic-info-table-left');
+
+            const tableLeftContent = `
+                <table>
+                    <tr><td>参考価格</td><td>${game.details.basicInfo.refPrice}</td></tr>
+                    <tr><td>プレイ人数</td><td>${game.details.basicInfo.numPlayers}</td></tr>
+                    <tr><td>プレイ時間</td><td>${game.details.basicInfo.playTime}</td></tr>
+                    <tr><td>発売年</td><td>${game.details.basicInfo.release}</td></tr>
+                </table>
+            `;
+            tableLeft.innerHTML = tableLeftContent;
+            basicInfoContainer.appendChild(tableLeft);
+
+            const tableRight = document.createElement('div');
+            tableRight.classList.add('basic-info-table-right');
+
+            const tableRightContent = `
+                <table>
+                    <tr><td>難易度</td><td>${game.details.basicInfo.difficulty}</td></tr>
+                    <tr><td>対象年齢</td><td>${game.details.basicInfo.ageRange}</td></tr>
+                    <tr><td>メカニクス</td><td>${game.details.basicInfo.gameSystem}</td></tr>
+                    <tr><td>大きさ (cm)</td><td>${game.details.basicInfo.size}</td></tr>
+                </table>
+            `;
+            tableRight.innerHTML = tableRightContent;
+            basicInfoContainer.appendChild(tableRight);
+
+            basicInfo.appendChild(basicInfoContainer);
+            content.appendChild(basicInfo);
+
+            const contents = document.createElement('div');
+            contents.classList.add('contents');
+
+            const contentsTitle = document.createElement('div');
+            contentsTitle.classList.add('section-title');
+            contentsTitle.textContent = '内容物';
+            contents.appendChild(contentsTitle);
+
+            const ul = document.createElement('ul');
+            game.details.contents.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `・${item}`;
+                ul.appendChild(li);
+            });
+            contents.appendChild(ul);
+            content.appendChild(contents);
+
+            const credits = document.createElement('div');
+            credits.classList.add('credits');
+
+            const creditsTitle = document.createElement('div');
+            creditsTitle.classList.add('section-title');
+            creditsTitle.textContent = 'クレジット';
+            credits.appendChild(creditsTitle);
+
+            const creditsTable = document.createElement('table');
+            let creditsContent = '';
+
+            game.details.credits.designer.forEach(designer => {
+                creditsContent += `<tr><td>ゲームデザイン</td><td>${designer}</td></tr>`;
+            });
+            game.details.credits.artwork.forEach((artist, index) => {
+                creditsContent += `<tr><td>${index === 0 ? 'アートワーク' : ''}</td><td>${artist}</td></tr>`;
+            });
+            game.details.credits.company.forEach((company, index) => {
+                creditsContent += `<tr><td>${index === 0 ? '企業/団体' : ''}</td><td>${company}</td></tr>`;
+            });
+
+            creditsTable.innerHTML = creditsContent;
+            credits.appendChild(creditsTable);
+            content.appendChild(credits);
+        }else if(title ==="ルールQ＆A"){
+            //後ほど記述
+            const qaContainer = document.createElement('div');
+            qaContainer.classList.add('qa-container');
+
+            game.qAndA.forEach((qa, index) => {
+                const qaItem = document.createElement('div');
+                qaItem.classList.add('qa-item');
+
+                const qaQuestion = document.createElement('div');
+                qaQuestion.classList.add('qa-question');
+
+                const questionCircle = document.createElement('div');
+                questionCircle.classList.add('circle', 'yellow');
+                questionCircle.textContent = `Q${index + 1}`;
+
+                const questionText = document.createElement('p');
+                questionText.textContent = qa.question;
+
+                qaQuestion.appendChild(questionCircle);
+                qaQuestion.appendChild(questionText);
+                qaItem.appendChild(qaQuestion);
+
+                const qaAnswer = document.createElement('div');
+                qaAnswer.classList.add('qa-answer');
+
+                const answerCircle = document.createElement('div');
+                answerCircle.classList.add('circle', 'red');
+                answerCircle.textContent = `A${index + 1}`;
+
+                const answerText = document.createElement('p');
+                answerText.textContent = qa.answer;
+
+                qaAnswer.appendChild(answerCircle);
+                qaAnswer.appendChild(answerText);
+                qaItem.appendChild(qaAnswer);
+
+                qaContainer.appendChild(qaItem);
+
+                // Add line divider
+                const line = document.createElement('div');
+                line.classList.add('line');
+                qaContainer.appendChild(line);
+            });
+
+            content.appendChild(qaContainer);
+        }else{
+            let images;
+            switch (index) {
+                case 0:
+                    images = game.rules.description;
+                    break;
+                case 1:
+                    images = game.rules.setup;
+                    break;
+                case 2:
+                    images = game.rules.gameplay;
+                    break;
+                case 3:
+                    images = game.rules.endgame;
+                    break;
+            }
+
+            const carousel = createRuleCarousel(images);
+            content.appendChild(carousel);
         }
-
-        const carousel = createRuleCarousel(images);
-        content.appendChild(carousel);
         accordion.appendChild(content);
         container.appendChild(accordion);
         new Accordion(accordion);
