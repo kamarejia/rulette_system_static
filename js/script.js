@@ -1080,6 +1080,56 @@ const games = [
             ]
         }
     },
+    {
+        id:1019,
+        grid: '/pictures/シェフィ/grid/shephy_grid.400.webp',
+        name: 'シェフィ',
+        // 46文字まで
+        explanation:"ひつじを産んで増やして1000匹目指せ！めずらしい1人用ゲーム！",
+        info:{
+            num_players:"1人",
+            playtime:"20分",
+            price:"1700円",
+            system_tag:["ハンドマネージメント"],
+            who:["ひとりで","恋人と"],
+            where:["家で"]
+        },
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://www.clagla.jp/propose-series.html',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                "/pictures/シェフィ/pickup/components/shephy_grid.800.webp",
+                "/pictures/シェフィ/pickup/components/shephy_box800.webp",
+                "/pictures/シェフィ/pickup/components/shephy_setting800.webp",
+                "/pictures/シェフィ/pickup/components/shephy_component800.webp",
+            
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
+            ],
+            setup: [
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
+            ],
+            gameplay: [
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
+            ],
+            endgame: [
+                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/system_design/rulette_prepare.webp',
+            ]
+        }
+    },
     
 ];
 
