@@ -1661,7 +1661,8 @@ function createRuleCarousel(images) {
 }
 
 function createAccordion(gameName) {
-    const titles = ["かんたん説明","詳しい情報", "ゲームの準備", "ゲームの流れ", "ゲームの終了","ルールQ＆A"];
+    // const titles = ["かんたん説明","詳しい情報", "ゲームの準備", "ゲームの流れ", "ゲームの終了","ルールQ＆A"];
+    const titles = ["かんたん説明","ゲームの準備", "ゲームの流れ", "ゲームの終了"];
     const container = document.getElementById('accordion-container');
     const game = games.find(g => g.name === gameName);
 
