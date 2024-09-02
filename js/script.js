@@ -1685,7 +1685,21 @@ function createAccordion(gameName) {
 
         const content = document.createElement('div');
         content.classList.add('accordion-content');
-        
+        let images;
+        switch (index) {
+            case 0:
+                images = game.rules.description;
+                break;
+            case 1:
+                images = game.rules.setup;
+                break;
+            case 2:
+                images = game.rules.gameplay;
+                break;
+            case 3:
+                images = game.rules.endgame;
+                break;
+        }
         if(title ==="詳しい情報" ){
             const gameDescription = document.createElement('div');
             gameDescription.classList.add('game-description');
@@ -1831,21 +1845,7 @@ function createAccordion(gameName) {
 
             content.appendChild(qaContainer);
         }else{
-            let images;
-            switch (index) {
-                case 0:
-                    images = game.rules.description;
-                    break;
-                case 1:
-                    images = game.rules.setup;
-                    break;
-                case 2:
-                    images = game.rules.gameplay;
-                    break;
-                case 3:
-                    images = game.rules.endgame;
-                    break;
-            }
+            
 
             const carousel = createRuleCarousel(images);
             content.appendChild(carousel);
