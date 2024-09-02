@@ -1686,7 +1686,6 @@ function createAccordion(gameName) {
         const content = document.createElement('div');
         content.classList.add('accordion-content');
         
-        let images;
         if(title ==="詳しい情報" ){
             const gameDescription = document.createElement('div');
             gameDescription.classList.add('game-description');
@@ -1832,7 +1831,7 @@ function createAccordion(gameName) {
 
             content.appendChild(qaContainer);
         }else{
-            
+            let images;
             switch (index) {
                 case 0:
                     images = game.rules.description;
