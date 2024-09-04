@@ -1661,8 +1661,8 @@ function createRuleCarousel(images) {
 }
 
 function createAccordion(gameName) {
-    // const titles = ["かんたん説明","詳しい情報", "ゲームの準備", "ゲームの流れ", "ゲームの終了","ルールQ＆A"];
-    const titles = ["かんたん説明","ゲームの準備", "ゲームの流れ", "ゲームの終了"];
+    
+    const titles = ["かんたん説明","ゲームの準備", "ゲームの流れ", "ゲームの終了","詳しい情報","ルールQ＆A"];
     const container = document.getElementById('accordion-container');
     const game = games.find(g => g.name === gameName);
 
@@ -1701,160 +1701,190 @@ function createAccordion(gameName) {
                 images = game.rules.endgame;
                 break;
         }
-        // if(title ==="詳しい情報" ){
-        //     const gameDescription = document.createElement('div');
-        //     gameDescription.classList.add('game-description');
+        if(title ==="詳しい情報" ){
+            const gameDescription = document.createElement('div');
+            gameDescription.classList.add('game-description');
 
-        //     const descriptionTitle = document.createElement('div');
-        //     descriptionTitle.classList.add('section-title');
-        //     descriptionTitle.textContent = 'ゲームの記述';
-        //     gameDescription.appendChild(descriptionTitle);
+            const descriptionTitle = document.createElement('div');
+            descriptionTitle.classList.add('section-title');
+            descriptionTitle.textContent = 'ゲームの記述';
+            gameDescription.appendChild(descriptionTitle);
 
-        //     const descriptionText = document.createElement('p');
-        //     descriptionText.textContent = game.details.gameStory;
-        //     gameDescription.appendChild(descriptionText);
+            const descriptionText = document.createElement('p');
+            descriptionText.textContent = game.details.gameStory;
+            gameDescription.appendChild(descriptionText);
 
-        //     content.appendChild(gameDescription);
+            content.appendChild(gameDescription);
 
-        //     const basicInfo = document.createElement('div');
-        //     basicInfo.classList.add('basic-info');
+            const basicInfo = document.createElement('div');
+            basicInfo.classList.add('basic-info');
 
-        //     const basicInfoTitle = document.createElement('div');
-        //     basicInfoTitle.classList.add('section-title');
-        //     basicInfoTitle.textContent = '基本情報';
-        //     basicInfo.appendChild(basicInfoTitle);
+            const basicInfoTitle = document.createElement('div');
+            basicInfoTitle.classList.add('section-title');
+            basicInfoTitle.textContent = '基本情報';
+            basicInfo.appendChild(basicInfoTitle);
 
-        //     const basicInfoContainer = document.createElement('div');
-        //     basicInfoContainer.classList.add('basic-info-container');
+            const basicInfoContainer = document.createElement('div');
+            basicInfoContainer.classList.add('basic-info-container');
 
-        //     const tableLeft = document.createElement('div');
-        //     tableLeft.classList.add('basic-info-table-left');
+            const tableLeft = document.createElement('div');
+            tableLeft.classList.add('basic-info-table-left');
 
-        //     const tableLeftContent = `
-        //         <table>
-        //             <tr><td>参考価格</td><td>${game.details.basicInfo.refPrice}</td></tr>
-        //             <tr><td>プレイ人数</td><td>${game.details.basicInfo.numPlayers}</td></tr>
-        //             <tr><td>プレイ時間</td><td>${game.details.basicInfo.playTime}</td></tr>
-        //             <tr><td>発売年</td><td>${game.details.basicInfo.release}</td></tr>
-        //         </table>
-        //     `;
-        //     tableLeft.innerHTML = tableLeftContent;
-        //     basicInfoContainer.appendChild(tableLeft);
+            const tableLeftContent = `
+                <table>
+                    <tr><td>参考価格</td><td>${game.details.basicInfo.refPrice}</td></tr>
+                    <tr><td>プレイ人数</td><td>${game.details.basicInfo.numPlayers}</td></tr>
+                    <tr><td>プレイ時間</td><td>${game.details.basicInfo.playTime}</td></tr>
+                    <tr><td>発売年</td><td>${game.details.basicInfo.release}</td></tr>
+                </table>
+            `;
+            tableLeft.innerHTML = tableLeftContent;
+            basicInfoContainer.appendChild(tableLeft);
 
-        //     const tableRight = document.createElement('div');
-        //     tableRight.classList.add('basic-info-table-right');
+            const tableRight = document.createElement('div');
+            tableRight.classList.add('basic-info-table-right');
 
-        //     const tableRightContent = `
-        //         <table>
-        //             <tr><td>難易度</td><td>${game.details.basicInfo.difficulty}</td></tr>
-        //             <tr><td>対象年齢</td><td>${game.details.basicInfo.ageRange}</td></tr>
-        //             <tr><td>メカニクス</td><td>${game.details.basicInfo.gameSystem}</td></tr>
-        //             <tr><td>大きさ (cm)</td><td>${game.details.basicInfo.size}</td></tr>
-        //         </table>
-        //     `;
-        //     tableRight.innerHTML = tableRightContent;
-        //     basicInfoContainer.appendChild(tableRight);
+            const tableRightContent = `
+                <table>
+                    <tr><td>難易度</td><td>${game.details.basicInfo.difficulty}</td></tr>
+                    <tr><td>対象年齢</td><td>${game.details.basicInfo.ageRange}</td></tr>
+                    <tr><td>メカニクス</td><td>${game.details.basicInfo.gameSystem}</td></tr>
+                    <tr><td>大きさ (cm)</td><td>${game.details.basicInfo.size}</td></tr>
+                </table>
+            `;
+            tableRight.innerHTML = tableRightContent;
+            basicInfoContainer.appendChild(tableRight);
 
-        //     basicInfo.appendChild(basicInfoContainer);
-        //     content.appendChild(basicInfo);
+            basicInfo.appendChild(basicInfoContainer);
+            content.appendChild(basicInfo);
 
-        //     const contents = document.createElement('div');
-        //     contents.classList.add('contents');
+            const contents = document.createElement('div');
+            contents.classList.add('contents');
 
-        //     const contentsTitle = document.createElement('div');
-        //     contentsTitle.classList.add('section-title');
-        //     contentsTitle.textContent = '内容物';
-        //     contents.appendChild(contentsTitle);
+            const contentsTitle = document.createElement('div');
+            contentsTitle.classList.add('section-title');
+            contentsTitle.textContent = '内容物';
+            contents.appendChild(contentsTitle);
 
-        //     const ul = document.createElement('ul');
-        //     game.details.contents.forEach(item => {
-        //         const li = document.createElement('li');
-        //         li.textContent = `・${item}`;
-        //         ul.appendChild(li);
-        //     });
-        //     contents.appendChild(ul);
-        //     content.appendChild(contents);
+            const ul = document.createElement('ul');
+            game.details.contents.forEach(item => {
+                const li = document.createElement('li');
+                li.textContent = `・${item}`;
+                ul.appendChild(li);
+            });
+            contents.appendChild(ul);
+            content.appendChild(contents);
 
-        //     const credits = document.createElement('div');
-        //     credits.classList.add('credits');
+            const credits = document.createElement('div');
+            credits.classList.add('credits');
 
-        //     const creditsTitle = document.createElement('div');
-        //     creditsTitle.classList.add('section-title');
-        //     creditsTitle.textContent = 'クレジット';
-        //     credits.appendChild(creditsTitle);
+            const creditsTitle = document.createElement('div');
+            creditsTitle.classList.add('section-title');
+            creditsTitle.textContent = 'クレジット';
+            credits.appendChild(creditsTitle);
 
-        //     const creditsTable = document.createElement('table');
-        //     let creditsContent = '';
+            const creditsTable = document.createElement('table');
+            let creditsContent = '';
 
-        //     game.details.credits.designer.forEach(designer => {
-        //         creditsContent += `<tr><td>ゲームデザイン</td><td>${designer}</td></tr>`;
-        //     });
-        //     game.details.credits.artwork.forEach((artist, index) => {
-        //         creditsContent += `<tr><td>${index === 0 ? 'アートワーク' : ''}</td><td>${artist}</td></tr>`;
-        //     });
-        //     game.details.credits.company.forEach((company, index) => {
-        //         creditsContent += `<tr><td>${index === 0 ? '企業/団体' : ''}</td><td>${company}</td></tr>`;
-        //     });
+            game.details.credits.designer.forEach(designer => {
+                creditsContent += `<tr><td>ゲームデザイン</td><td>${designer}</td></tr>`;
+            });
+            game.details.credits.artwork.forEach((artist, index) => {
+                creditsContent += `<tr><td>${index === 0 ? 'アートワーク' : ''}</td><td>${artist}</td></tr>`;
+            });
+            game.details.credits.company.forEach((company, index) => {
+                creditsContent += `<tr><td>${index === 0 ? '企業/団体' : ''}</td><td>${company}</td></tr>`;
+            });
 
-        //     creditsTable.innerHTML = creditsContent;
-        //     credits.appendChild(creditsTable);
-        //     content.appendChild(credits);
-        // }else if(title ==="ルールQ＆A"){
-        //     //後ほど記述
-        //     const qaContainer = document.createElement('div');
-        //     qaContainer.classList.add('qa-container');
+            creditsTable.innerHTML = creditsContent;
+            credits.appendChild(creditsTable);
+            content.appendChild(credits);
+        }else if(title ==="ルールQ＆A"){
+            //後ほど記述
+            const qaContainer = document.createElement('div');
+            qaContainer.classList.add('qa-container');
 
-        //     game.qAndA.forEach((qa, index) => {
-        //         const qaItem = document.createElement('div');
-        //         qaItem.classList.add('qa-item');
+            game.qAndA.forEach((qa, index) => {
+                const qaItem = document.createElement('div');
+                qaItem.classList.add('qa-item');
 
-        //         const qaQuestion = document.createElement('div');
-        //         qaQuestion.classList.add('qa-question');
+                const qaQuestion = document.createElement('div');
+                qaQuestion.classList.add('qa-question');
 
-        //         const questionCircle = document.createElement('div');
-        //         questionCircle.classList.add('circle', 'yellow');
-        //         questionCircle.textContent = `Q${index + 1}`;
+                const questionCircle = document.createElement('div');
+                questionCircle.classList.add('circle', 'yellow');
+                questionCircle.textContent = `Q${index + 1}`;
 
-        //         const questionText = document.createElement('p');
-        //         questionText.textContent = qa.question;
+                const questionText = document.createElement('p');
+                questionText.textContent = qa.question;
 
-        //         qaQuestion.appendChild(questionCircle);
-        //         qaQuestion.appendChild(questionText);
-        //         qaItem.appendChild(qaQuestion);
+                qaQuestion.appendChild(questionCircle);
+                qaQuestion.appendChild(questionText);
+                qaItem.appendChild(qaQuestion);
 
-        //         const qaAnswer = document.createElement('div');
-        //         qaAnswer.classList.add('qa-answer');
+                const qaAnswer = document.createElement('div');
+                qaAnswer.classList.add('qa-answer');
 
-        //         const answerCircle = document.createElement('div');
-        //         answerCircle.classList.add('circle', 'red');
-        //         answerCircle.textContent = `A${index + 1}`;
+                const answerCircle = document.createElement('div');
+                answerCircle.classList.add('circle', 'red');
+                answerCircle.textContent = `A${index + 1}`;
 
-        //         const answerText = document.createElement('p');
-        //         answerText.textContent = qa.answer;
+                const answerText = document.createElement('p');
+                answerText.textContent = qa.answer;
 
-        //         qaAnswer.appendChild(answerCircle);
-        //         qaAnswer.appendChild(answerText);
-        //         qaItem.appendChild(qaAnswer);
+                qaAnswer.appendChild(answerCircle);
+                qaAnswer.appendChild(answerText);
+                qaItem.appendChild(qaAnswer);
 
-        //         qaContainer.appendChild(qaItem);
+                qaContainer.appendChild(qaItem);
 
-        //         // Add line divider
-        //         const line = document.createElement('div');
-        //         line.classList.add('line');
-        //         qaContainer.appendChild(line);
-        //     });
+                // Add line divider
+                const line = document.createElement('div');
+                line.classList.add('line');
+                qaContainer.appendChild(line);
+            });
 
-        //     content.appendChild(qaContainer);
-        // }else{}
+            content.appendChild(qaContainer);
+        }else{
+            const carousel = createRuleCarousel(images);
+            content.appendChild(carousel);
+        }
             
 
-        const carousel = createRuleCarousel(images);
-        content.appendChild(carousel);
+        
         
         accordion.appendChild(content);
         container.appendChild(accordion);
         new Accordion(accordion);
     });
+
+    // const textInfoTitles = ["詳しい情報","ルールQ＆A"];
+    // textInfoTitles.forEach((title, index) => {
+    //     const accordion = document.createElement('div');
+    //     accordion.classList.add('accordion', 'closed');
+
+    //     const header = document.createElement('div');
+    //     header.classList.add('accordion-header');
+
+    //     const span = document.createElement('span');
+    //     span.textContent = title;
+
+    //     const button = document.createElement('button');
+    //     button.classList.add('toggleButton');
+        
+
+    //     header.appendChild(span);
+    //     header.appendChild(button);
+    //     accordion.appendChild(header);
+
+    //     const content = document.createElement('div');
+    //     content.classList.add('accordion-content');
+
+
+    //     accordion.appendChild(content);
+    //     container.appendChild(accordion);
+    //     new Accordion(accordion);
+    // });
 }
 
 function renderPage(state){
