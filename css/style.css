@@ -252,7 +252,7 @@ gap: 20px;
     border-radius: 22px;
 }
 .accordion-content .carousel-images img:first-child {
-    margin-left: 0;
+    margin-left: 3%;
 }
 .carousel-images img:first-child {
     margin-left: 3%;
@@ -440,7 +440,7 @@ gap: 20px;
 }
 .accordion.open .carousel {
     box-shadow: none;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 .accordion-header {
