@@ -1702,6 +1702,9 @@ function createAccordion(gameName) {
                 break;
         }
         if(title ==="詳しい情報" ){
+            const detailsContainer = document.createElement("div");
+            detailsContainer.classList.add("details-container");
+
             const gameDescription = document.createElement('div');
             gameDescription.classList.add('game-description');
 
@@ -1714,7 +1717,7 @@ function createAccordion(gameName) {
             descriptionText.textContent = game.details.gameStory;
             gameDescription.appendChild(descriptionText);
 
-            content.appendChild(gameDescription);
+            detailsContainer.appendChild(gameDescription);
 
             const basicInfo = document.createElement('div');
             basicInfo.classList.add('basic-info');
@@ -1756,7 +1759,7 @@ function createAccordion(gameName) {
             basicInfoContainer.appendChild(tableRight);
 
             basicInfo.appendChild(basicInfoContainer);
-            content.appendChild(basicInfo);
+            detailsContainer.appendChild(basicInfo);
 
             const contents = document.createElement('div');
             contents.classList.add('contents');
@@ -1773,7 +1776,7 @@ function createAccordion(gameName) {
                 ul.appendChild(li);
             });
             contents.appendChild(ul);
-            content.appendChild(contents);
+            detailsContainer.appendChild(contents);
 
             const credits = document.createElement('div');
             credits.classList.add('credits');
@@ -1798,7 +1801,8 @@ function createAccordion(gameName) {
 
             creditsTable.innerHTML = creditsContent;
             credits.appendChild(creditsTable);
-            content.appendChild(credits);
+            detailsContainer.appendChild(credits);
+            content.appendChild(detailsContainer);
         }else if(title ==="ルールQ＆A"){
             //後ほど記述
             const qaContainer = document.createElement('div');
