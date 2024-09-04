@@ -440,6 +440,7 @@ gap: 20px;
 }
 .accordion.open .carousel {
     box-shadow: none;
+    margin-left: 5%;
 }
 
 .accordion-header {
@@ -476,6 +477,7 @@ gap: 20px;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .notification {
@@ -601,7 +603,7 @@ gap: 20px;
 
 
 .game-description p {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-align: justify;
 }
@@ -616,7 +618,7 @@ gap: 20px;
 .basic-info-container {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -665,7 +667,7 @@ gap: 20px;
 }
 
 .credits table {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     border-collapse: collapse;
 }
@@ -718,8 +720,8 @@ gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     color: white;
     font-weight: bold;
