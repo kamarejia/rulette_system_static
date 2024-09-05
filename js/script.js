@@ -96,30 +96,30 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"3000円",
+                numPlayers:"2人",
+                playTime:"15分",
+                release:"1982年",
+                difficulty:"かんたん",
+                ageRange:"6歳以上",
+                gameSystem:"心理戦",
+                size:"縦：横：高さ=22.3:22.3:5.1"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルールシート","ゲームボード","お化けコマ16個"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["アレックス・ランドルフ"],
+                artwork:["ヨハン・リュッティンガー"],
+                company:["アスモデ","ビューテホーン・シュピーレ","ドライ・マーギア・シュピーレ"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "オバケコマは斜めに移動できますか？",
+                    "answer": "斜めの移動はできません。前後左右に1マスずつ移動できます。"
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "矢印の脱出マスに到達したら勝ちですか？",
+                    "answer": "脱出マスに到達したのちにボードの外にコマをだせたら勝ちです。"
                 }
             ],
         likes: {
@@ -174,31 +174,27 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"1800円",
+                numPlayers:"2~6人",
+                playTime:"20分",
+                release:"2004年",
+                difficulty:"かんたん",
+                ageRange:"8歳以上",
+                gameSystem:"心理戦",
+                size:"縦：横：高さ=11:11:3.5"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","カード64枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ジャック・ゼメ"],
+                artwork:["ロルフ・ヴォークト"],
+                company:["コンペト・マレクトイ","コーフィクス","デヴィーア"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "パスは何度でもできますか？",
+                    "answer": "他のみんながパスをしている場合はパスをできません。"
                 },
-                {
-                    "question": "Question2",
-                    "answer": "Answer2"
-                }
             ],
         likes: {
             count: 1,
@@ -252,31 +248,28 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"1700円",
+                numPlayers:"2~10人",
+                playTime:"20分",
+                release:"2003年",
+                difficulty:"かんたん",
+                ageRange:"10歳以上",
+                gameSystem:"推測",
+                size:"縦：横：高さ=12.4:9.5:2.5"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","ナンバーカード36枚","ライフカード10枚","仮面カード10枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["スパルタコ・アルバタレッリ"],
+                artwork:["アンジェリーケ・レニアー","タンサンアンドカンパニー","キアラ・ベルセシ"],
+                company:["フォー・エッセス","ギガミック","ホモ・ルディカス"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "1手番前の人以外に対しても「コヨーテ」と言えますか？",
+                    "answer": "「コヨーテ」は常に前の手番の人に対してしかいうことはできません。"
                 },
-                {
-                    "question": "Question2",
-                    "answer": "Answer2"
-                }
+                
             ],
         likes: {
             count: 2,

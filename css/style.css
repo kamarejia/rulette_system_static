@@ -606,6 +606,9 @@ gap: 20px;
     left: 0; 
 }
 
+.game-description {
+    width: 100%;
+}
 
 .game-description p {
     width: 90%;
