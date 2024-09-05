@@ -1789,8 +1789,8 @@ function createAccordion(gameName) {
             const creditsTable = document.createElement('table');
             let creditsContent = '';
 
-            game.details.credits.designer.forEach(designer => {
-                creditsContent += `<tr><td>${index === 0 ? 'ゲームデザイン' : ''}</td><td>${designer}}</td></tr>`;
+            game.details.credits.designer.forEach((designer,index) => {
+                creditsContent += `<tr><td>${index === 0 ? 'ゲームデザイン' : ''}</td><td>${designer}</td></tr>`;
             });
             game.details.credits.artwork.forEach((artist, index) => {
                 creditsContent += `<tr><td>${index === 0 ? 'アートワーク' : ''}</td><td>${artist}</td></tr>`;
@@ -1802,7 +1802,8 @@ function createAccordion(gameName) {
             creditsTable.innerHTML = creditsContent;
             credits.appendChild(creditsTable);
             detailsContainer.appendChild(credits);
-            content.appendChild(detailsContainer);
+            content.insertBefore(detailsContainer, content.firstChild);
+
         }else if(title ==="ルールQ＆A"){
             //後ほど記述
             const qaContainer = document.createElement('div');
