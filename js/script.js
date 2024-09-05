@@ -1662,7 +1662,7 @@ function createRuleCarousel(images) {
 
 function createAccordion(gameName) {
     
-    const titles = ["かんたん説明","ゲームの準備", "ゲームの流れ", "ゲームの終了","詳しい情報","ルールQ＆A"];
+    const titles = ["詳しい情報","かんたん説明","ゲームの準備", "ゲームの流れ", "ゲームの終了","ルールQ＆A"];
     const container = document.getElementById('accordion-container');
     const game = games.find(g => g.name === gameName);
 
@@ -1752,7 +1752,7 @@ function createAccordion(gameName) {
                     <tr><td>難易度</td><td>${game.details.basicInfo.difficulty}</td></tr>
                     <tr><td>対象年齢</td><td>${game.details.basicInfo.ageRange}</td></tr>
                     <tr><td>システム</td><td>${game.details.basicInfo.gameSystem}</td></tr>
-                    <tr><td>大きさ (cm)</td><td>${game.details.basicInfo.size}</td></tr>
+                    <tr><td>大きさ(cm)</td><td>${game.details.basicInfo.size}</td></tr>
                 </table>
             `;
             tableRight.innerHTML = tableRightContent;
