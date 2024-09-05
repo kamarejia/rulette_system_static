@@ -15,15 +15,15 @@
         where:[]
     },
     details:{
-        gameStory:"",
+        gameStory:"準備中です",
         basicInfo:{
-            refPrice:"2000円",
-            numPlayers:"4人",
-            playTime:"20分",
-            release:"2010年",
-            difficulty:"ふつう",
-            ageRange:"8歳以上",
-            gameSystem:"セットコレクション",
+            refPrice:"xxxx円",
+            numPlayers:"x人",
+            playTime:"x分",
+            release:"xxxx年",
+            difficulty:"xxx",
+            ageRange:"x歳以上",
+            gameSystem:"",
             size:"縦：横：高さ=20:20:4"
         },
         contents:["ルール説明書","舞台カード","フラッグ"],
@@ -93,6 +93,35 @@ const games = [
             who:["恋人と","家族と"],
             where:["家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 4,
             timestamps: []
@@ -142,6 +171,35 @@ const games = [
             who:["ともだちと","先輩後輩"],
             where:["ホームパーティで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 1,
             timestamps: []
@@ -191,6 +249,35 @@ const games = [
             who:["ともだちと","親戚と"],
             where:["パーティで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 2,
             timestamps: []
@@ -243,6 +330,35 @@ const games = [
             who:["ともだちと","先輩後輩と", ],
             where:["ともだちの家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 5,
             timestamps: []
@@ -304,6 +420,35 @@ const games = [
             who:["ともだちと","こどもと",],
             where:["パーティで","飲み会で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -355,6 +500,35 @@ const games = [
             who:["ともだちと","初対面の人と"],
             where:["カフェで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -405,6 +579,35 @@ const games = [
             who:["ともだちと","初対面の人と"],
             where:["カフェで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -458,6 +661,35 @@ const games = [
             who:["恋人と","親友と"],
             where:["カフェで","家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -515,6 +747,35 @@ const games = [
             who:["ともだちと","仕事仲間と"],
             where:["ホームパーティで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -577,6 +838,35 @@ const games = [
             count: 4,
             timestamps: []
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         purchaseLink: 'https://example.com/purchase2',
         shareLink: 'https://example.com/share2',
         slides: {
@@ -641,6 +931,35 @@ const games = [
             who:["ともだちと","家族と"],
             where:["カフェで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 4,
             timestamps: []
@@ -704,6 +1023,35 @@ const games = [
             who:["こどもと","家族と"],
             where:["家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -759,6 +1107,35 @@ const games = [
             who:["ともだちと"],
             where:["カフェで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -820,6 +1197,35 @@ const games = [
             who:["ともだちと","恋人と"],
             where:["パーティで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -869,6 +1275,35 @@ const games = [
             who:["ともだちと","親友と"],
             where:["家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -943,6 +1378,35 @@ const games = [
             who:["ともだちと","親戚と"],
             where:["家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -1005,6 +1469,35 @@ const games = [
             who:["こどもと","ともだちと"],
             where:["家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
@@ -1064,6 +1557,35 @@ const games = [
             who:["ともだちと"],
             where:["家で","パーティで"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         details:{
             gameStory:"古代の戦争は隊列を組んだ軍団同士の間で戦われました。古代の指揮官たちは自国の隊列を敵よりも優位に動かすことにより敵隊列の分断、または側面からの包囲を試みる戦術の熟練を競ってきたのです。あなたはこの古代の戦術をマスターできるでしょうか？",
             basicInfo:{
@@ -1151,6 +1673,35 @@ const games = [
             who:["ひとりで","恋人と"],
             where:["家で"]
         },
+        details:{
+            gameStory:"ただいま準備中です",
+            basicInfo:{
+                refPrice:"xxxx円",
+                numPlayers:"x人",
+                playTime:"x分",
+                release:"xxxx年",
+                difficulty:"xxx",
+                ageRange:"x歳以上",
+                gameSystem:"",
+                size:"縦：横：高さ=xx:xx:x"
+            },
+            contents:["xxx","xxx","xxx"],
+            credits:{
+                designer:["xxx"],
+                artwork:["xxx"],
+                company:["xxx"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "Question1",
+                    "answer": "Answer1"
+                },
+                {
+                    "question": "Question2",
+                    "answer": "Answer2"
+                }
+            ],
         likes: {
             count: 3,
             timestamps: []
