@@ -1751,7 +1751,7 @@ function createAccordion(gameName) {
                 <table>
                     <tr><td>難易度</td><td>${game.details.basicInfo.difficulty}</td></tr>
                     <tr><td>対象年齢</td><td>${game.details.basicInfo.ageRange}</td></tr>
-                    <tr><td>メカニクス</td><td>${game.details.basicInfo.gameSystem}</td></tr>
+                    <tr><td>システム</td><td>${game.details.basicInfo.gameSystem}</td></tr>
                     <tr><td>大きさ (cm)</td><td>${game.details.basicInfo.size}</td></tr>
                 </table>
             `;
@@ -1790,7 +1790,7 @@ function createAccordion(gameName) {
             let creditsContent = '';
 
             game.details.credits.designer.forEach(designer => {
-                creditsContent += `<tr><td>ゲームデザイン</td><td>${designer}</td></tr>`;
+                creditsContent += `<tr><td>${index === 0 ? 'ゲームデザイン' : ''}</td><td>${designer}}</td></tr>`;
             });
             game.details.credits.artwork.forEach((artist, index) => {
                 creditsContent += `<tr><td>${index === 0 ? 'アートワーク' : ''}</td><td>${artist}</td></tr>`;
@@ -1842,10 +1842,11 @@ function createAccordion(gameName) {
 
                 qaContainer.appendChild(qaItem);
 
-                // Add line divider
-                const line = document.createElement('div');
-                line.classList.add('line');
-                qaContainer.appendChild(line);
+                if (index < game.qAndA.length - 1) {
+                    const line = document.createElement('div');
+                    line.classList.add('line');
+                    qaContainer.appendChild(line);
+                }
             });
 
             content.appendChild(qaContainer);
