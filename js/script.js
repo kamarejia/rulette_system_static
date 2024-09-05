@@ -1688,16 +1688,16 @@ function createAccordion(gameName) {
         content.classList.add('accordion-content');
         let images;
         switch (index) {
-            case 0:
+            case 1:
                 images = game.rules.description;
                 break;
-            case 1:
+            case 2:
                 images = game.rules.setup;
                 break;
-            case 2:
+            case 3:
                 images = game.rules.gameplay;
                 break;
-            case 3:
+            case 4:
                 images = game.rules.endgame;
                 break;
         }
