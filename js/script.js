@@ -326,31 +326,27 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"1500円",
+                numPlayers:"2~10人",
+                playTime:"30分",
+                release:"1994年",
+                difficulty:"ふつう",
+                ageRange:"8歳以上",
+                gameSystem:"バースト",
+                size:"縦：横：高さ=12.2:9.6:2.1"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","牛カード104枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ヴォルフガング・クラマー"],
+                artwork:["デザインエッジ","ビル・ハーリン","ガティス・スルカ"],
+                company:["アミーゴシュピール","フライツァイト","999ゲームズ","アルビ"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "ただいま準備中です",
+                    "answer": "ただいま準備中です"
                 },
-                {
-                    "question": "Question2",
-                    "answer": "Answer2"
-                }
             ],
         likes: {
             count: 5,
@@ -409,37 +405,37 @@ const games = [
             num_players:"3~8人",
             playtime:"15分",
             price:"1200円",
-            system_tag:["言葉遊び","パーティ"],
+            system_tag:["表現","パーティ"],
             who:["ともだちと","こどもと",],
             where:["パーティで","飲み会で"]
         },
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"1200円",
+                numPlayers:"3~8人",
+                playTime:"15分",
+                release:"2018年",
+                difficulty:"かんたん",
+                ageRange:"8歳以上",
+                gameSystem:"表現",
+                size:"縦：横：高さ=14.8:10:2.7"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["説明書","お題カード30枚","アクトカード8枚","投票用カード8枚","投票チップ64枚","得点チップ56枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["米光一成"],
+                artwork:["セキネシンイチ製作室"],
+                company:["幻冬舎"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "身振り手振りで表現してもいいですか？",
+                    "answer": "禁止です。"
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "自分の演じたアルファベットも投票カードに裏向きにおきますか？",
+                    "answer": "裏向きにおきます。得点計算時にその点も加算されます。"
                 }
             ],
         likes: {
@@ -489,37 +485,37 @@ const games = [
             num_players:"3~8人",
             playtime:"30分",
             price:"1500円",
-            system_tag:["言葉遊び"],
+            system_tag:["表現"],
             who:["ともだちと","初対面の人と"],
             where:["カフェで"]
         },
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"1500円",
+                numPlayers:"3~8人",
+                playTime:"30分",
+                release:"2017年",
+                difficulty:"とてもかんたん",
+                ageRange:"10歳以上",
+                gameSystem:"表現",
+                size:"縦：横：高さ=10:7:2"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["説明書","お題カード36枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["カズナ"],
+                artwork:["でじ"],
+                company:["TUKAPON"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "カタカナの指摘をしたらお題の説明はおわりますか？",
+                    "answer": "終わります。指摘した人は出題者のカードを受け取って1Ptです。"
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "カードの裏の数字は得点に関係ありますか？",
+                    "answer": "ありません。カードは1枚で1Ptです。"
                 }
             ],
         likes: {
@@ -568,37 +564,37 @@ const games = [
             num_players:"2~10人",
             playtime:"30分",
             price:"2000円",
-            system_tag:["言葉遊び","協力"],
+            system_tag:["表現","協力"],
             who:["ともだちと","初対面の人と"],
             where:["カフェで"]
         },
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"2000円",
+                numPlayers:"2~10人",
+                playTime:"30分",
+                release:"2019年",
+                difficulty:"かんたん",
+                ageRange:"8歳以上",
+                gameSystem:"表現",
+                size:"縦：横：高さ=13.5:9.5:2.5"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["説明書2枚","ナンバーカード100枚","テーマカード50枚","ライフカード2枚","クモシート"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ナカムラミツル"],
+                artwork:["ナカムラミツル"],
+                company:["アークライト"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "ただいま準備中です",
+                    "answer": "ただいま準備中です"
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "ただいま準備中です",
+                    "answer": "ただいま準備中です"
                 }
             ],
         likes: {
@@ -657,20 +653,20 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"2700円",
+                numPlayers:"2人",
+                playTime:"15~30分",
+                release:"2000年",
+                difficulty:"ふつう",
+                ageRange:"12歳以上",
+                gameSystem:"ハンドマネージメント",
+                size:"縦：横：高さ=16:11.5:3"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルールブック","部隊カード60枚（6色1~10）","フラッグコマ10個"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ライナー・クニツィア"],
+                artwork:["ローランド・マクドナルド","ロジャー・マガウアン","マーク・シモニッチ"],
+                company:["クロノノーツゲームズ","GMTゲームズ","ランドズリベンジゲームズ"]
             }
         },
         qAndA:[
@@ -735,7 +731,7 @@ const games = [
         info:{
             num_players:"3~6人",
             playtime:"20分",
-            price:"2800円",
+            price:"3000円",
             system_tag:["心理戦","脱落"],
             who:["ともだちと","仕事仲間と"],
             where:["ホームパーティで"]
@@ -743,20 +739,20 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"3000円",
+                numPlayers:"3~6人",
+                playTime:"15~30分",
+                release:"2011年",
+                difficulty:"ふつう",
+                ageRange:"10歳以上",
+                gameSystem:"心理戦",
+                size:"縦：横：高さ=13.1:13.1:5.1"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["説明書","花ディスク3枚（6種類）","ドクロディスク1枚（6種類）","プレイマット1枚（6種類）"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["エルヴェ・マルリー"],
+                artwork:["トーマス・ヴァーチクス"],
+                company:["スペースカウボーイズ"]
             }
         },
         qAndA:[
