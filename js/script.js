@@ -1701,6 +1701,9 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
+                '/pictures/シェフィ/rules/description/shephy_1.webp',
+                '/pictures/シェフィ/rules/description/shephy_2.webp',
+                '/pictures/シェフィ/rules/description/shephy_3.webp',
                 "/pictures/シェフィ/pickup/components/shephy_grid.800.webp",
                 "/pictures/シェフィ/pickup/components/shephy_box800.webp",
                 "/pictures/シェフィ/pickup/components/shephy_setting800.webp",
@@ -1710,20 +1713,25 @@ const games = [
         },
         rules: {
             description: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/シェフィ/rules/description/shephy_1.webp',
+                '/pictures/シェフィ/rules/description/shephy_2.webp',
+                '/pictures/シェフィ/rules/description/shephy_3.webp',
             ],
             setup: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/シェフィ/rules/setup/shephy_4.webp',
+                '/pictures/シェフィ/rules/setup/shephy_5.webp',
             ],
             gameplay: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/シェフィ/rules/gameplay/shephy_6.webp',
+                '/pictures/シェフィ/rules/gameplay/shephy_7.webp',
+                '/pictures/シェフィ/rules/gameplay/shephy_8.webp',
+                '/pictures/シェフィ/rules/gameplay/shephy_9.webp',
             ],
             endgame: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/シェフィ/rules/endgame/shephy_10.webp',
+                '/pictures/シェフィ/rules/endgame/shephy_11.webp',
+                '/pictures/シェフィ/rules/endgame/shephy_12.webp',
+
             ]
         }
     },
