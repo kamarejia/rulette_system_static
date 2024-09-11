@@ -1922,6 +1922,105 @@ const games = [
             ]
         }
     },
+    {
+        id:1022,
+        grid: '/pictures/スプレンダー/grid/splender_grid400.webp',
+        name: '宝石の煌き',
+        // 46文字まで
+        explanation:"宝石を集めて発展せよ！言わずと知れた傑作ボードゲーム！",
+        info:{
+            num_players:"2~4人",
+            playtime:"30分",
+            price:"5000円",
+            system_tag:["拡大再生産","セットコレクション"],
+            who:["ともだちと"],
+            where:["カフェで"]
+        },
+        details:{
+            gameStory:"準備中です",
+            basicInfo:{
+                refPrice:"5000円",
+                numPlayers:"2~4人",
+                playTime:"30分",
+                release:"2014年",
+                difficulty:"むずかしい",
+                ageRange:"10歳以上",
+                gameSystem:"拡大再生産",
+                size:"縦：横：高さ=27.4:21.3:6.5"
+            },
+            contents:["ルール説明書","宝石トークン40枚","発展カード90枚 ","貴族タイル10枚"],
+            credits:{
+                designer:["マーク・アンドレ"],
+                artwork:["パスカル・キノート",],
+                company:["ホビージャパン"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "準備中です",
+                    "answer": ""
+                },
+                {
+                    "question": "",
+                    "answer": ""
+                }
+            ],
+    
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.to/4dUPK5S',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/スプレンダー/rules/description/splender_1.webp',
+                '/pictures/スプレンダー/rules/description/splender_2.webp',
+                '/pictures/スプレンダー/rules/description/splender_3.webp',
+                '/pictures/スプレンダー/rules/description/splender_4.webp',
+                "/pictures/スプレンダー/pickup/components/splender_grid800.webp",
+                "/pictures/スプレンダー/pickup/components/splender_box800.webp",
+                "/pictures/スプレンダー/pickup/components/splender_setting800.webp",
+                "/pictures/スプレンダー/pickup/components/splender_component800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/スプレンダー/rules/description/splender_1.webp',
+                '/pictures/スプレンダー/rules/description/splender_2.webp',
+                '/pictures/スプレンダー/rules/description/splender_3.webp',
+                '/pictures/スプレンダー/rules/description/splender_4.webp',
+            ],
+            setup: [
+                '/pictures/スプレンダー/rules/setup/splender_5.webp',
+                '/pictures/スプレンダー/rules/setup/splender_6.webp',
+                '/pictures/スプレンダー/rules/setup/splender_7.webp',
+                '/pictures/スプレンダー/rules/setup/splender_8.webp',
+                '/pictures/スプレンダー/rules/setup/splender_9.webp',
+            ],
+            gameplay: [
+                '/pictures/スプレンダー/rules/gameplay/splender_10.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_11.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_12.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_13.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_14.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_15.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_16.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_17.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_18.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_19.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_20.webp',
+                '/pictures/スプレンダー/rules/gameplay/splender_21.webp',
+            ],
+            endgame: [
+                '/pictures/スプレンダー/rules/endgame/splender_22.webp',
+
+                
+            ]
+        }
+    },
     
 ];
 
