@@ -126,7 +126,7 @@ const games = [
             count: 4,
             timestamps: []
         },
-        purchaseLink: 'https://mobiusgames.shop-pro.jp/?pid=144929015',
+        purchaseLink: 'https://amzn.to/3zhMt1x',
         shareLink: 'https://example.com/share2',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
@@ -200,7 +200,7 @@ const games = [
             count: 1,
             timestamps: []
         },
-        purchaseLink: 'https://mobiusgames.shop-pro.jp/?pid=144935408',
+        purchaseLink: 'https://amzn.to/3z5whAu',
         shareLink: 'https://example.com/share3',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+3',
@@ -275,7 +275,7 @@ const games = [
             count: 2,
             timestamps: []
         },
-        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
+        purchaseLink: 'https://amzn.to/3XoJvjX',
         shareLink: 'https://example.com/share4',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+4',
@@ -345,14 +345,14 @@ const games = [
         qAndA:[
                 {
                     "question": "ただいま準備中です",
-                    "answer": "ただいま準備中です"
+                    "answer": ""
                 },
             ],
         likes: {
             count: 5,
             timestamps: []
         },
-        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
+        purchaseLink: 'https://amzn.to/3XAfE9j',
         shareLink: 'https://example.com/share5',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+5',
@@ -442,7 +442,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
+        purchaseLink: 'https://amzn.to/4dY71LA',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -522,7 +522,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
+        purchaseLink: 'https://a.r10.to/hNKt1n',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -590,18 +590,18 @@ const games = [
         qAndA:[
                 {
                     "question": "ただいま準備中です",
-                    "answer": "ただいま準備中です"
+                    "answer": ""
                 },
                 {
                     "question": "ただいま準備中です",
-                    "answer": "ただいま準備中です"
+                    "answer": ""
                 }
             ],
         likes: {
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://www.amazon.co.jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BA%E3%82%AA%E3%83%BC%E3%83%80%E3%83%BC-New-Games-Order/dp/B00RVVSTVI/ref=sr_1_5?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&dib=eyJ2IjoiMSJ9._RZEKVZdNrz23KIKY4XiZiti12F7dT7x6Deo6Ude--DFRPHrqfZjM81qumKpBbenAEp6i80EnI2VgWmeNfNhDM7HXkclNmt15RZmbHpbpuPbFTZRPLqKsXU7w5lt-9qMN7UOO_94D5FktLFpyx7jeSuWseuJUkdUqEq7i3dUY8DQpFD-D9MIPs8vh7KJShudqga0svQxSS8w2HMbrq4K7vDr9NBHTtvwT5FVloZ8PZ0_ukgu784-rhmroX0nwgpJYXLnpN2TMK9QxtjvZBtWNgXoID0ZwpQjtLewtfrc3ww.VyHaCCeV4U5epYF4RjTMi5830Vqvw1vdaPPzYGvRX2U&dib_tag=se&keywords=%E3%82%B3%E3%83%A8%E3%83%BC%E3%83%86&qid=1722588843&sr=8-5',
+        purchaseLink: 'https://amzn.to/47k72qL',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -671,19 +671,19 @@ const games = [
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "ただいま準備中です",
+                    "answer": ""
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "",
+                    "answer": ""
                 }
             ],
         likes: {
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/0bMw9FTq',
+        purchaseLink: 'https://amzn.to/4gdrxcy',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -757,19 +757,19 @@ const games = [
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "ただいま準備中です",
+                    "answer": ""
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "",
+                    "answer": ""
                 }
             ],
         likes: {
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/iqGxDcO',
+        purchaseLink: 'https://amzn.to/3B8KfC0',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -830,33 +830,33 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"3000円",
+                numPlayers:"3~5人",
+                playTime:"15分",
+                release:"2019年",
+                difficulty:"ふつう",
+                ageRange:"9歳以上",
+                gameSystem:"ハンドマネージメント",
+                size:"縦：横：高さ=12.6:10:2.5"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["説明書","カード45枚","得点チップ27枚","ダブルアクションマーカー5枚","強弱早見表2枚",],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["梶野桂"],
+                artwork:["浅岡昇平"],
+                company:["ワンモアゲーム！"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "ただいま準備中です",
+                    "answer": ""
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "",
+                    "answer": ""
                 }
             ],
-        purchaseLink: 'https://example.com/purchase2',
+        purchaseLink: 'https://a.r10.to/hg95wM',
         shareLink: 'https://example.com/share2',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
@@ -913,7 +913,7 @@ const games = [
         name: 'Love Letter',
         explanation:"手札は1枚！姫に恋文を届けるべく家臣たちの思惑が交錯する！",
         info:{
-            num_players:"2~4人",
+            num_players:"2~5人",
             playtime:"5分",
             price:"2000円",
             system_tag:["推測",],
@@ -923,20 +923,20 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"2000円",
+                numPlayers:"2~5人",
+                playTime:"5分",
+                release:"2014年",
+                difficulty:"かんたん",
+                ageRange:"10歳以上",
+                gameSystem:"推測",
+                size:"縦：横：高さ=15.3:9.9:3.7"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["説明書","ゲームカード38枚","ルールカード4枚","一覧カード10枚","トークン12個","羽ペンタイル",""],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["カナイセイジ"],
+                artwork:["杉浦のぼる"],
+                company:["アークライト"]
             }
         },
         qAndA:[
@@ -953,7 +953,7 @@ const games = [
             count: 4,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/02y7HDwF',
+        purchaseLink: 'https://amzn.to/4dWAkxT',
         shareLink: 'https://example.com/share2',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+2',
@@ -1045,7 +1045,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/3sW8S5x',
+        purchaseLink: 'https://amzn.to/3z3OSgl',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -1129,7 +1129,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://amzn.asia/d/70UYl5m',
+        purchaseLink: 'https://amzn.to/3TqkWSq',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -1219,7 +1219,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: 'https://www.clagla.jp/propose-series.html',
+        purchaseLink: 'https://a.r10.to/hNXbBj',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -1297,7 +1297,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: '',
+        purchaseLink: 'https://amzn.to/4eiIgtd',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -1400,7 +1400,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: '',
+        purchaseLink: 'https://a.r10.to/hkbsKo',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -1491,7 +1491,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: '',
+        purchaseLink: 'https://amzn.to/4gzfnLx',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -1576,7 +1576,7 @@ const games = [
                 }
             ],
         details:{
-            gameStory:"古代の戦争は隊列を組んだ軍団同士の間で戦われました。古代の指揮官たちは自国の隊列を敵よりも優位に動かすことにより敵隊列の分断、または側面からの包囲を試みる戦術の熟練を競ってきたのです。あなたはこの古代の戦術をマスターできるでしょうか？",
+            gameStory:"",
             basicInfo:{
                 refPrice:"2000円",
                 numPlayers:"4人",
@@ -1608,7 +1608,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: '',
+        purchaseLink: 'https://a.r10.to/hU4o2N',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
@@ -1695,7 +1695,7 @@ const games = [
             count: 3,
             timestamps: []
         },
-        purchaseLink: '',
+        purchaseLink: 'https://amzn.to/47lXN9m',
         shareLink: 'https://example.com/share1',
         slides: {
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
