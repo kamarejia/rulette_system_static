@@ -1596,12 +1596,12 @@ const games = [
         },
         qAndA:[
                 {
-                    "question": "ストレートやストレートフラッシュにおいて1,3,2などだした順番がずれていても役になりますか。",
-                    "answer": "順番がずれていても、正しいカードの組み合わせであれば役になります。"
+                    "question": "準備中です",
+                    "answer": ""
                 },
                 {
-                    "question": "プレイヤー数が多い場合の対策はありますか？",
-                    "answer": "プレイヤー数が多い場合、ゲームのバランスを保つために特定のルール変更を推奨します。"
+                    "question": "",
+                    "answer": ""
                 }
             ],
         likes: {
@@ -1683,12 +1683,12 @@ const games = [
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "準備中です",
+                    "answer": ""
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "",
+                    "answer": ""
                 }
             ],
         likes: {
