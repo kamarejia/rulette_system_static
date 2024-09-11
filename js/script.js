@@ -1174,7 +1174,7 @@ const games = [
     },
     {
         id:1014,
-        grid: '/pictures/プロポーズ/grid/puropo-zu _grid.webp',
+        grid: '/pictures/プロポーズ/grid/propose_grid400.webp',
         name: 'たった今考えたプロポーズの言葉を君に捧ぐよ',
         // 46文字まで
         explanation:"愛を語れ！",
@@ -1876,36 +1876,49 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                '/pictures/ザマインド/rules/description/theminde_1.webp',
-                '/pictures/ザマインド/rules/description/theminde_2.webp',
-                '/pictures/ザマインド/rules/description/theminde_3.webp',
-                "/pictures/ザマインド/pickup/components/themind_grid800.webp",
-                "/pictures/ザマインド/pickup/components/themind_box800.webp",
-                "/pictures/ザマインド/pickup/components/themind_setting800.webp",
-                "/pictures/ザマインド/pickup/components/themind_component800.webp"
+                '/pictures/お邪魔者/rules/description/ojamamono_1.webp',
+                '/pictures/お邪魔者/rules/description/ojamamono_2.webp',
+                '/pictures/お邪魔者/rules/description/ojamamono_3.webp',
+                "/pictures/お邪魔者/pickup/components/grid800.webp",
+                "/pictures/お邪魔者/pickup/components/box800.webp",
+                "/pictures/お邪魔者/pickup/components/ojamamono_setting800.webp",
+                "/pictures/お邪魔者/pickup/components/component800.webp"
             ]
         },
         rules: {
             description: [
-                '/pictures/ザマインド/rules/description/theminde_1.webp',
-                '/pictures/ザマインド/rules/description/theminde_2.webp',
-                '/pictures/ザマインド/rules/description/theminde_3.webp',
+                '/pictures/お邪魔者/rules/description/ojamamono_1.webp',
+                '/pictures/お邪魔者/rules/description/ojamamono_2.webp',
+                '/pictures/お邪魔者/rules/description/ojamamono_3.webp',
             ],
             setup: [
-                '/pictures/ザマインド/rules/setup/theminde_4.webp',
-                '/pictures/ザマインド/rules/setup/theminde_5.webp',
+                '/pictures/お邪魔者/rules/setup/ojamamono_4.webp',
+                '/pictures/お邪魔者/rules/setup/ojamamono_5.webp',
+                '/pictures/お邪魔者/rules/setup/ojamamono_6.webp',
+                '/pictures/お邪魔者/rules/setup/ojamamono_7.webp',
+                '/pictures/お邪魔者/rules/setup/ojamamono_8.webp',
+                '/pictures/お邪魔者/rules/setup/ojamamono_9.webp',
             ],
             gameplay: [
-                '/pictures/ザマインド/rules/gameplay/theminde_6.webp',
-                '/pictures/ザマインド/rules/gameplay/theminde_7.webp',
-                '/pictures/ザマインド/rules/gameplay/theminde_8.webp',
-                '/pictures/ザマインド/rules/gameplay/theminde_9.webp',
-                '/pictures/ザマインド/rules/gameplay/theminde_10.webp',
-                '/pictures/ザマインド/rules/gameplay/theminde_11.webp',
-                '/pictures/ザマインド/rules/gameplay/theminde_12.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_10.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_11.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_12.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_13.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_14.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_15.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_16.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_17.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_18.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_19.webp',
+                '/pictures/お邪魔者/rules/gameplay/ojamamono_20.webp',
             ],
             endgame: [
-                '/pictures/ザマインド/rules/endgame/theminde_13.webp',
+                '/pictures/お邪魔者/rules/endgame/ojamamono_21.webp',
+                '/pictures/お邪魔者/rules/endgame/ojamamono_22.webp',
+                '/pictures/お邪魔者/rules/endgame/ojamamono_23.webp',
+                '/pictures/お邪魔者/rules/endgame/ojamamono_24.webp',
+                '/pictures/お邪魔者/rules/endgame/ojamamono_25.webp',
+                
             ]
         }
     },
