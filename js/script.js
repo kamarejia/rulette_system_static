@@ -35,12 +35,12 @@
     },
     qAndA:[
             {
-                "question": "ストレートやストレートフラッシュにおいて1,3,2などだした順番がずれていても役になりますか。",
-                "answer": "順番がずれていても、正しいカードの組み合わせであれば役になります。"
+                "question": "準備中です",
+                "answer": ""
             },
             {
-                "question": "プレイヤー数が多い場合の対策はありますか？",
-                "answer": "プレイヤー数が多い場合、ゲームのバランスを保つために特定のルール変更を推奨します。"
+                "question": "",
+                "answer": ""
             }
         ],
 
@@ -1732,6 +1732,180 @@ const games = [
                 '/pictures/シェフィ/rules/endgame/shephy_11.webp',
                 '/pictures/シェフィ/rules/endgame/shephy_12.webp',
 
+            ]
+        }
+    },
+    {
+        id:1020,
+        grid: '/pictures/ザマインド/grid/themind_grid400.webp',
+        name: 'ザ・マインド',
+        // 46文字まで
+        explanation:"感覚を研ぎ澄ませ。「間」を駆使してカードを出し切る協力ゲーム",
+        info:{
+            num_players:"2~4人",
+            playtime:"20分",
+            price:"1500円",
+            system_tag:["表現","協力"],
+            who:["ともだちと","家族と"],
+            where:["家で"]
+        },
+        details:{
+            gameStory:"準備中です",
+            basicInfo:{
+                refPrice:"1500円",
+                numPlayers:"2~4人",
+                playTime:"20分",
+                release:"2018年",
+                difficulty:"かんたん",
+                ageRange:"8歳以上",
+                gameSystem:"表現",
+                size:"縦：横：高さ=13:10:2"
+            },
+            contents:["ルール説明書","数字カード100枚","ヒットポイントカード5枚","手裏剣カード3枚",],
+            credits:{
+                designer:["ヴォルフガング・ヴァルシュ"],
+                artwork:["オリバー・フロイデンライヒ",],
+                company:["アークライト"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "準備中です",
+                    "answer": ""
+                },
+                {
+                    "question": "",
+                    "answer": ""
+                }
+            ],
+    
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.to/3Zkkt81',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/ザマインド/rules/description/theminde_1.webp',
+                '/pictures/ザマインド/rules/description/theminde_2.webp',
+                '/pictures/ザマインド/rules/description/theminde_3.webp',
+                "/pictures/ザマインド/pickup/components/themind_grid800.webp",
+                "/pictures/ザマインド/pickup/components/themind_box800.webp",
+                "/pictures/ザマインド/pickup/components/themind_setting800.webp",
+                "/pictures/ザマインド/pickup/components/themind_component800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/ザマインド/rules/description/theminde_1.webp',
+                '/pictures/ザマインド/rules/description/theminde_2.webp',
+                '/pictures/ザマインド/rules/description/theminde_3.webp',
+            ],
+            setup: [
+                '/pictures/ザマインド/rules/setup/theminde_4.webp',
+                '/pictures/ザマインド/rules/setup/theminde_5.webp',
+            ],
+            gameplay: [
+                '/pictures/ザマインド/rules/gameplay/theminde_6.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_7.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_8.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_9.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_10.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_11.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_12.webp',
+            ],
+            endgame: [
+                '/pictures/ザマインド/rules/endgame/theminde_13.webp',
+            ]
+        }
+    },
+    {
+        id:1021,
+        grid: '/pictures/お邪魔者/grid/grid400.webp',
+        name: 'お邪魔者',
+        // 46文字まで
+        explanation:"掘って進んで金をあてろ！お邪魔者には気をつけろ！",
+        info:{
+            num_players:"3~10人",
+            playtime:"30分",
+            price:"1800円",
+            system_tag:["正体隠匿","カード配置"],
+            who:["ともだちと"],
+            where:["カフェで","家で"]
+        },
+        details:{
+            gameStory:"準備中です",
+            basicInfo:{
+                refPrice:"1800円",
+                numPlayers:"3~10人",
+                playTime:"30分",
+                release:"2004年",
+                difficulty:"ふつう",
+                ageRange:"8歳以上",
+                gameSystem:"正体隠匿",
+                size:"縦：横：高さ=12.2:9.6:2.1"
+            },
+            contents:["ルール説明書","通路カード44枚","アクションカード27枚","役割カード11枚","金カード28枚"],
+            credits:{
+                designer:["フレデリック・モイヤーセン"],
+                artwork:["アンドレア・ボークホフ",],
+                company:["メビウスゲームズ"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "準備中です",
+                    "answer": ""
+                },
+                {
+                    "question": "",
+                    "answer": ""
+                }
+            ],
+    
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://a.r10.to/hYrben',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/ザマインド/rules/description/theminde_1.webp',
+                '/pictures/ザマインド/rules/description/theminde_2.webp',
+                '/pictures/ザマインド/rules/description/theminde_3.webp',
+                "/pictures/ザマインド/pickup/components/themind_grid800.webp",
+                "/pictures/ザマインド/pickup/components/themind_box800.webp",
+                "/pictures/ザマインド/pickup/components/themind_setting800.webp",
+                "/pictures/ザマインド/pickup/components/themind_component800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/ザマインド/rules/description/theminde_1.webp',
+                '/pictures/ザマインド/rules/description/theminde_2.webp',
+                '/pictures/ザマインド/rules/description/theminde_3.webp',
+            ],
+            setup: [
+                '/pictures/ザマインド/rules/setup/theminde_4.webp',
+                '/pictures/ザマインド/rules/setup/theminde_5.webp',
+            ],
+            gameplay: [
+                '/pictures/ザマインド/rules/gameplay/theminde_6.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_7.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_8.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_9.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_10.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_11.webp',
+                '/pictures/ザマインド/rules/gameplay/theminde_12.webp',
+            ],
+            endgame: [
+                '/pictures/ザマインド/rules/endgame/theminde_13.webp',
             ]
         }
     },
