@@ -2090,7 +2090,8 @@ function gridSort(focusItem){
     if (focusItem=="home"){
         //homeが指定されたときはgamesのlikesの値によってsortをおこなってnameが格納された配列を返す
         // likes.count の値でソートし、name を返す
-        return games.sort((a, b) => b.likes.count - a.likes.count).map(game => game.name);
+        //return games.sort((a, b) => b.likes.count - a.likes.count).map(game => game.name);
+        return games.sort(() => Math.random() - 0.5).map(game => game.name);
     }else{
         //focusItemにはゲームの名前:nameが渡される。このときはfocusItem以外の要素をgamesからとりだして配列に格納して返す。
         // focusItem 以外のゲームの name を返す
