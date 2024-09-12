@@ -1272,30 +1272,38 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"3300円",
+                numPlayers:"3~5人",
+                playTime:"45~60分",
+                release:"1992年",
+                difficulty:"むずかしい",
+                ageRange:"10歳以上",
+                gameSystem:"オークション",
+                size:"縦：横：高さ=15.6:21.3:5.3"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","ゲーム盤","絵画カード70枚","ついたて5枚","コイン152枚","市場価値表示チップ12枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ライナー・クニツィア"],
+                artwork:["キャロル・キャリオン","マヌエル・カルバルホ","マイク・ドイル"],
+                company:["ニューゲームズオーダー"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "みんながパスをするとどうなりますか？",
+                    "answer": "公開競り、入札、一声では競売人が無料で絵画をもらえます。指値では競売人がお金を箱に支払います。"
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "ダブルオークションで出品した絵画によって5枚目となったらどうなりますか？",
+                    "answer": "その時点でラウンド終了です。2枚ともオークションは行いません。"
+                },
+                {
+                    "question": "ラウンド終了時に絵画の枚数が同じ場合は価値はどのように決まりますか？",
+                    "answer": "ゲーム盤の左側の絵画ほど価値が高くつきます。"
+                },
+                {
+                    "question": "ラウンド終了時、4位以降の絵画はどうなりますか？",
+                    "answer": "価値はゼロになります。"
                 }
             ],
         likes: {
@@ -1354,7 +1362,6 @@ const games = [
             ],
             endgame: [
                 '/pictures/モダンアート/rules/endgame/modernart_26.webp',
-                '/pictures/モダンアート/rules/endgame/modernart_27.webp',
             ]
         }
     },
