@@ -1182,37 +1182,37 @@ const games = [
             num_players:"3~6人",
             playtime:"15~30分",
             price:"3500円",
-            system_tag:["パーティゲーム","大喜利"],
+            system_tag:["表現","大喜利"],
             who:["ともだちと","恋人と"],
             where:["パーティで"]
         },
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"3500円",
+                numPlayers:"3~6人",
+                playTime:"15~30分",
+                release:"2017年",
+                difficulty:"とてもかんたん",
+                ageRange:"13歳以上",
+                gameSystem:"表現",
+                size:"縦：横：高さ=16:10:5"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","指輪カウンター18個","カード200枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ダイポ"],
+                artwork:["ダイポ"],
+                company:["クラグラ"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "ただいま準備中です",
+                    "answer": ""
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "",
+                    "answer": ""
                 }
             ],
         likes: {
@@ -1225,28 +1225,33 @@ const games = [
             thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
             overview: 'https://via.placeholder.com/300x200?text=Overview+1',
             components: [
-                "/pictures/プロポーズ/pickup/components/puropo-zu _box800.webp",
-                "/pictures/プロポーズ/pickup/components/puropo-zu _setting800.webp",
-                "/pictures/プロポーズ/pickup/components/puropo-zu _compoment.webp",
+                "/pictures/プロポーズ/rules/description/propose_1.webp",
+                "/pictures/プロポーズ/rules/description/propose_2.webp",
+                "/pictures/プロポーズ/rules/description/propose_3.webp",
+                "/pictures/プロポーズ/pickup/components/propose_grid800.webp",
+                "/pictures/プロポーズ/pickup/components/propose_box800.webp",
+                "/pictures/プロポーズ/pickup/components/propose_setting800.webp",
+                "/pictures/プロポーズ/pickup/components/propose_component800.webp",
             
             ]
         },
         rules: {
             description: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                "/pictures/プロポーズ/rules/description/propose_1.webp",
+                "/pictures/プロポーズ/rules/description/propose_2.webp",
+                "/pictures/プロポーズ/rules/description/propose_3.webp",
             ],
             setup: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/プロポーズ/rules/setup/propose_4.webp',
+                '/pictures/プロポーズ/rules/setup/propose_5.webp',
             ],
             gameplay: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/プロポーズ/rules/gameplay/propose_6.webp',
+                '/pictures/プロポーズ/rules/gameplay/propose_7.webp',
+                '/pictures/プロポーズ/rules/gameplay/propose_8.webp',
             ],
             endgame: [
-                '/pictures/system_design/rulette_prepare.webp',
-                '/pictures/system_design/rulette_prepare.webp',
+                '/pictures/プロポーズ/rules/endgame/propose_9.webp',
             ]
         }
     },
