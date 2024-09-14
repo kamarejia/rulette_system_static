@@ -593,9 +593,9 @@ const games = [
                     "answer": "itoはクモノイトとアカイイトの2種類のゲームが遊べます。Ruletteではクモノイトの解説をしております。ゲームに慣れてきたら協力と裏切りルールのアカイイトにも挑戦してみてください。"
                 },
                 {
-                    "question": "ただいま準備中です",
-                    "answer": ""
-                }
+                    "question": "ステージクリアしたら使用したナンバーカードはどうしますか？",
+                    "answer": "すべて山札に混ぜて再びゲームを開始します。"
+                },
             ],
         likes: {
             count: 3,
@@ -734,7 +734,7 @@ const games = [
             where:["ホームパーティで"]
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"SKULLはシンプルながらに奥深い心理戦がたのしめるゲームです。プレイヤーは全員で花かドクロのディスクを裏向きにセットし、任意でこれらのディスクに対して「チャレンジ」を行います。チャレンジとは場の花ディスクの枚数を予想して表向きにすることです。チャレンジに2回成功すると勝者となりますが罠のドクロをしのばせているプレイヤーもいるので相手の心理を読み取ってうまく立ち回りましょう。",
             basicInfo:{
                 refPrice:"3000円",
                 numPlayers:"3~6人",
@@ -749,18 +749,14 @@ const games = [
             credits:{
                 designer:["エルヴェ・マルリー"],
                 artwork:["トーマス・ヴァーチクス"],
-                company:["スペースカウボーイズ"]
+                company:["ホビージャパン"]
             }
         },
         qAndA:[
                 {
-                    "question": "ただいま準備中です",
-                    "answer": ""
+                    "question": "ディスクが残り1枚となりマットに追加で置くディスクがないときどうなりますか？",
+                    "answer": "ディスクを追加で置けない場合、プレイヤーはチャレンジを行うことしかできません。"
                 },
-                {
-                    "question": "",
-                    "answer": ""
-                }
             ],
         likes: {
             count: 3,
@@ -825,7 +821,7 @@ const games = [
             timestamps: []
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"SCOUT!は大富豪をベースにした得点制のカードゲームです。カードの出し方は123など連番か22などの同数です。カードを出すと前の手番で出されたカードをすべてポイントとして受け取ります。また、だせなくなったときや好みのカードがあったときは「スカウト」をすることで場のカードをもらって手札を調整することができます。スカウトを駆使して高得点を目指しましょう。",
             basicInfo:{
                 refPrice:"3000円",
                 numPlayers:"3~5人",
@@ -845,13 +841,9 @@ const games = [
         },
         qAndA:[
                 {
-                    "question": "ただいま準備中です",
-                    "answer": ""
+                    "question": "ラウンド開始時に手札を上下にまとめて回転できますが、プレイ中に回転をすることはできますか？",
+                    "answer": "できません。ラウンド開始時に一度だけ回転することができます。"
                 },
-                {
-                    "question": "",
-                    "answer": ""
-                }
             ],
         purchaseLink: 'https://a.r10.to/hg95wM',
         shareLink: 'https://example.com/share2',
@@ -918,7 +910,7 @@ const games = [
             where:["カフェで"]
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"Love Letterは姫へ恋文を届けるキャラクターたちをテーマにしたシンプルなカードゲームです。プレイヤーは手札を1枚だけもちこの札が城の協力者です。手番では新たな1枚をひいてどちらかを場に出します。場に出されたカードはさまざまな効果でゲームを動かします。あらゆる効果で他のプレイヤーを「脱落」させて恋文を渡す最後のひとりになりましょう。",
             basicInfo:{
                 refPrice:"2000円",
                 numPlayers:"2~5人",
@@ -929,7 +921,7 @@ const games = [
                 gameSystem:"推測",
                 size:"縦：横：高さ=15.3:9.9:3.7"
             },
-            contents:["説明書","ゲームカード38枚","ルールカード4枚","一覧カード10枚","トークン12個","羽ペンタイル",""],
+            contents:["説明書","ゲームカード38枚","ルールカード4枚","一覧カード10枚","トークン12個","羽ペンタイル",],
             credits:{
                 designer:["カナイセイジ"],
                 artwork:["杉浦のぼる"],
@@ -938,13 +930,9 @@ const games = [
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "羽ペンタイルは何に使いますか？",
+                    "answer": "スタートプレイヤーを決めるのに使います。先をつまんでテーブルの上30cmほどのところから落としてペン先が刺す方向に座っているひとがスタートプレイヤーです。"
                 },
-                {
-                    "question": "Question2",
-                    "answer": "Answer2"
-                }
             ],
         likes: {
             count: 4,
@@ -1010,33 +998,30 @@ const games = [
             where:["家で"]
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"ナインタイルは9つのタイルを自由に並び替えてお題の絵柄をいち早くそろえるゲームです。タイルには表と裏があり絵柄が異なるため裏返しも行いながらプレイしなければなりません。スピードと判断が試されるゲームです。",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"3000円",
+                numPlayers:"2~4人",
+                playTime:"15分",
+                release:"2015年",
+                difficulty:"とてもかんたん",
+                ageRange:"6歳以上",
+                gameSystem:"パズル",
+                size:"縦：横：高さ=11:6.5:3.7"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","ゲームタイル36枚","お題カード30枚",],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ジーン・クラウデ・ペロン"],
+                artwork:["佐々木隼"],
+                company:["オインクゲームズ"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "絵柄をそろえたとき回転したら同じものも正解となりますか？",
+                    "answer": "正解となります。"
                 },
-                {
-                    "question": "Question2",
-                    "answer": "Answer2"
-                }
+                
             ],
         likes: {
             count: 3,
@@ -1088,38 +1073,54 @@ const games = [
         info:{
             num_players:"2人",
             playtime:"30分",
-            price:"2700円",
+            price:"3300円",
             system_tag:["ハンドマネージメント"],
             who:["ともだちと"],
             where:["カフェで"]
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"JAIPURはインドの商人になって品物の売買や交換を通してお金稼ぎをするゲームです。プレイヤーは場にある品物を得たり、交換したりすることで仕入れ、まとめ売りをすることで大きく稼ぐことができます。また、ラクダを品物との交換に使うことでゲームを有利に進めることができます。上手に取引を行って大儲けをしましょう。",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"3300円",
+                numPlayers:"2人",
+                playTime:"30分",
+                release:"2009年",
+                difficulty:"ふつう",
+                ageRange:"12歳以上",
+                gameSystem:"ハンドマネージメント",
+                size:"縦：横：高さ=18:13:4"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","カード55枚","品物トークン38枚","ラクダトークン1枚","ボーナストークン18枚","優秀の証3枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["セバスチャン・ポーション"],
+                artwork:["ヴィンセント・デュトレイ"],
+                company:["ホビージャパン"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "手札の枚数に制限はありますか？",
+                    "answer": "手札は7枚までしか持てません。"
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "ラクダも手札にふくみますか？",
+                    "answer": "ふくみません。とったラクダは常に自分の前に並べます。手札としてカウントしません。"
+                },
+                {
+                    "question": "交換のときに場のカードと同じものを交換することはできますか？",
+                    "answer": "同じ種類の品物をふくんでの交換はできません。"
+                },
+                {
+                    "question": "コインがなくなっても品物を売ることはできますか？",
+                    "answer": "売ることができます。"
+                },
+                {
+                    "question": "点数計算で引き分けのときはどちらのプレイヤーが勝ちますか？",
+                    "answer": "ボーナスコインの多い方の勝ちです。ボーナスコインの枚数も同じ場合は品物コインの多い方が勝ちです。"
+                },
+                {
+                    "question": "点数計算でラクダの枚数がお互いに同じ場合はラクダコインはどうなりますか？",
+                    "answer": "どちらのプレイヤーもラクダコインは受け取れません。"
                 }
             ],
         likes: {
@@ -1165,7 +1166,7 @@ const games = [
             ],
             endgame: [
                 '/pictures/ジャイプル/rules/endgame/jaipur_16.webp',
-                '/pictures/ジャイプル/rules/endgame/jaipur_18.webp',
+                
             ]
         }
     },
