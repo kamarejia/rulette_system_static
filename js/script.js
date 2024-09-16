@@ -1264,7 +1264,7 @@ const games = [
             where:["家で"]
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"モダンアートは絵画をめぐったオークションゲームです。5人の画家の絵をさまざまな形式のオークションにかけることでその価値を上昇させます。相場感を見抜きながらうまく売り買いして多くの資産を得ましょう。",
             basicInfo:{
                 refPrice:"3300円",
                 numPlayers:"3~5人",
@@ -1374,33 +1374,29 @@ const games = [
             where:["家で"]
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"ラマは手札を出し切るとラウンド終了のポイント制カードゲームです。だれかがカードを出し切ったときに手札が残った人は減点してしまいます。数字は何枚持っていても数字の分だけの減点ですがラマは1枚10点もの減点があるので要注意です。また減点をおさえるために今の減点を引き受けてラウンドから降りることもできるのでシンプルながらに駆け引きがあるゲームです。",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"1800円",
+                numPlayers:"2~6人",
+                playTime:"20分",
+                release:"2019年",
+                difficulty:"かんたん",
+                ageRange:"8歳以上",
+                gameSystem:"ハンドマネージメント",
+                size:"縦：横：高さ=12:9.5:2"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","カード56枚","チップ70枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["ライナー・クニツィア"],
+                artwork:["レイ・サマーカンプ","バーバラ・スペルガー"],
+                company:["メビウスゲームズ"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "みんながラウンドからおりて1人だけになったとき手札を出せなくなったらどうなりますか？",
+                    "answer": "ラウンドからおりることになります。ひとりになったらカードを山札からひくことはできませんがラウンドからおりることはできます。"
                 },
-                {
-                    "question": "Question2",
-                    "answer": "Answer2"
-                }
             ],
         likes: {
             count: 3,
@@ -1459,39 +1455,36 @@ const games = [
         info:{
             num_players:"2~5人",
             playtime:"15分",
-            price:"1500円",
+            price:"2000円",
             system_tag:["メモリー"],
             who:["こどもと","ともだちと"],
             where:["家で"]
         },
         details:{
-            gameStory:"ただいま準備中です",
+            gameStory:"ナナは3枚ペアを当てる神経衰弱系のカードゲームです。ナナでは場札だけでなく、プレイヤーの手札もひらくことができます。ただし手札をひらくときには最大と最小のいずれかしかみることはできません。また、そろえた3枚ペアの和か差で7をつくるとすぐに勝つことができるためシンプルでありながら戦略的な面もあるゲームです。",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"2000円",
+                numPlayers:"2~5人",
+                playTime:"15分",
+                release:"2021年",
+                difficulty:"かんたん",
+                ageRange:"6歳以上",
+                gameSystem:"メモリー",
+                size:"縦：横：高さ=10:7:2.5"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","カード36枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["宮野華也"],
+                artwork:["別府さい"],
+                company:["MoB+"]
             }
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "3枚ペアを取れたとき連続で挑戦することはできますか？",
+                    "answer": "できません。ペアができたら手番が移ります。"
                 },
-                {
-                    "question": "Question2",
-                    "answer": "Answer2"
-                }
+                
             ],
         likes: {
             count: 3,
@@ -1555,20 +1548,20 @@ const games = [
         details:{
             gameStory:"ただいま準備中です",
             basicInfo:{
-                refPrice:"xxxx円",
-                numPlayers:"x人",
-                playTime:"x分",
-                release:"xxxx年",
-                difficulty:"xxx",
-                ageRange:"x歳以上",
-                gameSystem:"",
-                size:"縦：横：高さ=xx:xx:x"
+                refPrice:"1500円",
+                numPlayers:"3~10人",
+                playTime:"20~30分",
+                release:"2004年",
+                difficulty:"かんたん",
+                ageRange:"10歳以上",
+                gameSystem:"ブラフ",
+                size:"縦：横：高さ=12.4:9.5:2.3"
             },
-            contents:["xxx","xxx","xxx"],
+            contents:["ルール説明書","数字カード50枚","プレイヤーライフカード10枚","死神カード10枚"],
             credits:{
-                designer:["xxx"],
-                artwork:["xxx"],
-                company:["xxx"]
+                designer:["スパルタコ・アルバタレッリ"],
+                artwork:["TANSANFABRIK"],
+                company:["ニューゲームズオーダー"]
             }
         },
         qAndA:[
