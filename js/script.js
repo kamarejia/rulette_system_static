@@ -1566,43 +1566,15 @@ const games = [
         },
         qAndA:[
                 {
-                    "question": "Question1",
-                    "answer": "Answer1"
+                    "question": "プレイヤーはどうして嘘をつかなくてはいけないのですか？",
+                    "answer": "「受け入れる」を続けると手札の交換はできるものの、より大きな数字を言う必要があるのでいつかは嘘をつくことになります。"
                 },
                 {
-                    "question": "Question2",
-                    "answer": "Answer2"
+                    "question": "山札がなくなったらどうしますか？",
+                    "answer": "捨て札をまぜて再び山札にします。"
                 }
             ],
-        details:{
-            gameStory:"",
-            basicInfo:{
-                refPrice:"2000円",
-                numPlayers:"4人",
-                playTime:"20分",
-                release:"2010年",
-                difficulty:"ふつう",
-                ageRange:"8歳以上",
-                gameSystem:"セットコレクション",
-                size:"縦：横：高さ=20:20:4"
-            },
-            contents:["ルール説明書","舞台カード","フラッグ"],
-            credits:{
-                designer:["クニツィア","大塚健吾"],
-                artwork:["ローレンス","ビーナ","マーク"],
-                company:["クロノノーツゲームズ","GMT","ランドスリべングゲームズ"]
-            }
-        },
-        qAndA:[
-                {
-                    "question": "準備中です",
-                    "answer": ""
-                },
-                {
-                    "question": "",
-                    "answer": ""
-                }
-            ],
+        
         likes: {
             count: 3,
             timestamps: []
