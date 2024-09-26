@@ -2005,6 +2005,228 @@ const games = [
             ]
         }
     },
+    {
+        id:1023,
+        grid: '/pictures/AZUL/grid/azul_grid400.webp',
+        name: 'AZUL',
+        // 46文字まで
+        explanation:"美しきタイルで壁を彩る配置ゲーム！うまく並べてコンボ！時には相手の邪魔も？",
+        info:{
+            num_players:"2~4人",
+            playtime:"30~45分",
+            price:"6600円",
+            system_tag:["タイル配置","セットコレクション"],
+            who:["ともだちと","恋人と"],
+            where:["カフェで"]
+        },
+        details:{
+            gameStory:"AZULは美しいタイルを集めて宮殿の壁を彩るタイル配置ゲームです。プレイヤーは場にあるタイルを同じ柄を一緒に取るというルールのもと集めていき手元のボードに並べていきます。決まった数だけ集めたタイルは壁に配置されて彩られます。しかしゲームが進むと同じ柄のタイルは置けなくなってしまうためいらないものの押し付けあいがはじまります。余りのタイルは減点なのでうまく並べて調整しながら美しい壁を完成させましょう。",
+            basicInfo:{
+                refPrice:"6600円",
+                numPlayers:"2~4人",
+                playTime:"30~45分",
+                release:"2017年",
+                difficulty:"むずかしい",
+                ageRange:"8歳以上",
+                gameSystem:"タイル配置",
+                size:"縦：横：高さ=26.1:26.1:7.1"
+            },
+            contents:["ルール説明書","タイル100枚","プレイヤーボード4枚 ","工房展示ボード9枚","得点マーカー4個","先手プレイヤーマーカー1個","布袋1枚"],
+            credits:{
+                designer:["ミヒャエル・キースリング"],
+                artwork:["フィリップ・ゲーリン","クリス・キリアムス"],
+                company:["ホビージャパン"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "手番で取得したタイルを分けて複数の段に置くことはできますか？",
+                    "answer": "できません。一度にとったタイルはすべて同じ段に置き、超過したものは減点になります。"
+                },
+                {
+                    "question": "異なる段であれば同じ柄のタイルをおくことができますか？",
+                    "answer": "できます。ただし一度の手番では一つの段にしか置くことはできません。"
+                },
+                {
+                    "question": "他の段に空きがあってもタイルがマスを超えてしてしまう段にあえて置くことはできますか？",
+                    "answer": "できます。ただし余りは減点となります。"
+                },
+                {
+                    "question": "得点計算がよくわかりません。",
+                    "answer": "1枚のときは1点です。上下または左右にタイルがある場合はタイルの枚数分の得点です。上下左右両方にタイルがある場合は上下と左右を2回に分けて枚数分得点します。よって1枚重複して計算することになります。"
+                },
+                {
+                    "question": "タイルが袋からなくなったらどうしますか？",
+                    "answer": "箱に戻したタイルをすべて袋にいれてプレイします。"
+                },
+                {
+                    "question": "０点のときに減点はありますか？",
+                    "answer": "０点より減点することはありません。"
+                },
+
+            ],
+    
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.to/4gHxzCo',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/AZUL/rules/description/azul_1.webp',
+                '/pictures/AZUL/rules/description/azul_2.webp',
+                '/pictures/AZUL/rules/description/azul_3.webp',
+                '/pictures/AZUL/rules/description/azul_4.webp',
+                "/pictures/AZUL/pickup/components/azul_grid800.webp",
+                "/pictures/AZUL/pickup/components/azul_box800.webp",
+                "/pictures/AZUL/pickup/components/azul_setting800.webp",
+                "/pictures/AZUL/pickup/components/azul_component800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/AZUL/rules/description/azul_1.webp',
+                '/pictures/AZUL/rules/description/azul_2.webp',
+                '/pictures/AZUL/rules/description/azul_3.webp',
+                '/pictures/AZUL/rules/description/azul_4.webp',
+            ],
+            setup: [
+                '/pictures/AZUL/rules/setup/azul_5.webp',
+                '/pictures/AZUL/rules/setup/azul_6.webp',
+                '/pictures/AZUL/rules/setup/azul_7.webp',
+                '/pictures/AZUL/rules/setup/azul_8.webp',
+                '/pictures/AZUL/rules/setup/azul_9.webp',
+                '/pictures/AZUL/rules/setup/azul_10.webp',
+            ],
+            gameplay: [
+                '/pictures/AZUL/rules/gameplay/azul_11.webp',
+                '/pictures/AZUL/rules/gameplay/azul_12.webp',
+                '/pictures/AZUL/rules/gameplay/azul_13.webp',
+                '/pictures/AZUL/rules/gameplay/azul_14.webp',
+                '/pictures/AZUL/rules/gameplay/azul_15.webp',
+                '/pictures/AZUL/rules/gameplay/azul_16.webp',
+                '/pictures/AZUL/rules/gameplay/azul_17.webp',
+                '/pictures/AZUL/rules/gameplay/azul_18.webp',
+                '/pictures/AZUL/rules/gameplay/azul_19.webp',
+                '/pictures/AZUL/rules/gameplay/azul_20.webp',
+                '/pictures/AZUL/rules/gameplay/azul_21.webp',
+                '/pictures/AZUL/rules/gameplay/azul_22.webp',
+                '/pictures/AZUL/rules/gameplay/azul_23.webp',
+                '/pictures/AZUL/rules/gameplay/azul_24.webp',
+                '/pictures/AZUL/rules/gameplay/azul_25.webp',
+                '/pictures/AZUL/rules/gameplay/azul_26.webp',
+            ],
+            endgame: [
+                '/pictures/AZUL/rules/endgame/azul_27.webp',
+                '/pictures/AZUL/rules/endgame/azul_28.webp',
+
+
+                
+            ]
+        }
+    },
+    {
+        id:1024,
+        grid: '/pictures/街コロ/grid/machiko_grid.400.webp',
+        name: '街コロ',
+        // 46文字まで
+        explanation:"さいころをふって建築！運と戦略でどんどん建てろ！",
+        info:{
+            num_players:"2~4人",
+            playtime:"30分",
+            price:"3700円",
+            system_tag:["ダイスロール"],
+            who:["ともだちと","初対面の人と"],
+            where:["カフェで"]
+        },
+        details:{
+            gameStory:"街コロはサイコロの目によってお金を稼いで街の建築を行うシンプルなまちづくりゲームです。手番になったらサイコロをふって出目に対応した建物の効果をみんなが使用します。カードは基本的にお金を得る効果になっていますが他の人から奪い取ったりと目によってさまざまです。お金をためてどんどん建築をしながらランドマークとよばれる大型施設をすべて建てましょう。",
+            basicInfo:{
+                refPrice:"3700円",
+                numPlayers:"2~4人",
+                playTime:"30分",
+                release:"2012年",
+                difficulty:"かんたん",
+                ageRange:"7歳以上",
+                gameSystem:"ダイスロール",
+                size:"縦：横：高さ=22.5:16.2:3.2"
+            },
+            contents:["ルール説明書","カード108枚","コイン60枚 ","ダイス2個",],
+            credits:{
+                designer:["菅沼 正夫"],
+                artwork:["堀田 昇"],
+                company:["グランディング"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "ランドマークに建設する順番はありますか？",
+                    "answer": "ありません。コインがあればどの順番で建てても構いません。"
+                },
+                {
+                    "question": "コインがあれば1手番に複数の施設を購入することはできますか？",
+                    "answer": "できません。1度の手番に1つの購入しかできないです。"
+                },
+                {
+                    "question": "同名の施設が複数ある場合、効果はどうなりますか？",
+                    "answer": "効果は重複します。そのため一度に多くのコインを取得することもできます。"
+                },
+                
+
+            ],
+    
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.to/3zw4MQI',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/街コロ/rules/description/街コロ_1.webp',
+                '/pictures/街コロ/rules/description/街コロ_2.webp',
+                '/pictures/街コロ/rules/description/街コロ_3.webp',
+                '/pictures/街コロ/rules/description/街コロ_4.webp',
+                "/pictures/街コロ/pickup/components/machiko_grid800.webp",
+                "/pictures/街コロ/pickup/components/machikoro_box800.webp",
+                "/pictures/街コロ/pickup/components/machiko_setting800.webp",
+                "/pictures/街コロ/pickup/components/machikoro_component800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/街コロ/rules/description/街コロ_1.webp',
+                '/pictures/街コロ/rules/description/街コロ_2.webp',
+                '/pictures/街コロ/rules/description/街コロ_3.webp',
+                '/pictures/街コロ/rules/description/街コロ_4.webp',
+            ],
+            setup: [
+                '/pictures/街コロ/rules/setup/街コロ_5.webp',
+                '/pictures/街コロ/rules/setup/街コロ_6.webp',
+                '/pictures/街コロ/rules/setup/街コロ_7.webp',
+            ],
+            gameplay: [
+                '/pictures/街コロ/rules/gameplay/街コロ_8.webp',
+                '/pictures/街コロ/rules/gameplay/街コロ_9.webp',
+                '/pictures/街コロ/rules/gameplay/街コロ_10.webp',
+                '/pictures/街コロ/rules/gameplay/街コロ_11.webp',
+                '/pictures/街コロ/rules/gameplay/街コロ_12.webp',
+                '/pictures/街コロ/rules/gameplay/街コロ_13.webp',
+                '/pictures/街コロ/rules/gameplay/街コロ_14.webp',
+            ],
+            endgame: [
+                '/pictures/街コロ/rules/endgame/街コロ_15.webp',
+
+
+                
+            ]
+        }
+    },
     
 ];
 
