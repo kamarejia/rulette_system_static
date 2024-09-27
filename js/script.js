@@ -2010,7 +2010,7 @@ const games = [
         grid: '/pictures/AZUL/grid/azul_grid400.webp',
         name: 'AZUL',
         // 46文字まで
-        explanation:"美しきタイルで壁を彩る配置ゲーム！うまく並べてコンボ！時には相手の邪魔も？",
+        explanation:"美しきタイルで壁を彩る配置ゲーム！ときには相手の邪魔も？",
         info:{
             num_players:"2~4人",
             playtime:"30~45分",
