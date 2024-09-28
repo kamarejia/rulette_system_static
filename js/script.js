@@ -2374,6 +2374,100 @@ function createGridItems(focusItem) {
     });
 }
 
+
+function createGridItemsSelectedByTheme(insertPoint) {
+    let gridContainer;
+    gridContainer=document.getElementById(insertPoint);
+    // if (focusItem==="home"){
+    //     gridContainer=document.getElementById("home-grid")
+    // }else{
+    //     gridContainer = document.getElementById("game-grid");
+    // }
+
+    // 既存のエレメントを把握
+    const existingItems = {};
+    gridContainer.childNodes.forEach(child => {
+        if (child.className) {
+            const gameName = child.className.replace('grid-item ', '');
+            existingItems[gameName] = child;
+        }
+    });
+
+    // const sortedGames = gridSort(focusItem); // ソートされたゲーム名の配列を取得
+    let selectedGames;
+    if(insertPoint==="beginner-grid"){
+        selectedGames =["ito","ナナ","コヨーテ","たった今考えたプロポーズの言葉を君に捧ぐよ"];
+    }else if(insertPoint==="standard-grid"){
+        selectedGames=["Love Letter","ニムト","ごきぶりポーカー","ラマ"];
+    }else if(insertPoint==="yy-grid"){
+        selectedGames=["ボブジテン","はぁって言うゲーム","たった今考えたプロポーズの言葉を君に捧ぐよ","ナインタイル"];
+    }else if(insertPoint==="thinking-grid"){
+        selectedGames=["バトルライン","JAIPUR","宝石の煌き","AZUL"];
+    }else if(insertPoint==="two-grid"){
+        selectedGames=["ガイスター","JAIPUR","シェフィ","バトルライン"];
+    }
+    
+
+    selectedGames.forEach(gameName => {
+        const game = games.find(g => g.name === gameName);
+        let gridItem;
+        if (existingItems[gameName]) {
+            gridItem = existingItems[gameName];
+            gridItem.style.display = 'block';
+        } else {
+            gridBox = document.createElement("div");
+            gridBox.classList.add('grid-box')
+            gridItem = document.createElement('div');
+            gridItem.className = `grid-item ${game.name}`;
+            const img = document.createElement('img');
+            img.src = game.grid;
+            gridItem.appendChild(img);
+            // gridBoxにgridItemを追加
+            gridBox.appendChild(gridItem);
+
+            // タイトルを作成して追加
+            const gridTitle = document.createElement('h3');
+            gridTitle.textContent = game.name;
+            gridTitle.classList.add('grid-title');
+            gridBox.appendChild(gridTitle);
+
+            // 簡易説明を作成して追加
+            const description = document.createElement('p');
+            description.textContent = game.explanation;
+            description.classList.add('grid-description'); 
+            gridBox.appendChild(description);
+
+            // クリックイベントの追加
+            gridItem.addEventListener('click', () => {
+                const path = `/games/${game.id}`;
+                history.pushState({}, path, path);
+                handleRouting(path);
+            });
+
+        }
+        gridContainer.appendChild(gridBox)
+    });
+
+    // 配列に存在しないものは非表示にする
+    Object.keys(existingItems).forEach(gameName => {
+        if (!selectedGames.includes(gameName)) {
+            existingItems[gameName].style.display = 'none';
+        }
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Carousel {
     constructor(carouselElement) {
         this.carouselElement = carouselElement;
@@ -3007,6 +3101,11 @@ function screenRender(){
 }
 
 //home画面
+createGridItemsSelectedByTheme("beginner-grid");
+createGridItemsSelectedByTheme("standard-grid");
+createGridItemsSelectedByTheme("yy-grid");
+createGridItemsSelectedByTheme("thinking-grid");
+createGridItemsSelectedByTheme("two-grid");
 createGridItems("home");
 handleRouting(window.location.pathname)
 window.scrollTo(0, 0);
