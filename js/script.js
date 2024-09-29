@@ -2227,6 +2227,94 @@ const games = [
             ]
         }
     },
+    {
+        id:1025,
+        grid: 'pictures/ウボンゴ/grid/ubongo_grid400.webp',
+        name: 'ウボンゴ',
+        // 46文字まで
+        explanation:"爆速でそろえるパズルゲーム！できたらウボンゴ！",
+        info:{
+            num_players:"1~4人",
+            playtime:"25分",
+            price:"4400円",
+            system_tag:["パズル"],
+            who:["ともだちと","こどもと"],
+            where:["家で"]
+        },
+        details:{
+            gameStory:"ウボンゴは制限時間内にパズルボードにタイルをそろえる王道パズルゲームです。プレイヤーはサイコロをふってでた目によって今回使うタイルがきまります。その後それらのタイルをすばやくボードに配置します。できたらウボンゴ！と宣言して報酬をもらうことができます。1位2位の人はついかの報酬があるのでいち早くパズルを完成させましょう。",
+            basicInfo:{
+                refPrice:"3700円",
+                numPlayers:"2~4人",
+                playTime:"30分",
+                release:"2012年",
+                difficulty:"とてもかんたん",
+                ageRange:"8歳以上",
+                gameSystem:"パズル",
+                size:"縦：横：高さ=29.6:29.6:7.2"
+            },
+            contents:["ルール説明書","パズルボード36枚(432問) ","ピースタイル 12枚×4人 ","ダイス","砂時計","袋・宝石コマ58個","ラウンドトラックボード"],
+            credits:{
+                designer:["グルゼゴルツ・レヒトマン"],
+                artwork:["ニコラス・ノイバウアー"],
+                company:["ジーピー"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "タイムアップした際にだれもパズルが解けなかったら長いボードの宝石はそのままですか？",
+                    "answer": "ラウンド終了時にそのラウンドのボーナス宝石が残っていれば袋に戻します。"
+                },
+                
+
+            ],
+    
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.to/3BpoRc5',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/ウボンゴ/rules/description/ubong_1.webp',
+                '/pictures/ウボンゴ/rules/description/ubong_2.webp',
+                "/pictures/ウボンゴ/pickup/components/ubongo_grid800.webp",
+                "/pictures/ウボンゴ/pickup/components/ubongo_box800.webp",
+                "/pictures/ウボンゴ/pickup/components/ubongo_setting800.webp",
+                "/pictures/ウボンゴ/pickup/components/ubongo_component800.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/ウボンゴ/rules/description/ubong_1.webp',
+                '/pictures/ウボンゴ/rules/description/ubong_2.webp',
+            ],
+            setup: [
+                '/pictures/ウボンゴ/rules/setup/ubong_3.webp',
+                '/pictures/ウボンゴ/rules/setup/ubong_4.webp',
+                '/pictures/ウボンゴ/rules/setup/ubong_5.webp',
+                '/pictures/ウボンゴ/rules/setup/ubong_6.webp',
+            ],
+            gameplay: [
+                '/pictures/ウボンゴ/rules/gameplay/ubong_7.webp',
+                '/pictures/ウボンゴ/rules/gameplay/ubong_8.webp',
+                '/pictures/ウボンゴ/rules/gameplay/ubong_9.webp',
+                '/pictures/ウボンゴ/rules/gameplay/ubong_10.webp',
+                '/pictures/ウボンゴ/rules/gameplay/ubong_11.webp',
+                '/pictures/ウボンゴ/rules/gameplay/ubong_12.webp',
+                '/pictures/ウボンゴ/rules/gameplay/ubong_13.webp',
+            ],
+            endgame: [
+                '/pictures/ウボンゴ/rules/endgame/ubong_14.webp',
+
+
+                
+            ]
+        }
+    },
     
 ];
 
