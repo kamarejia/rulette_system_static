@@ -2488,7 +2488,7 @@ function createGridItemsSelectedByTheme(insertPoint) {
     }else if(insertPoint==="standard-grid"){
         selectedGames=["Love Letter","ニムト","ごきぶりポーカー","ラマ"];
     }else if(insertPoint==="yy-grid"){
-        selectedGames=["ボブジテン","はぁって言うゲーム","たった今考えたプロポーズの言葉を君に捧ぐよ","ナインタイル"];
+        selectedGames=["ボブジテン","ウボンゴ","たった今考えたプロポーズの言葉を君に捧ぐよ","ナインタイル"];
     }else if(insertPoint==="thinking-grid"){
         selectedGames=["バトルライン","JAIPUR","宝石の煌き","AZUL"];
     }else if(insertPoint==="two-grid"){
