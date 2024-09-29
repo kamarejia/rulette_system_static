@@ -2229,7 +2229,7 @@ const games = [
     },
     {
         id:1025,
-        grid: 'pictures/ウボンゴ/grid/ubongo_grid400.webp',
+        grid: '/pictures/ウボンゴ/grid/ubongo_grid400.webp',
         name: 'ウボンゴ',
         // 46文字まで
         explanation:"爆速でそろえるパズルゲーム！できたらウボンゴ！",
