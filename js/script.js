@@ -2315,6 +2315,100 @@ const games = [
             ]
         }
     },
+    {
+        id:1026,
+        grid: '/pictures/ジャストワン/grid/justone_grid500.webp',
+        name: 'JUST ONE',
+        // 46文字まで
+        explanation:"ヒントをあげてヒミツの言葉を伝える協力ゲーム！ヒントはみんなとかぶると消えてしまう！",
+        info:{
+            num_players:"3~7人",
+            playtime:"20分",
+            price:"4000円",
+            system_tag:["表現"],
+            who:["ともだちと","こどもと"],
+            where:["家で"]
+        },
+        details:{
+            gameStory:"ジャストワンはヒントをだしてお題をあてる協力パーティゲームです。プレイヤーは親に対してお題のヒントを1つずつだします。その後、子のプレイヤー同士でヒントの確認を行い、内容が被っているものは無効とします。残ったヒントで親にお題を当ててもらいます。心を通わせ多くのお題をクリアしてハイスコアを目指しましょう。",
+            basicInfo:{
+                refPrice:"4000円",
+                numPlayers:"3~7人",
+                playTime:"20分",
+                release:"2018年",
+                difficulty:"とてもかんたん",
+                ageRange:"8歳以上",
+                gameSystem:"表現",
+                size:"縦：横：高さ=23:16:5"
+            },
+            contents:["ルール説明書","カード110枚","イーゼル7本","ペン7本",],
+            credits:{
+                designer:["ルドヴィク・ルーディ","ブルーノ・ソテール"],
+                artwork:["エリック・アザグリー"],
+                company:["アークライト"]
+            }
+        },
+        qAndA:[
+                {
+                    "question": "ヒントをだすときの注意はありますか？",
+                    "answer": "いちご→ストロベリーなどお題をそのまま言い換えるのはダメです。"
+                },
+                {
+                    "question": "ヒントが被ったと判定される基準はなんですか？",
+                    "answer": "表記違いや接頭語がついただけのもの、漢字違いは被ったとして無効です。"
+                },
+                
+
+            ],
+    
+        likes: {
+            count: 3,
+            timestamps: []
+        },
+        purchaseLink: 'https://amzn.to/4f5wxi4',
+        shareLink: 'https://example.com/share1',
+        slides: {
+            thumbnail: 'https://via.placeholder.com/300x200?text=Thumbnail+1',
+            overview: 'https://via.placeholder.com/300x200?text=Overview+1',
+            components: [
+                '/pictures/ジャストワン/rules/description/justone_1.webp',
+                '/pictures/ジャストワン/rules/description/justone_2.webp',
+                '/pictures/ジャストワン/rules/description/justone_3.webp',
+                "/pictures/ジャストワン/pickup/components/justone_grid1080.webp",
+                "/pictures/ジャストワン/pickup/components/justone_box1080.webp",
+                "/pictures/ジャストワン/pickup/components/justone_setting1080.webp",
+                "/pictures/ジャストワン/pickup/components/justone_conponent1080.webp"
+            ]
+        },
+        rules: {
+            description: [
+                '/pictures/ジャストワン/rules/description/justone_1.webp',
+                '/pictures/ジャストワン/rules/description/justone_2.webp',
+                '/pictures/ジャストワン/rules/description/justone_3.webp',
+            ],
+            setup: [
+                '/pictures/ジャストワン/rules/setup/justone_4.webp',
+                '/pictures/ジャストワン/rules/setup/justone_5.webp',
+            ],
+            gameplay: [
+                '/pictures/ジャストワン/rules/gameplay/justone_6.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_7.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_8.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_9.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_10.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_11.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_12.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_13.webp',
+                '/pictures/ジャストワン/rules/gameplay/justone_14.webp',
+            ],
+            endgame: [
+                '/pictures/ジャストワン/rules/endgame/justone_15.webp',
+
+
+                
+            ]
+        }
+    },
     
 ];
 
