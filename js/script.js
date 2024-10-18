@@ -2320,7 +2320,7 @@ const games = [
         grid: '/pictures/ジャストワン/grid/justone_grid500.webp',
         name: 'JUST ONE',
         // 46文字まで
-        explanation:"ヒントをあげてヒミツの言葉を伝える協力ゲーム！ヒントはみんなとかぶると消えてしまう！",
+        explanation:"ヒントでお題を伝える協力ゲーム！ヒントはかぶると消えてしまう！",
         info:{
             num_players:"3~7人",
             playtime:"20分",
