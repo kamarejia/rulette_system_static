@@ -152,7 +152,8 @@ main {
     font-weight: 700;
     text-align: center;
     font-size: calc(0.57rem + 0.5vw); /* 基本フォントサイズにビューポート幅の0.5%を加算 */
-    color: #949495;
+    color: #8A8A8A;
+
     margin-top: 5px;
 }
 .grid-container {
